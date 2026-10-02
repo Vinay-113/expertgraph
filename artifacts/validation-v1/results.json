@@ -1,0 +1,539 @@
+{
+  "experiment": "Post-pilot diagnostic validation v1",
+  "benchmark_sha256": "ab9c53989d77c0931854b0da6e4586c2bf50314dc015a64af184f0314a496803",
+  "corpus_sha256": "78adb8416b771b2dba2bbd5ccd1b80cbedf136b618fa2203479f65d5774ac345",
+  "model_sha256": "87f4b7fe5bb938f070c6152315a5457f9a939a8f72824cce69ed29c648fe30e1",
+  "annotation_status": "assistant_source_checked_independent_review_pending",
+  "protocol": "Post-pilot diagnostic stress suite on the existing test incident components, not new unseen incidents or independent gold. Questions frozen before running this suite. No router, calibration, threshold or fusion parameters selected using these outcomes. Negative labels and relevance completeness still require human review.",
+  "model_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "models_retrained": false,
+  "threshold_changed": false,
+  "methods": [
+    "bm25",
+    "semantic",
+    "graph",
+    "fixed_hybrid",
+    "bm25_semantic",
+    "routed_hybrid"
+  ],
+  "query_counts": {
+    "paraphrase": 8,
+    "terse_log": 8,
+    "linked_evidence": 4,
+    "missing_context": 6,
+    "absent_identifier": 6,
+    "unsupported_action": 2,
+    "out_of_domain": 2
+  },
+  "scope_guard_regression": {
+    "scope": "Post-observation regression check of explicit corpus-scope rules, not independent guard validation",
+    "negative_queries": 16,
+    "negatives_accepted_raw": 2,
+    "negatives_accepted_with_guard": 0,
+    "positive_queries_blocked_by_guard": 0
+  },
+  "original_pilot_extended_comparison": {
+    "bm25": {
+      "recall_at_5": 0.9814814814814815,
+      "precision_at_5": 0.21481481481481488,
+      "mrr": 0.95679012345679,
+      "ndcg_at_5": 0.9551054909440349,
+      "hit_at_1": 0.9259259259259259,
+      "positive_queries": 27
+    },
+    "semantic": {
+      "recall_at_5": 0.9629629629629629,
+      "precision_at_5": 0.20740740740740746,
+      "mrr": 0.9271604938271606,
+      "ndcg_at_5": 0.9252323947817116,
+      "hit_at_1": 0.8888888888888888,
+      "positive_queries": 27
+    },
+    "graph": {
+      "recall_at_5": 0.5370370370370371,
+      "precision_at_5": 0.12592592592592594,
+      "mrr": 0.3719894381428198,
+      "ndcg_at_5": 0.3839736877639488,
+      "hit_at_1": 0.2222222222222222,
+      "positive_queries": 27
+    },
+    "fixed_hybrid": {
+      "recall_at_5": 0.9444444444444444,
+      "precision_at_5": 0.20740740740740746,
+      "mrr": 0.8392687559354225,
+      "ndcg_at_5": 0.8550938496800131,
+      "hit_at_1": 0.7407407407407407,
+      "positive_queries": 27
+    },
+    "bm25_semantic": {
+      "recall_at_5": 0.9814814814814815,
+      "precision_at_5": 0.21481481481481488,
+      "mrr": 0.9444444444444444,
+      "ndcg_at_5": 0.9454047270265001,
+      "hit_at_1": 0.8888888888888888,
+      "positive_queries": 27
+    },
+    "routed_hybrid": {
+      "recall_at_5": 0.9444444444444444,
+      "precision_at_5": 0.20740740740740746,
+      "mrr": 0.8675645342312008,
+      "ndcg_at_5": 0.8761799030847023,
+      "hit_at_1": 0.7777777777777778,
+      "positive_queries": 27
+    },
+    "selective": {
+      "queries": 33,
+      "coverage": 0.7878787878787878,
+      "accepted_top1_precision": 0.8076923076923077,
+      "accepted_labelled_errors": 5,
+      "negative_queries": 6,
+      "negatives_accepted": 0,
+      "brier_score": 0.15948600437832672,
+      "threshold": 0.8,
+      "confidence_scope": "Raw frozen-model estimates; not correctness guarantees or policy-guard scores"
+    }
+  },
+  "challenge": {
+    "bm25": {
+      "recall_at_5": 0.775,
+      "precision_at_5": 0.17,
+      "mrr": 0.6993377742946708,
+      "ndcg_at_5": 0.7070942761248332,
+      "hit_at_1": 0.6,
+      "positive_queries": 20
+    },
+    "semantic": {
+      "recall_at_5": 0.95,
+      "precision_at_5": 0.22000000000000003,
+      "mrr": 0.8479166666666667,
+      "ndcg_at_5": 0.8635002288026211,
+      "hit_at_1": 0.75,
+      "positive_queries": 20
+    },
+    "graph": {
+      "recall_at_5": 0.375,
+      "precision_at_5": 0.1,
+      "mrr": 0.435515873015873,
+      "ndcg_at_5": 0.37351856659339167,
+      "hit_at_1": 0.4,
+      "positive_queries": 20
+    },
+    "fixed_hybrid": {
+      "recall_at_5": 0.85,
+      "precision_at_5": 0.20000000000000004,
+      "mrr": 0.7216666666666667,
+      "ndcg_at_5": 0.7297180366620575,
+      "hit_at_1": 0.55,
+      "positive_queries": 20
+    },
+    "bm25_semantic": {
+      "recall_at_5": 0.825,
+      "precision_at_5": 0.19,
+      "mrr": 0.8183333333333334,
+      "ndcg_at_5": 0.7934063733170377,
+      "hit_at_1": 0.75,
+      "positive_queries": 20
+    },
+    "routed_hybrid": {
+      "recall_at_5": 0.85,
+      "precision_at_5": 0.20000000000000004,
+      "mrr": 0.68,
+      "ndcg_at_5": 0.7078428691643482,
+      "hit_at_1": 0.5,
+      "positive_queries": 20
+    },
+    "selective": {
+      "queries": 36,
+      "coverage": 0.5,
+      "accepted_top1_precision": 0.5555555555555556,
+      "accepted_labelled_errors": 8,
+      "negative_queries": 16,
+      "negatives_accepted": 2,
+      "brier_score": 0.34164096958932494,
+      "threshold": 0.8,
+      "confidence_scope": "Raw frozen-model estimates; not correctness guarantees or policy-guard scores"
+    }
+  },
+  "by_query_type": {
+    "absent_identifier": {
+      "bm25": {
+        "positive_queries": 0
+      },
+      "semantic": {
+        "positive_queries": 0
+      },
+      "graph": {
+        "positive_queries": 0
+      },
+      "fixed_hybrid": {
+        "positive_queries": 0
+      },
+      "bm25_semantic": {
+        "positive_queries": 0
+      },
+      "routed_hybrid": {
+        "positive_queries": 0
+      },
+      "selective": {
+        "queries": 6,
+        "coverage": 0.16666666666666666,
+        "accepted_top1_precision": 0.0,
+        "accepted_labelled_errors": 1,
+        "negative_queries": 6,
+        "negatives_accepted": 1,
+        "brier_score": 0.33190683711608654,
+        "threshold": 0.8,
+        "confidence_scope": "Raw frozen-model estimates; not correctness guarantees or policy-guard scores"
+      }
+    },
+    "linked_evidence": {
+      "bm25": {
+        "recall_at_5": 0.375,
+        "precision_at_5": 0.15000000000000002,
+        "mrr": 0.2778409090909091,
+        "ndcg_at_5": 0.2700698027129531,
+        "hit_at_1": 0.0,
+        "positive_queries": 4
+      },
+      "semantic": {
+        "recall_at_5": 0.75,
+        "precision_at_5": 0.30000000000000004,
+        "mrr": 0.78125,
+        "ndcg_at_5": 0.7193038288345124,
+        "hit_at_1": 0.75,
+        "positive_queries": 4
+      },
+      "graph": {
+        "recall_at_5": 0.625,
+        "precision_at_5": 0.25,
+        "mrr": 1.0,
+        "ndcg_at_5": 0.7098603945740938,
+        "hit_at_1": 1.0,
+        "positive_queries": 4
+      },
+      "fixed_hybrid": {
+        "recall_at_5": 0.75,
+        "precision_at_5": 0.30000000000000004,
+        "mrr": 0.7083333333333333,
+        "ndcg_at_5": 0.6426604297388301,
+        "hit_at_1": 0.5,
+        "positive_queries": 4
+      },
+      "bm25_semantic": {
+        "recall_at_5": 0.625,
+        "precision_at_5": 0.25,
+        "mrr": 0.65,
+        "ndcg_at_5": 0.559299428192324,
+        "hit_at_1": 0.5,
+        "positive_queries": 4
+      },
+      "routed_hybrid": {
+        "recall_at_5": 0.75,
+        "precision_at_5": 0.30000000000000004,
+        "mrr": 0.5416666666666666,
+        "ndcg_at_5": 0.5660170306431478,
+        "hit_at_1": 0.25,
+        "positive_queries": 4
+      },
+      "selective": {
+        "queries": 4,
+        "coverage": 0.75,
+        "accepted_top1_precision": 0.3333333333333333,
+        "accepted_labelled_errors": 2,
+        "negative_queries": 0,
+        "negatives_accepted": 0,
+        "brier_score": 0.4972043052944754,
+        "threshold": 0.8,
+        "confidence_scope": "Raw frozen-model estimates; not correctness guarantees or policy-guard scores"
+      }
+    },
+    "missing_context": {
+      "bm25": {
+        "positive_queries": 0
+      },
+      "semantic": {
+        "positive_queries": 0
+      },
+      "graph": {
+        "positive_queries": 0
+      },
+      "fixed_hybrid": {
+        "positive_queries": 0
+      },
+      "bm25_semantic": {
+        "positive_queries": 0
+      },
+      "routed_hybrid": {
+        "positive_queries": 0
+      },
+      "selective": {
+        "queries": 6,
+        "coverage": 0.0,
+        "accepted_top1_precision": null,
+        "accepted_labelled_errors": 0,
+        "negative_queries": 6,
+        "negatives_accepted": 0,
+        "brier_score": 0.2893091545171907,
+        "threshold": 0.8,
+        "confidence_scope": "Raw frozen-model estimates; not correctness guarantees or policy-guard scores"
+      }
+    },
+    "out_of_domain": {
+      "bm25": {
+        "positive_queries": 0
+      },
+      "semantic": {
+        "positive_queries": 0
+      },
+      "graph": {
+        "positive_queries": 0
+      },
+      "fixed_hybrid": {
+        "positive_queries": 0
+      },
+      "bm25_semantic": {
+        "positive_queries": 0
+      },
+      "routed_hybrid": {
+        "positive_queries": 0
+      },
+      "selective": {
+        "queries": 2,
+        "coverage": 0.0,
+        "accepted_top1_precision": null,
+        "accepted_labelled_errors": 0,
+        "negative_queries": 2,
+        "negatives_accepted": 0,
+        "brier_score": 0.06981715766455494,
+        "threshold": 0.8,
+        "confidence_scope": "Raw frozen-model estimates; not correctness guarantees or policy-guard scores"
+      }
+    },
+    "paraphrase": {
+      "bm25": {
+        "recall_at_5": 0.75,
+        "precision_at_5": 0.15000000000000002,
+        "mrr": 0.6094239811912225,
+        "ndcg_at_5": 0.6327007889556063,
+        "hit_at_1": 0.5,
+        "positive_queries": 8
+      },
+      "semantic": {
+        "recall_at_5": 1.0,
+        "precision_at_5": 0.2,
+        "mrr": 0.8125,
+        "ndcg_at_5": 0.8615986575892967,
+        "hit_at_1": 0.625,
+        "positive_queries": 8
+      },
+      "graph": {
+        "recall_at_5": 0.0,
+        "precision_at_5": 0.0,
+        "mrr": 0.015873015873015872,
+        "ndcg_at_5": 0.0,
+        "hit_at_1": 0.0,
+        "positive_queries": 8
+      },
+      "fixed_hybrid": {
+        "recall_at_5": 0.75,
+        "precision_at_5": 0.15000000000000002,
+        "mrr": 0.5125,
+        "ndcg_at_5": 0.5490986575892967,
+        "hit_at_1": 0.25,
+        "positive_queries": 8
+      },
+      "bm25_semantic": {
+        "recall_at_5": 0.75,
+        "precision_at_5": 0.15000000000000002,
+        "mrr": 0.7208333333333334,
+        "ndcg_at_5": 0.7038662191964322,
+        "hit_at_1": 0.625,
+        "positive_queries": 8
+      },
+      "routed_hybrid": {
+        "recall_at_5": 0.75,
+        "precision_at_5": 0.15000000000000002,
+        "mrr": 0.4916666666666667,
+        "ndcg_at_5": 0.5327324383928644,
+        "hit_at_1": 0.25,
+        "positive_queries": 8
+      },
+      "selective": {
+        "queries": 8,
+        "coverage": 0.625,
+        "accepted_top1_precision": 0.4,
+        "accepted_labelled_errors": 3,
+        "negative_queries": 0,
+        "negatives_accepted": 0,
+        "brier_score": 0.5617192203981296,
+        "threshold": 0.8,
+        "confidence_scope": "Raw frozen-model estimates; not correctness guarantees or policy-guard scores"
+      }
+    },
+    "terse_log": {
+      "bm25": {
+        "recall_at_5": 1.0,
+        "precision_at_5": 0.2,
+        "mrr": 1.0,
+        "ndcg_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "positive_queries": 8
+      },
+      "semantic": {
+        "recall_at_5": 1.0,
+        "precision_at_5": 0.2,
+        "mrr": 0.9166666666666666,
+        "ndcg_at_5": 0.9375,
+        "hit_at_1": 0.875,
+        "positive_queries": 8
+      },
+      "graph": {
+        "recall_at_5": 0.625,
+        "precision_at_5": 0.125,
+        "mrr": 0.5729166666666666,
+        "ndcg_at_5": 0.5788662191964322,
+        "hit_at_1": 0.5,
+        "positive_queries": 8
+      },
+      "fixed_hybrid": {
+        "recall_at_5": 1.0,
+        "precision_at_5": 0.2,
+        "mrr": 0.9375,
+        "ndcg_at_5": 0.9538662191964322,
+        "hit_at_1": 0.875,
+        "positive_queries": 8
+      },
+      "bm25_semantic": {
+        "recall_at_5": 1.0,
+        "precision_at_5": 0.2,
+        "mrr": 1.0,
+        "ndcg_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "positive_queries": 8
+      },
+      "routed_hybrid": {
+        "recall_at_5": 1.0,
+        "precision_at_5": 0.2,
+        "mrr": 0.9375,
+        "ndcg_at_5": 0.9538662191964322,
+        "hit_at_1": 0.875,
+        "positive_queries": 8
+      },
+      "selective": {
+        "queries": 8,
+        "coverage": 1.0,
+        "accepted_top1_precision": 0.875,
+        "accepted_labelled_errors": 1,
+        "negative_queries": 0,
+        "negatives_accepted": 0,
+        "brier_score": 0.08355820572034214,
+        "threshold": 0.8,
+        "confidence_scope": "Raw frozen-model estimates; not correctness guarantees or policy-guard scores"
+      }
+    },
+    "unsupported_action": {
+      "bm25": {
+        "positive_queries": 0
+      },
+      "semantic": {
+        "positive_queries": 0
+      },
+      "graph": {
+        "positive_queries": 0
+      },
+      "fixed_hybrid": {
+        "positive_queries": 0
+      },
+      "bm25_semantic": {
+        "positive_queries": 0
+      },
+      "routed_hybrid": {
+        "positive_queries": 0
+      },
+      "selective": {
+        "queries": 2,
+        "coverage": 0.5,
+        "accepted_top1_precision": 0.0,
+        "accepted_labelled_errors": 1,
+        "negative_queries": 2,
+        "negatives_accepted": 1,
+        "brier_score": 0.6405540049806246,
+        "threshold": 0.8,
+        "confidence_scope": "Raw frozen-model estimates; not correctness guarantees or policy-guard scores"
+      }
+    }
+  },
+  "exploratory_intervals": {
+    "original_pilot": [
+      {
+        "left": "routed_hybrid",
+        "right": "fixed_hybrid",
+        "mrr_delta": 0.0282957782957783,
+        "lower_95": 0.0,
+        "upper_95": 0.08696326137630482,
+        "components": 23,
+        "resamples": 2000,
+        "scope": "Exploratory component bootstrap on incomplete assistant-authored labels; not a generalization guarantee"
+      },
+      {
+        "left": "routed_hybrid",
+        "right": "bm25",
+        "mrr_delta": -0.08922558922558922,
+        "lower_95": -0.1840976430976431,
+        "upper_95": -0.012345679012345678,
+        "components": 23,
+        "resamples": 2000,
+        "scope": "Exploratory component bootstrap on incomplete assistant-authored labels; not a generalization guarantee"
+      },
+      {
+        "left": "bm25_semantic",
+        "right": "fixed_hybrid",
+        "mrr_delta": 0.10517568850902187,
+        "lower_95": 0.018518518518518517,
+        "upper_95": 0.21767697881828316,
+        "components": 23,
+        "resamples": 2000,
+        "scope": "Exploratory component bootstrap on incomplete assistant-authored labels; not a generalization guarantee"
+      }
+    ],
+    "challenge": [
+      {
+        "left": "routed_hybrid",
+        "right": "fixed_hybrid",
+        "mrr_delta": -0.04166666666666667,
+        "lower_95": -0.10833333333333332,
+        "upper_95": 0.0,
+        "components": 14,
+        "resamples": 2000,
+        "scope": "Exploratory component bootstrap on incomplete assistant-authored labels; not a generalization guarantee"
+      },
+      {
+        "left": "routed_hybrid",
+        "right": "bm25",
+        "mrr_delta": -0.019337774294670856,
+        "lower_95": -0.15632724567099568,
+        "upper_95": 0.11553066364544999,
+        "components": 14,
+        "resamples": 2000,
+        "scope": "Exploratory component bootstrap on incomplete assistant-authored labels; not a generalization guarantee"
+      },
+      {
+        "left": "bm25_semantic",
+        "right": "fixed_hybrid",
+        "mrr_delta": 0.09666666666666668,
+        "lower_95": -0.06500198412698413,
+        "upper_95": 0.23809523809523814,
+        "components": 14,
+        "resamples": 2000,
+        "scope": "Exploratory component bootstrap on incomplete assistant-authored labels; not a generalization guarantee"
+      }
+    ]
+  },
+  "limitations": [
+    "Diagnostic queries reuse original test incident components; not new incident generalization.",
+    "Questions and negative rationales are assistant-authored; independent human review pending.",
+    "Labels are incomplete and the missing-identifier query distribution is synthetic.",
+    "Bootstrap intervals cover only this query/component sample, not annotation bias.",
+    "Sixth-method ablation was added after seeing pilot results and is explicitly exploratory."
+  ]
+}

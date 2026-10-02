@@ -1,0 +1,3384 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "kind": "incident",
+      "url": "https://github.com/actions/setup-python/issues/1050",
+      "id": "actions/setup-python#1050"
+    },
+    {
+      "kind": "entity",
+      "id": "entity:pip"
+    },
+    {
+      "kind": "entity",
+      "id": "entity:windows"
+    },
+    {
+      "kind": "entity",
+      "id": "entity:macos"
+    },
+    {
+      "kind": "entity",
+      "id": "entity:dependency"
+    },
+    {
+      "kind": "entity",
+      "id": "entity:network"
+    },
+    {
+      "kind": "entity",
+      "id": "entity:cache"
+    },
+    {
+      "kind": "entity",
+      "id": "entity:python:3.13"
+    },
+    {
+      "kind": "entity",
+      "id": "entity:linux"
+    },
+    {
+      "kind": "entity",
+      "id": "entity:python"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/actions/setup-python/issues/1060",
+      "id": "actions/setup-python#1060"
+    },
+    {
+      "kind": "entity",
+      "id": "entity:python:3.10"
+    },
+    {
+      "kind": "entity",
+      "id": "entity:RuntimeException"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/actions/setup-python/issues/1214",
+      "id": "actions/setup-python#1214"
+    },
+    {
+      "kind": "entity",
+      "id": "entity:ci"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/actions/setup-python/issues/1238",
+      "id": "actions/setup-python#1238"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/actions/setup-python/issues/1240",
+      "id": "actions/setup-python#1240"
+    },
+    {
+      "kind": "entity",
+      "id": "entity:python:3.12"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/actions/setup-python/issues/1241",
+      "id": "actions/setup-python#1241"
+    },
+    {
+      "kind": "entity",
+      "id": "entity:python:3.14"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/actions/setup-python/issues/1244",
+      "id": "actions/setup-python#1244"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/actions/setup-python/issues/858",
+      "id": "actions/setup-python#858"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/actions/setup-python/issues/1251",
+      "id": "actions/setup-python#1251"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/actions/setup-python/issues/1252",
+      "id": "actions/setup-python#1252"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/actions/setup-python/issues/1255",
+      "id": "actions/setup-python#1255"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/actions/setup-python/issues/1256",
+      "id": "actions/setup-python#1256"
+    },
+    {
+      "kind": "entity",
+      "id": "entity:python:3.11"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/actions/setup-python/issues/1257",
+      "id": "actions/setup-python#1257"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/actions/setup-python/issues/1261",
+      "id": "actions/setup-python#1261"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/actions/setup-python/issues/1265",
+      "id": "actions/setup-python#1265"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/actions/setup-python/issues/1267",
+      "id": "actions/setup-python#1267"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/actions/setup-python/issues/1272",
+      "id": "actions/setup-python#1272"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/actions/setup-python/issues/1275",
+      "id": "actions/setup-python#1275"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/actions/setup-python/issues/1277",
+      "id": "actions/setup-python#1277"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/actions/setup-python/issues/1278",
+      "id": "actions/setup-python#1278"
+    },
+    {
+      "kind": "entity",
+      "id": "entity:python:3.15"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/actions/setup-python/issues/1285",
+      "id": "actions/setup-python#1285"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/actions/setup-python/issues/1286",
+      "id": "actions/setup-python#1286"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/actions/setup-python/issues/1288",
+      "id": "actions/setup-python#1288"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/actions/setup-python/issues/1290",
+      "id": "actions/setup-python#1290"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/actions/setup-python/issues/1292",
+      "id": "actions/setup-python#1292"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/actions/setup-python/issues/1295",
+      "id": "actions/setup-python#1295"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/actions/setup-python/issues/1299",
+      "id": "actions/setup-python#1299"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/actions/setup-python/issues/1306",
+      "id": "actions/setup-python#1306"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/actions/setup-python/issues/1307",
+      "id": "actions/setup-python#1307"
+    },
+    {
+      "kind": "entity",
+      "id": "entity:ModuleNotFoundError"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/actions/setup-python/issues/1309",
+      "id": "actions/setup-python#1309"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/actions/setup-python/issues/1313",
+      "id": "actions/setup-python#1313"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/actions/setup-python/issues/1314",
+      "id": "actions/setup-python#1314"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/actions/setup-python/issues/1317",
+      "id": "actions/setup-python#1317"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/actions/setup-python/issues/1318",
+      "id": "actions/setup-python#1318"
+    },
+    {
+      "kind": "entity",
+      "id": "entity:authentication"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/actions/setup-python/issues/1319",
+      "id": "actions/setup-python#1319"
+    },
+    {
+      "kind": "entity",
+      "id": "entity:python:3.8"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/actions/setup-python/issues/1320",
+      "id": "actions/setup-python#1320"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/actions/setup-python/issues/1321",
+      "id": "actions/setup-python#1321"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/actions/setup-python/issues/1331",
+      "id": "actions/setup-python#1331"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/actions/setup-python/issues/1352",
+      "id": "actions/setup-python#1352"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/actions/setup-python/issues/1356",
+      "id": "actions/setup-python#1356"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/actions/setup-python/issues/1360",
+      "id": "actions/setup-python#1360"
+    },
+    {
+      "kind": "entity",
+      "id": "entity:proxy"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/psf/requests/issues/5461",
+      "id": "psf/requests#5461"
+    },
+    {
+      "kind": "entity",
+      "id": "entity:encoding"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/psf/requests/issues/5842",
+      "id": "psf/requests#5842"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/psf/requests/issues/5888",
+      "id": "psf/requests#5888"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/psf/requests/issues/7274",
+      "id": "psf/requests#7274"
+    },
+    {
+      "kind": "entity",
+      "id": "entity:collection"
+    },
+    {
+      "kind": "entity",
+      "id": "entity:ValueError"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/psf/requests/issues/7276",
+      "id": "psf/requests#7276"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/psf/requests/issues/7284",
+      "id": "psf/requests#7284"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/psf/requests/issues/7335",
+      "id": "psf/requests#7335"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/psf/requests/issues/7375",
+      "id": "psf/requests#7375"
+    },
+    {
+      "kind": "entity",
+      "id": "entity:ImportError"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/psf/requests/issues/7432",
+      "id": "psf/requests#7432"
+    },
+    {
+      "kind": "entity",
+      "id": "entity:redirect"
+    },
+    {
+      "kind": "entity",
+      "id": "entity:timeout"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/psf/requests/issues/7434",
+      "id": "psf/requests#7434"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/psf/requests/issues/7442",
+      "id": "psf/requests#7442"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/psf/requests/issues/7456",
+      "id": "psf/requests#7456"
+    },
+    {
+      "kind": "entity",
+      "id": "entity:NameError"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/psf/requests/issues/7459",
+      "id": "psf/requests#7459"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/psf/requests/issues/7465",
+      "id": "psf/requests#7465"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/psf/requests/issues/7558",
+      "id": "psf/requests#7558"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/psf/requests/issues/7592",
+      "id": "psf/requests#7592"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/psf/requests/issues/7593",
+      "id": "psf/requests#7593"
+    },
+    {
+      "kind": "entity",
+      "id": "entity:KeyError"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/psf/requests/issues/7594",
+      "id": "psf/requests#7594"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/psf/requests/issues/7600",
+      "id": "psf/requests#7600"
+    },
+    {
+      "kind": "entity",
+      "id": "entity:HTTPError"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/psf/requests/issues/7601",
+      "id": "psf/requests#7601"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/psf/requests/issues/7605",
+      "id": "psf/requests#7605"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/psf/requests/issues/7607",
+      "id": "psf/requests#7607"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/psf/requests/issues/7611",
+      "id": "psf/requests#7611"
+    },
+    {
+      "kind": "entity",
+      "id": "entity:AttributeError"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/psf/requests/issues/7615",
+      "id": "psf/requests#7615"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/psf/requests/issues/7621",
+      "id": "psf/requests#7621"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/psf/requests/issues/7622",
+      "id": "psf/requests#7622"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/pytest-dev/pytest/issues/10577",
+      "id": "pytest-dev/pytest#10577"
+    },
+    {
+      "kind": "entity",
+      "id": "entity:pytest"
+    },
+    {
+      "kind": "entity",
+      "id": "entity:AssertionError"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/pytest-dev/pytest/issues/1120",
+      "id": "pytest-dev/pytest#1120"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/pytest-dev/pytest/issues/11779",
+      "id": "pytest-dev/pytest#11779"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/pytest-dev/pytest/issues/13246",
+      "id": "pytest-dev/pytest#13246"
+    },
+    {
+      "kind": "entity",
+      "id": "entity:fixture"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/pytest-dev/pytest/issues/14004",
+      "id": "pytest-dev/pytest#14004"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/pytest-dev/pytest/issues/14640",
+      "id": "pytest-dev/pytest#14640"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/pytest-dev/pytest/issues/14650",
+      "id": "pytest-dev/pytest#14650"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/pytest-dev/pytest/issues/14651",
+      "id": "pytest-dev/pytest#14651"
+    },
+    {
+      "kind": "entity",
+      "id": "entity:PluginValidationError"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/pytest-dev/pytest/issues/14660",
+      "id": "pytest-dev/pytest#14660"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/pytest-dev/pytest/issues/14675",
+      "id": "pytest-dev/pytest#14675"
+    },
+    {
+      "kind": "entity",
+      "id": "entity:TypeError"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/pytest-dev/pytest/issues/14683",
+      "id": "pytest-dev/pytest#14683"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/pytest-dev/pytest/issues/14691",
+      "id": "pytest-dev/pytest#14691"
+    },
+    {
+      "kind": "entity",
+      "id": "entity:python:3.9"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/pytest-dev/pytest/issues/14700",
+      "id": "pytest-dev/pytest#14700"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/pytest-dev/pytest/issues/14705",
+      "id": "pytest-dev/pytest#14705"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/pytest-dev/pytest/issues/14716",
+      "id": "pytest-dev/pytest#14716"
+    },
+    {
+      "kind": "entity",
+      "id": "entity:UsageError"
+    },
+    {
+      "kind": "entity",
+      "id": "entity:FileNotFoundError"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/pytest-dev/pytest/issues/14724",
+      "id": "pytest-dev/pytest#14724"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/pytest-dev/pytest/issues/14743",
+      "id": "pytest-dev/pytest#14743"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/pytest-dev/pytest/issues/14762",
+      "id": "pytest-dev/pytest#14762"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/pytest-dev/pytest/issues/14765",
+      "id": "pytest-dev/pytest#14765"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/pytest-dev/pytest/issues/14808",
+      "id": "pytest-dev/pytest#14808"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/pytest-dev/pytest/issues/14818",
+      "id": "pytest-dev/pytest#14818"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/pytest-dev/pytest/issues/14828",
+      "id": "pytest-dev/pytest#14828"
+    },
+    {
+      "kind": "entity",
+      "id": "entity:RuntimeError"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/pytest-dev/pytest/issues/14852",
+      "id": "pytest-dev/pytest#14852"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/pytest-dev/pytest/issues/14864",
+      "id": "pytest-dev/pytest#14864"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/pytest-dev/pytest/issues/14882",
+      "id": "pytest-dev/pytest#14882"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/pytest-dev/pytest/issues/14909",
+      "id": "pytest-dev/pytest#14909"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/pytest-dev/pytest/issues/14925",
+      "id": "pytest-dev/pytest#14925"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/pytest-dev/pytest/issues/14926",
+      "id": "pytest-dev/pytest#14926"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/pytest-dev/pytest/issues/14935",
+      "id": "pytest-dev/pytest#14935"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/pytest-dev/pytest/issues/14942",
+      "id": "pytest-dev/pytest#14942"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/pytest-dev/pytest/issues/14953",
+      "id": "pytest-dev/pytest#14953"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/pytest-dev/pytest/issues/14964",
+      "id": "pytest-dev/pytest#14964"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/pytest-dev/pytest/issues/14971",
+      "id": "pytest-dev/pytest#14971"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/pytest-dev/pytest/issues/14992",
+      "id": "pytest-dev/pytest#14992"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/pytest-dev/pytest/issues/14995",
+      "id": "pytest-dev/pytest#14995"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/pytest-dev/pytest/issues/14997",
+      "id": "pytest-dev/pytest#14997"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/pytest-dev/pytest/issues/15005",
+      "id": "pytest-dev/pytest#15005"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/pytest-dev/pytest/issues/15043",
+      "id": "pytest-dev/pytest#15043"
+    },
+    {
+      "kind": "entity",
+      "id": "entity:OSError"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/pytest-dev/pytest/issues/15052",
+      "id": "pytest-dev/pytest#15052"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/pytest-dev/pytest/issues/15071",
+      "id": "pytest-dev/pytest#15071"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/pytest-dev/pytest/issues/15080",
+      "id": "pytest-dev/pytest#15080"
+    },
+    {
+      "kind": "incident",
+      "url": "https://github.com/pytest-dev/pytest/issues/15081",
+      "id": "pytest-dev/pytest#15081"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "mentions",
+      "source": "actions/setup-python#1050",
+      "target": "entity:pip"
+    },
+    {
+      "relation": "mentions",
+      "source": "actions/setup-python#1050",
+      "target": "entity:windows"
+    },
+    {
+      "relation": "mentions",
+      "source": "actions/setup-python#1050",
+      "target": "entity:macos"
+    },
+    {
+      "relation": "mentions",
+      "source": "actions/setup-python#1050",
+      "target": "entity:dependency"
+    },
+    {
+      "relation": "mentions",
+      "source": "actions/setup-python#1050",
+      "target": "entity:network"
+    },
+    {
+      "relation": "mentions",
+      "source": "actions/setup-python#1050",
+      "target": "entity:cache"
+    },
+    {
+      "relation": "mentions",
+      "source": "actions/setup-python#1050",
+      "target": "entity:python:3.13"
+    },
+    {
+      "relation": "mentions",
+      "source": "actions/setup-python#1050",
+      "target": "entity:linux"
+    },
+    {
+      "relation": "mentions",
+      "source": "actions/setup-python#1050",
+      "target": "entity:python"
+    },
+    {
+      "relation": "explicit_reference",
+      "source": "actions/setup-python#1050",
+      "target": "actions/setup-python#1244"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pip",
+      "target": "actions/setup-python#1241"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pip",
+      "target": "actions/setup-python#1244"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pip",
+      "target": "actions/setup-python#1251"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pip",
+      "target": "actions/setup-python#1285"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pip",
+      "target": "actions/setup-python#1295"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pip",
+      "target": "actions/setup-python#1307"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pip",
+      "target": "actions/setup-python#1317"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pip",
+      "target": "actions/setup-python#858"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pip",
+      "target": "psf/requests#7274"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pip",
+      "target": "psf/requests#7459"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pip",
+      "target": "pytest-dev/pytest#10577"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pip",
+      "target": "pytest-dev/pytest#13246"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pip",
+      "target": "pytest-dev/pytest#14640"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pip",
+      "target": "pytest-dev/pytest#14650"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pip",
+      "target": "pytest-dev/pytest#14651"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pip",
+      "target": "pytest-dev/pytest#14683"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pip",
+      "target": "pytest-dev/pytest#14691"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pip",
+      "target": "pytest-dev/pytest#14700"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pip",
+      "target": "pytest-dev/pytest#14762"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pip",
+      "target": "pytest-dev/pytest#15043"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pip",
+      "target": "pytest-dev/pytest#15080"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:windows",
+      "target": "actions/setup-python#1060"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:windows",
+      "target": "actions/setup-python#1214"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:windows",
+      "target": "actions/setup-python#1238"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:windows",
+      "target": "actions/setup-python#1241"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:windows",
+      "target": "actions/setup-python#1244"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:windows",
+      "target": "actions/setup-python#1252"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:windows",
+      "target": "actions/setup-python#1255"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:windows",
+      "target": "actions/setup-python#1256"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:windows",
+      "target": "actions/setup-python#1257"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:windows",
+      "target": "actions/setup-python#1261"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:windows",
+      "target": "actions/setup-python#1267"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:windows",
+      "target": "actions/setup-python#1275"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:windows",
+      "target": "actions/setup-python#1277"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:windows",
+      "target": "actions/setup-python#1278"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:windows",
+      "target": "actions/setup-python#1285"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:windows",
+      "target": "actions/setup-python#1286"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:windows",
+      "target": "actions/setup-python#1290"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:windows",
+      "target": "actions/setup-python#1292"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:windows",
+      "target": "actions/setup-python#1306"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:windows",
+      "target": "actions/setup-python#1307"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:windows",
+      "target": "actions/setup-python#1309"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:windows",
+      "target": "actions/setup-python#1313"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:windows",
+      "target": "actions/setup-python#1314"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:windows",
+      "target": "actions/setup-python#1317"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:windows",
+      "target": "actions/setup-python#1318"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:windows",
+      "target": "actions/setup-python#1319"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:windows",
+      "target": "actions/setup-python#1320"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:windows",
+      "target": "actions/setup-python#1352"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:windows",
+      "target": "actions/setup-python#1356"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:windows",
+      "target": "actions/setup-python#858"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:windows",
+      "target": "psf/requests#7465"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:windows",
+      "target": "psf/requests#7611"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:windows",
+      "target": "pytest-dev/pytest#1120"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:windows",
+      "target": "pytest-dev/pytest#11779"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:windows",
+      "target": "pytest-dev/pytest#14675"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:windows",
+      "target": "pytest-dev/pytest#14828"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:windows",
+      "target": "pytest-dev/pytest#14864"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:windows",
+      "target": "pytest-dev/pytest#14882"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:windows",
+      "target": "pytest-dev/pytest#14935"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:windows",
+      "target": "pytest-dev/pytest#14997"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:macos",
+      "target": "actions/setup-python#1060"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:macos",
+      "target": "actions/setup-python#1214"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:macos",
+      "target": "actions/setup-python#1238"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:macos",
+      "target": "actions/setup-python#1244"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:macos",
+      "target": "actions/setup-python#1252"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:macos",
+      "target": "actions/setup-python#1255"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:macos",
+      "target": "actions/setup-python#1256"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:macos",
+      "target": "actions/setup-python#1257"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:macos",
+      "target": "actions/setup-python#1261"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:macos",
+      "target": "actions/setup-python#1275"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:macos",
+      "target": "actions/setup-python#1277"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:macos",
+      "target": "actions/setup-python#1278"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:macos",
+      "target": "actions/setup-python#1285"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:macos",
+      "target": "actions/setup-python#1286"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:macos",
+      "target": "actions/setup-python#1290"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:macos",
+      "target": "actions/setup-python#1292"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:macos",
+      "target": "actions/setup-python#1306"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:macos",
+      "target": "actions/setup-python#1309"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:macos",
+      "target": "actions/setup-python#1313"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:macos",
+      "target": "actions/setup-python#1314"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:macos",
+      "target": "actions/setup-python#1317"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:macos",
+      "target": "actions/setup-python#1318"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:macos",
+      "target": "actions/setup-python#1319"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:macos",
+      "target": "actions/setup-python#1320"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:macos",
+      "target": "actions/setup-python#1352"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:macos",
+      "target": "actions/setup-python#1356"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:macos",
+      "target": "actions/setup-python#858"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:macos",
+      "target": "psf/requests#7432"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:macos",
+      "target": "psf/requests#7434"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:macos",
+      "target": "psf/requests#7605"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:macos",
+      "target": "pytest-dev/pytest#14004"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:macos",
+      "target": "pytest-dev/pytest#14691"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:macos",
+      "target": "pytest-dev/pytest#14716"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:macos",
+      "target": "pytest-dev/pytest#14971"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:macos",
+      "target": "pytest-dev/pytest#14995"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:macos",
+      "target": "pytest-dev/pytest#15043"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:macos",
+      "target": "pytest-dev/pytest#15071"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:dependency",
+      "target": "actions/setup-python#1240"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:dependency",
+      "target": "actions/setup-python#1251"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:dependency",
+      "target": "psf/requests#7284"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:dependency",
+      "target": "pytest-dev/pytest#14004"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:dependency",
+      "target": "pytest-dev/pytest#14640"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:dependency",
+      "target": "pytest-dev/pytest#14992"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "actions/setup-python#1060"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "actions/setup-python#1214"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "actions/setup-python#1238"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "actions/setup-python#1241"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "actions/setup-python#1244"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "actions/setup-python#1251"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "actions/setup-python#1252"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "actions/setup-python#1255"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "actions/setup-python#1256"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "actions/setup-python#1257"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "actions/setup-python#1261"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "actions/setup-python#1265"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "actions/setup-python#1267"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "actions/setup-python#1272"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "actions/setup-python#1277"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "actions/setup-python#1278"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "actions/setup-python#1285"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "actions/setup-python#1288"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "actions/setup-python#1290"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "actions/setup-python#1292"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "actions/setup-python#1299"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "actions/setup-python#1306"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "actions/setup-python#1307"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "actions/setup-python#1313"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "actions/setup-python#1314"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "actions/setup-python#1317"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "actions/setup-python#1318"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "actions/setup-python#1319"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "actions/setup-python#1320"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "actions/setup-python#1321"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "actions/setup-python#1331"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "actions/setup-python#1352"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "actions/setup-python#1356"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "actions/setup-python#1360"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "actions/setup-python#858"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "psf/requests#5888"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "psf/requests#7276"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "psf/requests#7284"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "psf/requests#7432"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "psf/requests#7434"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "psf/requests#7442"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "psf/requests#7456"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "psf/requests#7558"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "psf/requests#7592"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "psf/requests#7600"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "psf/requests#7601"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "psf/requests#7605"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "psf/requests#7607"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "psf/requests#7611"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "psf/requests#7615"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "psf/requests#7622"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "pytest-dev/pytest#11779"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "pytest-dev/pytest#13246"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "pytest-dev/pytest#14651"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "pytest-dev/pytest#14660"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "pytest-dev/pytest#14700"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "pytest-dev/pytest#14705"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "pytest-dev/pytest#14716"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "pytest-dev/pytest#14724"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "pytest-dev/pytest#14743"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "pytest-dev/pytest#14762"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "pytest-dev/pytest#14818"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "pytest-dev/pytest#14864"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "pytest-dev/pytest#14953"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:network",
+      "target": "pytest-dev/pytest#15005"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:cache",
+      "target": "actions/setup-python#1060"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:cache",
+      "target": "actions/setup-python#1240"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:cache",
+      "target": "actions/setup-python#1244"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:cache",
+      "target": "actions/setup-python#1255"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:cache",
+      "target": "actions/setup-python#1261"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:cache",
+      "target": "actions/setup-python#1290"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:cache",
+      "target": "actions/setup-python#1292"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:cache",
+      "target": "actions/setup-python#1306"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:cache",
+      "target": "actions/setup-python#1307"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:cache",
+      "target": "actions/setup-python#1317"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:cache",
+      "target": "actions/setup-python#1318"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:cache",
+      "target": "actions/setup-python#858"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:cache",
+      "target": "psf/requests#7456"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:cache",
+      "target": "psf/requests#7465"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:cache",
+      "target": "pytest-dev/pytest#13246"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:cache",
+      "target": "pytest-dev/pytest#14691"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:cache",
+      "target": "pytest-dev/pytest#14964"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:cache",
+      "target": "pytest-dev/pytest#14971"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:cache",
+      "target": "pytest-dev/pytest#15043"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:cache",
+      "target": "pytest-dev/pytest#15071"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python:3.13",
+      "target": "actions/setup-python#1240"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python:3.13",
+      "target": "actions/setup-python#1256"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python:3.13",
+      "target": "actions/setup-python#1306"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python:3.13",
+      "target": "actions/setup-python#1309"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python:3.13",
+      "target": "pytest-dev/pytest#14691"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python:3.13",
+      "target": "pytest-dev/pytest#14995"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python:3.13",
+      "target": "pytest-dev/pytest#15043"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "actions/setup-python#1060"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "actions/setup-python#1214"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "actions/setup-python#1238"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "actions/setup-python#1240"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "actions/setup-python#1244"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "actions/setup-python#1252"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "actions/setup-python#1255"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "actions/setup-python#1256"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "actions/setup-python#1257"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "actions/setup-python#1261"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "actions/setup-python#1265"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "actions/setup-python#1275"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "actions/setup-python#1277"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "actions/setup-python#1278"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "actions/setup-python#1285"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "actions/setup-python#1286"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "actions/setup-python#1288"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "actions/setup-python#1290"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "actions/setup-python#1292"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "actions/setup-python#1295"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "actions/setup-python#1306"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "actions/setup-python#1309"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "actions/setup-python#1313"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "actions/setup-python#1314"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "actions/setup-python#1317"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "actions/setup-python#1318"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "actions/setup-python#1319"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "actions/setup-python#1320"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "actions/setup-python#1321"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "actions/setup-python#1352"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "actions/setup-python#1356"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "actions/setup-python#858"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "psf/requests#5888"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "psf/requests#7274"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "psf/requests#7442"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "psf/requests#7456"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "psf/requests#7459"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "psf/requests#7600"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "pytest-dev/pytest#11779"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "pytest-dev/pytest#13246"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "pytest-dev/pytest#14004"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "pytest-dev/pytest#14640"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "pytest-dev/pytest#14651"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "pytest-dev/pytest#14691"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "pytest-dev/pytest#14700"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "pytest-dev/pytest#14705"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "pytest-dev/pytest#14762"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "pytest-dev/pytest#14864"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "pytest-dev/pytest#14909"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "pytest-dev/pytest#14953"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "pytest-dev/pytest#14964"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "pytest-dev/pytest#15005"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:linux",
+      "target": "pytest-dev/pytest#15071"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "actions/setup-python#1060"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "actions/setup-python#1214"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "actions/setup-python#1238"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "actions/setup-python#1240"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "actions/setup-python#1241"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "actions/setup-python#1244"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "actions/setup-python#1251"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "actions/setup-python#1252"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "actions/setup-python#1255"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "actions/setup-python#1256"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "actions/setup-python#1257"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "actions/setup-python#1261"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "actions/setup-python#1265"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "actions/setup-python#1267"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "actions/setup-python#1272"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "actions/setup-python#1275"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "actions/setup-python#1277"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "actions/setup-python#1278"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "actions/setup-python#1285"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "actions/setup-python#1286"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "actions/setup-python#1288"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "actions/setup-python#1290"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "actions/setup-python#1292"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "actions/setup-python#1295"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "actions/setup-python#1306"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "actions/setup-python#1307"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "actions/setup-python#1309"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "actions/setup-python#1313"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "actions/setup-python#1314"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "actions/setup-python#1317"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "actions/setup-python#1318"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "actions/setup-python#1319"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "actions/setup-python#1320"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "actions/setup-python#1321"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "actions/setup-python#1331"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "actions/setup-python#1352"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "actions/setup-python#1356"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "actions/setup-python#1360"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "actions/setup-python#858"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "psf/requests#5888"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "psf/requests#7274"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "psf/requests#7284"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "psf/requests#7335"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "psf/requests#7432"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "psf/requests#7434"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "psf/requests#7442"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "psf/requests#7456"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "psf/requests#7459"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "psf/requests#7465"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "psf/requests#7593"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "psf/requests#7594"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "psf/requests#7600"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "psf/requests#7611"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "pytest-dev/pytest#10577"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "pytest-dev/pytest#11779"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "pytest-dev/pytest#14004"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "pytest-dev/pytest#14640"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "pytest-dev/pytest#14651"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "pytest-dev/pytest#14660"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "pytest-dev/pytest#14675"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "pytest-dev/pytest#14683"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "pytest-dev/pytest#14691"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "pytest-dev/pytest#14700"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "pytest-dev/pytest#14716"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "pytest-dev/pytest#14724"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "pytest-dev/pytest#14762"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "pytest-dev/pytest#14765"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "pytest-dev/pytest#14828"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "pytest-dev/pytest#14852"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "pytest-dev/pytest#14864"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "pytest-dev/pytest#14882"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "pytest-dev/pytest#14909"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "pytest-dev/pytest#14925"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "pytest-dev/pytest#14926"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "pytest-dev/pytest#14953"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "pytest-dev/pytest#14964"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "pytest-dev/pytest#14971"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "pytest-dev/pytest#14992"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "pytest-dev/pytest#14995"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "pytest-dev/pytest#15005"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "pytest-dev/pytest#15043"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "pytest-dev/pytest#15071"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "pytest-dev/pytest#15080"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python",
+      "target": "pytest-dev/pytest#15081"
+    },
+    {
+      "relation": "mentions",
+      "source": "actions/setup-python#1060",
+      "target": "entity:python:3.10"
+    },
+    {
+      "relation": "mentions",
+      "source": "actions/setup-python#1060",
+      "target": "entity:RuntimeException"
+    },
+    {
+      "relation": "explicit_reference",
+      "source": "actions/setup-python#1060",
+      "target": "actions/setup-python#1256"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python:3.10",
+      "target": "actions/setup-python#1256"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python:3.10",
+      "target": "actions/setup-python#1286"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python:3.10",
+      "target": "actions/setup-python#1314"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python:3.10",
+      "target": "actions/setup-python#1317"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python:3.10",
+      "target": "pytest-dev/pytest#14004"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python:3.10",
+      "target": "pytest-dev/pytest#14971"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:RuntimeException",
+      "target": "actions/setup-python#1241"
+    },
+    {
+      "relation": "mentions",
+      "source": "actions/setup-python#1214",
+      "target": "entity:ci"
+    },
+    {
+      "relation": "explicit_reference",
+      "source": "actions/setup-python#1214",
+      "target": "actions/setup-python#1265"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:ci",
+      "target": "actions/setup-python#1238"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:ci",
+      "target": "actions/setup-python#1244"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:ci",
+      "target": "actions/setup-python#1256"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:ci",
+      "target": "actions/setup-python#1261"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:ci",
+      "target": "actions/setup-python#1275"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:ci",
+      "target": "actions/setup-python#1277"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:ci",
+      "target": "actions/setup-python#1278"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:ci",
+      "target": "actions/setup-python#1285"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:ci",
+      "target": "actions/setup-python#1288"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:ci",
+      "target": "actions/setup-python#1295"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:ci",
+      "target": "actions/setup-python#1306"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:ci",
+      "target": "actions/setup-python#1307"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:ci",
+      "target": "actions/setup-python#1317"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:ci",
+      "target": "actions/setup-python#1318"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:ci",
+      "target": "actions/setup-python#1319"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:ci",
+      "target": "actions/setup-python#1360"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:ci",
+      "target": "actions/setup-python#858"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:ci",
+      "target": "psf/requests#7621"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:ci",
+      "target": "pytest-dev/pytest#14640"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:ci",
+      "target": "pytest-dev/pytest#14660"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:ci",
+      "target": "pytest-dev/pytest#14691"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:ci",
+      "target": "pytest-dev/pytest#14762"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:ci",
+      "target": "pytest-dev/pytest#14935"
+    },
+    {
+      "relation": "mentions",
+      "source": "actions/setup-python#1240",
+      "target": "entity:python:3.12"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python:3.12",
+      "target": "actions/setup-python#1244"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python:3.12",
+      "target": "actions/setup-python#1255"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python:3.12",
+      "target": "actions/setup-python#1256"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python:3.12",
+      "target": "actions/setup-python#1257"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python:3.12",
+      "target": "actions/setup-python#1295"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python:3.12",
+      "target": "actions/setup-python#858"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python:3.12",
+      "target": "psf/requests#7274"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python:3.12",
+      "target": "pytest-dev/pytest#14651"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python:3.12",
+      "target": "pytest-dev/pytest#14700"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python:3.12",
+      "target": "pytest-dev/pytest#14716"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python:3.12",
+      "target": "pytest-dev/pytest#14909"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python:3.12",
+      "target": "pytest-dev/pytest#14964"
+    },
+    {
+      "relation": "mentions",
+      "source": "actions/setup-python#1241",
+      "target": "entity:python:3.14"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python:3.14",
+      "target": "actions/setup-python#1252"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python:3.14",
+      "target": "actions/setup-python#1256"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python:3.14",
+      "target": "actions/setup-python#1261"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python:3.14",
+      "target": "actions/setup-python#1267"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python:3.14",
+      "target": "actions/setup-python#1275"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python:3.14",
+      "target": "actions/setup-python#1292"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python:3.14",
+      "target": "pytest-dev/pytest#14640"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python:3.14",
+      "target": "pytest-dev/pytest#14828"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python:3.14",
+      "target": "pytest-dev/pytest#14864"
+    },
+    {
+      "relation": "explicit_reference",
+      "source": "actions/setup-python#1244",
+      "target": "actions/setup-python#858"
+    },
+    {
+      "relation": "mentions",
+      "source": "actions/setup-python#858",
+      "target": "entity:proxy"
+    },
+    {
+      "relation": "mentions",
+      "source": "actions/setup-python#1256",
+      "target": "entity:python:3.11"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python:3.11",
+      "target": "actions/setup-python#1285"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python:3.11",
+      "target": "actions/setup-python#1356"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python:3.11",
+      "target": "pytest-dev/pytest#10577"
+    },
+    {
+      "relation": "mentions",
+      "source": "actions/setup-python#1278",
+      "target": "entity:python:3.15"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:python:3.15",
+      "target": "actions/setup-python#1321"
+    },
+    {
+      "relation": "mentions",
+      "source": "actions/setup-python#1307",
+      "target": "entity:ModuleNotFoundError"
+    },
+    {
+      "relation": "mentions",
+      "source": "actions/setup-python#1318",
+      "target": "entity:authentication"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:authentication",
+      "target": "psf/requests#5888"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:authentication",
+      "target": "psf/requests#7465"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:authentication",
+      "target": "psf/requests#7592"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:authentication",
+      "target": "psf/requests#7605"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:authentication",
+      "target": "psf/requests#7615"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:authentication",
+      "target": "pytest-dev/pytest#14660"
+    },
+    {
+      "relation": "mentions",
+      "source": "actions/setup-python#1319",
+      "target": "entity:python:3.8"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:proxy",
+      "target": "psf/requests#5888"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:proxy",
+      "target": "psf/requests#7615"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:proxy",
+      "target": "psf/requests#7621"
+    },
+    {
+      "relation": "mentions",
+      "source": "psf/requests#5461",
+      "target": "entity:encoding"
+    },
+    {
+      "relation": "explicit_reference",
+      "source": "psf/requests#5461",
+      "target": "psf/requests#7622"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:encoding",
+      "target": "psf/requests#7592"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:encoding",
+      "target": "psf/requests#7622"
+    },
+    {
+      "relation": "explicit_reference",
+      "source": "psf/requests#5842",
+      "target": "psf/requests#7601"
+    },
+    {
+      "relation": "explicit_reference",
+      "source": "psf/requests#5888",
+      "target": "psf/requests#7615"
+    },
+    {
+      "relation": "mentions",
+      "source": "psf/requests#7274",
+      "target": "entity:collection"
+    },
+    {
+      "relation": "mentions",
+      "source": "psf/requests#7274",
+      "target": "entity:ValueError"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:collection",
+      "target": "pytest-dev/pytest#11779"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:collection",
+      "target": "pytest-dev/pytest#13246"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:collection",
+      "target": "pytest-dev/pytest#14640"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:collection",
+      "target": "pytest-dev/pytest#14650"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:collection",
+      "target": "pytest-dev/pytest#14705"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:collection",
+      "target": "pytest-dev/pytest#14762"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:collection",
+      "target": "pytest-dev/pytest#14864"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:collection",
+      "target": "pytest-dev/pytest#14942"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:collection",
+      "target": "pytest-dev/pytest#14964"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:collection",
+      "target": "pytest-dev/pytest#14971"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:collection",
+      "target": "pytest-dev/pytest#15071"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:collection",
+      "target": "pytest-dev/pytest#15080"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:collection",
+      "target": "pytest-dev/pytest#15081"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:ValueError",
+      "target": "pytest-dev/pytest#14650"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:ValueError",
+      "target": "pytest-dev/pytest#14828"
+    },
+    {
+      "relation": "mentions",
+      "source": "psf/requests#7375",
+      "target": "entity:ImportError"
+    },
+    {
+      "relation": "mentions",
+      "source": "psf/requests#7432",
+      "target": "entity:redirect"
+    },
+    {
+      "relation": "mentions",
+      "source": "psf/requests#7432",
+      "target": "entity:timeout"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:redirect",
+      "target": "psf/requests#7607"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:redirect",
+      "target": "psf/requests#7615"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:redirect",
+      "target": "pytest-dev/pytest#14995"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:timeout",
+      "target": "pytest-dev/pytest#14683"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:timeout",
+      "target": "pytest-dev/pytest#14935"
+    },
+    {
+      "relation": "mentions",
+      "source": "psf/requests#7456",
+      "target": "entity:NameError"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:NameError",
+      "target": "pytest-dev/pytest#14683"
+    },
+    {
+      "relation": "mentions",
+      "source": "psf/requests#7593",
+      "target": "entity:KeyError"
+    },
+    {
+      "relation": "mentions",
+      "source": "psf/requests#7600",
+      "target": "entity:HTTPError"
+    },
+    {
+      "relation": "mentions",
+      "source": "psf/requests#7611",
+      "target": "entity:AttributeError"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:AttributeError",
+      "target": "pytest-dev/pytest#14909"
+    },
+    {
+      "relation": "mentions",
+      "source": "pytest-dev/pytest#10577",
+      "target": "entity:pytest"
+    },
+    {
+      "relation": "mentions",
+      "source": "pytest-dev/pytest#10577",
+      "target": "entity:AssertionError"
+    },
+    {
+      "relation": "explicit_reference",
+      "source": "pytest-dev/pytest#10577",
+      "target": "pytest-dev/pytest#14935"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pytest",
+      "target": "pytest-dev/pytest#1120"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pytest",
+      "target": "pytest-dev/pytest#11779"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pytest",
+      "target": "pytest-dev/pytest#13246"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pytest",
+      "target": "pytest-dev/pytest#14004"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pytest",
+      "target": "pytest-dev/pytest#14640"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pytest",
+      "target": "pytest-dev/pytest#14650"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pytest",
+      "target": "pytest-dev/pytest#14651"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pytest",
+      "target": "pytest-dev/pytest#14660"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pytest",
+      "target": "pytest-dev/pytest#14675"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pytest",
+      "target": "pytest-dev/pytest#14683"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pytest",
+      "target": "pytest-dev/pytest#14691"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pytest",
+      "target": "pytest-dev/pytest#14700"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pytest",
+      "target": "pytest-dev/pytest#14705"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pytest",
+      "target": "pytest-dev/pytest#14716"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pytest",
+      "target": "pytest-dev/pytest#14724"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pytest",
+      "target": "pytest-dev/pytest#14743"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pytest",
+      "target": "pytest-dev/pytest#14762"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pytest",
+      "target": "pytest-dev/pytest#14765"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pytest",
+      "target": "pytest-dev/pytest#14808"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pytest",
+      "target": "pytest-dev/pytest#14818"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pytest",
+      "target": "pytest-dev/pytest#14828"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pytest",
+      "target": "pytest-dev/pytest#14852"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pytest",
+      "target": "pytest-dev/pytest#14864"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pytest",
+      "target": "pytest-dev/pytest#14882"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pytest",
+      "target": "pytest-dev/pytest#14909"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pytest",
+      "target": "pytest-dev/pytest#14935"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pytest",
+      "target": "pytest-dev/pytest#14942"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pytest",
+      "target": "pytest-dev/pytest#14953"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pytest",
+      "target": "pytest-dev/pytest#14964"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pytest",
+      "target": "pytest-dev/pytest#14971"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pytest",
+      "target": "pytest-dev/pytest#14992"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pytest",
+      "target": "pytest-dev/pytest#14995"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pytest",
+      "target": "pytest-dev/pytest#14997"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pytest",
+      "target": "pytest-dev/pytest#15005"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pytest",
+      "target": "pytest-dev/pytest#15043"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pytest",
+      "target": "pytest-dev/pytest#15071"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pytest",
+      "target": "pytest-dev/pytest#15080"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:pytest",
+      "target": "pytest-dev/pytest#15081"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:AssertionError",
+      "target": "pytest-dev/pytest#14700"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:AssertionError",
+      "target": "pytest-dev/pytest#14995"
+    },
+    {
+      "relation": "explicit_reference",
+      "source": "pytest-dev/pytest#1120",
+      "target": "pytest-dev/pytest#14935"
+    },
+    {
+      "relation": "explicit_reference",
+      "source": "pytest-dev/pytest#11779",
+      "target": "pytest-dev/pytest#14651"
+    },
+    {
+      "relation": "mentions",
+      "source": "pytest-dev/pytest#13246",
+      "target": "entity:fixture"
+    },
+    {
+      "relation": "explicit_reference",
+      "source": "pytest-dev/pytest#13246",
+      "target": "pytest-dev/pytest#14716"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:fixture",
+      "target": "pytest-dev/pytest#14004"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:fixture",
+      "target": "pytest-dev/pytest#14640"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:fixture",
+      "target": "pytest-dev/pytest#14683"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:fixture",
+      "target": "pytest-dev/pytest#14691"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:fixture",
+      "target": "pytest-dev/pytest#14765"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:fixture",
+      "target": "pytest-dev/pytest#14852"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:fixture",
+      "target": "pytest-dev/pytest#14882"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:fixture",
+      "target": "pytest-dev/pytest#14909"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:fixture",
+      "target": "pytest-dev/pytest#14942"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:fixture",
+      "target": "pytest-dev/pytest#14964"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:fixture",
+      "target": "pytest-dev/pytest#14971"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:fixture",
+      "target": "pytest-dev/pytest#14992"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:fixture",
+      "target": "pytest-dev/pytest#14995"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:fixture",
+      "target": "pytest-dev/pytest#14997"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:fixture",
+      "target": "pytest-dev/pytest#15052"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:fixture",
+      "target": "pytest-dev/pytest#15071"
+    },
+    {
+      "relation": "explicit_reference",
+      "source": "pytest-dev/pytest#14004",
+      "target": "pytest-dev/pytest#14964"
+    },
+    {
+      "relation": "mentions",
+      "source": "pytest-dev/pytest#14651",
+      "target": "entity:PluginValidationError"
+    },
+    {
+      "relation": "mentions",
+      "source": "pytest-dev/pytest#14675",
+      "target": "entity:TypeError"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:TypeError",
+      "target": "pytest-dev/pytest#14808"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:TypeError",
+      "target": "pytest-dev/pytest#14909"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:TypeError",
+      "target": "pytest-dev/pytest#14953"
+    },
+    {
+      "relation": "mentions",
+      "source": "pytest-dev/pytest#14691",
+      "target": "entity:python:3.9"
+    },
+    {
+      "relation": "mentions",
+      "source": "pytest-dev/pytest#14716",
+      "target": "entity:UsageError"
+    },
+    {
+      "relation": "mentions",
+      "source": "pytest-dev/pytest#14716",
+      "target": "entity:FileNotFoundError"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:FileNotFoundError",
+      "target": "pytest-dev/pytest#14935"
+    },
+    {
+      "relation": "mentions",
+      "source": "pytest-dev/pytest#14828",
+      "target": "entity:RuntimeError"
+    },
+    {
+      "relation": "mentions",
+      "source": "entity:RuntimeError",
+      "target": "pytest-dev/pytest#14964"
+    },
+    {
+      "relation": "mentions",
+      "source": "pytest-dev/pytest#15043",
+      "target": "entity:OSError"
+    }
+  ]
+}

@@ -1,0 +1,4592 @@
+[
+  {
+    "query_id": "challenge-01",
+    "query": "An automated job on an Apple machine gets stuck waiting for someone to approve elevated privileges while provisioning an interpreter. Find a similar report.",
+    "kind": "paraphrase",
+    "method": "bm25",
+    "relevant_ids": [
+      "actions/setup-python#1238"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1240",
+      "actions/setup-python#1306",
+      "actions/setup-python#1252",
+      "actions/setup-python#1238",
+      "actions/setup-python#1307"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 0.25,
+      "ndcg_at_5": 0.43067655807339306,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-01",
+    "query": "An automated job on an Apple machine gets stuck waiting for someone to approve elevated privileges while provisioning an interpreter. Find a similar report.",
+    "kind": "paraphrase",
+    "method": "semantic",
+    "relevant_ids": [
+      "actions/setup-python#1238"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1306",
+      "actions/setup-python#1238",
+      "actions/setup-python#1318",
+      "actions/setup-python#1320",
+      "actions/setup-python#1295"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 0.5,
+      "ndcg_at_5": 0.6309297535714575,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-01",
+    "query": "An automated job on an Apple machine gets stuck waiting for someone to approve elevated privileges while provisioning an interpreter. Find a similar report.",
+    "kind": "paraphrase",
+    "method": "graph",
+    "relevant_ids": [
+      "actions/setup-python#1238"
+    ],
+    "retrieved_ids": [],
+    "metrics": {
+      "recall_at_5": 0.0,
+      "precision_at_5": 0.0,
+      "mrr": 0.0,
+      "ndcg_at_5": 0.0,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-01",
+    "query": "An automated job on an Apple machine gets stuck waiting for someone to approve elevated privileges while provisioning an interpreter. Find a similar report.",
+    "kind": "paraphrase",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "actions/setup-python#1238"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1306",
+      "actions/setup-python#1238",
+      "actions/setup-python#1318",
+      "actions/setup-python#1252",
+      "actions/setup-python#1320"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 0.5,
+      "ndcg_at_5": 0.6309297535714575,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-01",
+    "query": "An automated job on an Apple machine gets stuck waiting for someone to approve elevated privileges while provisioning an interpreter. Find a similar report.",
+    "kind": "paraphrase",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "actions/setup-python#1238"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1306",
+      "actions/setup-python#1238",
+      "actions/setup-python#1318",
+      "actions/setup-python#1252",
+      "actions/setup-python#1320"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 0.5,
+      "ndcg_at_5": 0.6309297535714575,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-01",
+    "query": "An automated job on an Apple machine gets stuck waiting for someone to approve elevated privileges while provisioning an interpreter. Find a similar report.",
+    "kind": "paraphrase",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "actions/setup-python#1238"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1306",
+      "actions/setup-python#1238",
+      "actions/setup-python#1318",
+      "actions/setup-python#1252",
+      "actions/setup-python#1320"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 0.5,
+      "ndcg_at_5": 0.6309297535714575,
+      "hit_at_1": 0
+    },
+    "confidence": 0.7131659900822612,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-02",
+    "query": "A request library filters line breaks in header fields but lets invisible zero-valued characters through. Which report includes that reproduction?",
+    "kind": "paraphrase",
+    "method": "bm25",
+    "relevant_ids": [
+      "psf/requests#7335"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7335",
+      "psf/requests#5888",
+      "psf/requests#7432",
+      "psf/requests#7605",
+      "pytest-dev/pytest#14724"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-02",
+    "query": "A request library filters line breaks in header fields but lets invisible zero-valued characters through. Which report includes that reproduction?",
+    "kind": "paraphrase",
+    "method": "semantic",
+    "relevant_ids": [
+      "psf/requests#7335"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7335",
+      "psf/requests#7600",
+      "psf/requests#7592",
+      "psf/requests#7442",
+      "pytest-dev/pytest#14724"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-02",
+    "query": "A request library filters line breaks in header fields but lets invisible zero-valued characters through. Which report includes that reproduction?",
+    "kind": "paraphrase",
+    "method": "graph",
+    "relevant_ids": [
+      "psf/requests#7335"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7615"
+    ],
+    "metrics": {
+      "recall_at_5": 0.0,
+      "precision_at_5": 0.0,
+      "mrr": 0.0,
+      "ndcg_at_5": 0.0,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-02",
+    "query": "A request library filters line breaks in header fields but lets invisible zero-valued characters through. Which report includes that reproduction?",
+    "kind": "paraphrase",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "psf/requests#7335"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7615",
+      "psf/requests#7335",
+      "pytest-dev/pytest#14724",
+      "psf/requests#5888",
+      "psf/requests#7459"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 0.5,
+      "ndcg_at_5": 0.6309297535714575,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-02",
+    "query": "A request library filters line breaks in header fields but lets invisible zero-valued characters through. Which report includes that reproduction?",
+    "kind": "paraphrase",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "psf/requests#7335"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7335",
+      "pytest-dev/pytest#14724",
+      "psf/requests#5888",
+      "psf/requests#7459",
+      "psf/requests#7432"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-02",
+    "query": "A request library filters line breaks in header fields but lets invisible zero-valued characters through. Which report includes that reproduction?",
+    "kind": "paraphrase",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "psf/requests#7335"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7615",
+      "psf/requests#7335",
+      "pytest-dev/pytest#14724",
+      "psf/requests#5888",
+      "psf/requests#7459"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 0.5,
+      "ndcg_at_5": 0.6309297535714575,
+      "hit_at_1": 0
+    },
+    "confidence": 0.9647099929066008,
+    "accepted": true
+  },
+  {
+    "query_id": "challenge-03",
+    "query": "A response cache cannot resolve the inherited annotations because names imported only for static checking are absent when the application runs.",
+    "kind": "paraphrase",
+    "method": "bm25",
+    "relevant_ids": [
+      "psf/requests#7456"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7456",
+      "pytest-dev/pytest#14882",
+      "pytest-dev/pytest#14964",
+      "psf/requests#7600",
+      "psf/requests#7621"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-03",
+    "query": "A response cache cannot resolve the inherited annotations because names imported only for static checking are absent when the application runs.",
+    "kind": "paraphrase",
+    "method": "semantic",
+    "relevant_ids": [
+      "psf/requests#7456"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1317",
+      "psf/requests#7456",
+      "pytest-dev/pytest#14765",
+      "psf/requests#7434",
+      "psf/requests#7284"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 0.5,
+      "ndcg_at_5": 0.6309297535714575,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-03",
+    "query": "A response cache cannot resolve the inherited annotations because names imported only for static checking are absent when the application runs.",
+    "kind": "paraphrase",
+    "method": "graph",
+    "relevant_ids": [
+      "psf/requests#7456"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1050",
+      "actions/setup-python#1060",
+      "actions/setup-python#1240",
+      "actions/setup-python#1244",
+      "actions/setup-python#1255"
+    ],
+    "metrics": {
+      "recall_at_5": 0.0,
+      "precision_at_5": 0.0,
+      "mrr": 0.07142857142857142,
+      "ndcg_at_5": 0.0,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-03",
+    "query": "A response cache cannot resolve the inherited annotations because names imported only for static checking are absent when the application runs.",
+    "kind": "paraphrase",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "psf/requests#7456"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7456",
+      "actions/setup-python#1317",
+      "pytest-dev/pytest#14964",
+      "actions/setup-python#1261",
+      "pytest-dev/pytest#15071"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-03",
+    "query": "A response cache cannot resolve the inherited annotations because names imported only for static checking are absent when the application runs.",
+    "kind": "paraphrase",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "psf/requests#7456"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7456",
+      "actions/setup-python#1317",
+      "psf/requests#7600",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14992"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-03",
+    "query": "A response cache cannot resolve the inherited annotations because names imported only for static checking are absent when the application runs.",
+    "kind": "paraphrase",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "psf/requests#7456"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7456",
+      "actions/setup-python#1317",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#15071",
+      "actions/setup-python#1261"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": 0.8399643342027908,
+    "accepted": true
+  },
+  {
+    "query_id": "challenge-04",
+    "query": "The checker says an exception's attached reply might be absent, even though the failing status check supplied it. Which Requests report discusses this mismatch?",
+    "kind": "paraphrase",
+    "method": "bm25",
+    "relevant_ids": [
+      "psf/requests#7600"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7375",
+      "pytest-dev/pytest#14852",
+      "psf/requests#7284",
+      "actions/setup-python#1317",
+      "pytest-dev/pytest#14651"
+    ],
+    "metrics": {
+      "recall_at_5": 0.0,
+      "precision_at_5": 0.0,
+      "mrr": 0.034482758620689655,
+      "ndcg_at_5": 0.0,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-04",
+    "query": "The checker says an exception's attached reply might be absent, even though the failing status check supplied it. Which Requests report discusses this mismatch?",
+    "kind": "paraphrase",
+    "method": "semantic",
+    "relevant_ids": [
+      "psf/requests#7600"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7600",
+      "psf/requests#5842",
+      "psf/requests#7432",
+      "psf/requests#7601",
+      "psf/requests#7611"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-04",
+    "query": "The checker says an exception's attached reply might be absent, even though the failing status check supplied it. Which Requests report discusses this mismatch?",
+    "kind": "paraphrase",
+    "method": "graph",
+    "relevant_ids": [
+      "psf/requests#7600"
+    ],
+    "retrieved_ids": [],
+    "metrics": {
+      "recall_at_5": 0.0,
+      "precision_at_5": 0.0,
+      "mrr": 0.0,
+      "ndcg_at_5": 0.0,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-04",
+    "query": "The checker says an exception's attached reply might be absent, even though the failing status check supplied it. Which Requests report discusses this mismatch?",
+    "kind": "paraphrase",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "psf/requests#7600"
+    ],
+    "retrieved_ids": [
+      "psf/requests#5842",
+      "actions/setup-python#1317",
+      "pytest-dev/pytest#14700",
+      "psf/requests#7601",
+      "psf/requests#7594"
+    ],
+    "metrics": {
+      "recall_at_5": 0.0,
+      "precision_at_5": 0.0,
+      "mrr": 0.1,
+      "ndcg_at_5": 0.0,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-04",
+    "query": "The checker says an exception's attached reply might be absent, even though the failing status check supplied it. Which Requests report discusses this mismatch?",
+    "kind": "paraphrase",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "psf/requests#7600"
+    ],
+    "retrieved_ids": [
+      "psf/requests#5842",
+      "actions/setup-python#1317",
+      "pytest-dev/pytest#14700",
+      "psf/requests#7601",
+      "psf/requests#7594"
+    ],
+    "metrics": {
+      "recall_at_5": 0.0,
+      "precision_at_5": 0.0,
+      "mrr": 0.1,
+      "ndcg_at_5": 0.0,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-04",
+    "query": "The checker says an exception's attached reply might be absent, even though the failing status check supplied it. Which Requests report discusses this mismatch?",
+    "kind": "paraphrase",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "psf/requests#7600"
+    ],
+    "retrieved_ids": [
+      "psf/requests#5842",
+      "actions/setup-python#1317",
+      "pytest-dev/pytest#14700",
+      "pytest-dev/pytest#14828",
+      "psf/requests#7601"
+    ],
+    "metrics": {
+      "recall_at_5": 0.0,
+      "precision_at_5": 0.0,
+      "mrr": 0.1,
+      "ndcg_at_5": 0.0,
+      "hit_at_1": 0
+    },
+    "confidence": 0.7686256227580147,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-05",
+    "query": "A nested test directory's setup runs for neighbouring tests when the configured discovery location goes above the project boundary.",
+    "kind": "paraphrase",
+    "method": "bm25",
+    "relevant_ids": [
+      "pytest-dev/pytest#14004"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14971",
+      "pytest-dev/pytest#14004",
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14762",
+      "pytest-dev/pytest#14997"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 0.5,
+      "ndcg_at_5": 0.6309297535714575,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-05",
+    "query": "A nested test directory's setup runs for neighbouring tests when the configured discovery location goes above the project boundary.",
+    "kind": "paraphrase",
+    "method": "semantic",
+    "relevant_ids": [
+      "pytest-dev/pytest#14004"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14004",
+      "pytest-dev/pytest#14971",
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14997"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-05",
+    "query": "A nested test directory's setup runs for neighbouring tests when the configured discovery location goes above the project boundary.",
+    "kind": "paraphrase",
+    "method": "graph",
+    "relevant_ids": [
+      "pytest-dev/pytest#14004"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14716"
+    ],
+    "metrics": {
+      "recall_at_5": 0.0,
+      "precision_at_5": 0.0,
+      "mrr": 0.0,
+      "ndcg_at_5": 0.0,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-05",
+    "query": "A nested test directory's setup runs for neighbouring tests when the configured discovery location goes above the project boundary.",
+    "kind": "paraphrase",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "pytest-dev/pytest#14004"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14004",
+      "pytest-dev/pytest#14971",
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14997"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 0.5,
+      "ndcg_at_5": 0.6309297535714575,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-05",
+    "query": "A nested test directory's setup runs for neighbouring tests when the configured discovery location goes above the project boundary.",
+    "kind": "paraphrase",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "pytest-dev/pytest#14004"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14004",
+      "pytest-dev/pytest#14971",
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14997",
+      "pytest-dev/pytest#14640"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-05",
+    "query": "A nested test directory's setup runs for neighbouring tests when the configured discovery location goes above the project boundary.",
+    "kind": "paraphrase",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "pytest-dev/pytest#14004"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14971",
+      "pytest-dev/pytest#14004",
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14997"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 0.3333333333333333,
+      "ndcg_at_5": 0.5,
+      "hit_at_1": 0
+    },
+    "confidence": 0.7212609126392648,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-06",
+    "query": "A supposedly scalar configuration option comes back as an array. The two configuration readers disagree about whether to reject it.",
+    "kind": "paraphrase",
+    "method": "bm25",
+    "relevant_ids": [
+      "pytest-dev/pytest#14808"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14808",
+      "pytest-dev/pytest#14953",
+      "psf/requests#7601",
+      "actions/setup-python#1318",
+      "pytest-dev/pytest#14935"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-06",
+    "query": "A supposedly scalar configuration option comes back as an array. The two configuration readers disagree about whether to reject it.",
+    "kind": "paraphrase",
+    "method": "semantic",
+    "relevant_ids": [
+      "pytest-dev/pytest#14808"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14808",
+      "actions/setup-python#1317",
+      "pytest-dev/pytest#14953",
+      "pytest-dev/pytest#14992",
+      "pytest-dev/pytest#14705"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-06",
+    "query": "A supposedly scalar configuration option comes back as an array. The two configuration readers disagree about whether to reject it.",
+    "kind": "paraphrase",
+    "method": "graph",
+    "relevant_ids": [
+      "pytest-dev/pytest#14808"
+    ],
+    "retrieved_ids": [
+      "psf/requests#5842"
+    ],
+    "metrics": {
+      "recall_at_5": 0.0,
+      "precision_at_5": 0.0,
+      "mrr": 0.0,
+      "ndcg_at_5": 0.0,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-06",
+    "query": "A supposedly scalar configuration option comes back as an array. The two configuration readers disagree about whether to reject it.",
+    "kind": "paraphrase",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "pytest-dev/pytest#14808"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14808",
+      "pytest-dev/pytest#14953",
+      "psf/requests#5842",
+      "pytest-dev/pytest#14992",
+      "pytest-dev/pytest#14705"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-06",
+    "query": "A supposedly scalar configuration option comes back as an array. The two configuration readers disagree about whether to reject it.",
+    "kind": "paraphrase",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "pytest-dev/pytest#14808"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14808",
+      "pytest-dev/pytest#14953",
+      "pytest-dev/pytest#14992",
+      "pytest-dev/pytest#14705",
+      "psf/requests#7432"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-06",
+    "query": "A supposedly scalar configuration option comes back as an array. The two configuration readers disagree about whether to reject it.",
+    "kind": "paraphrase",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "pytest-dev/pytest#14808"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14808",
+      "pytest-dev/pytest#14953",
+      "pytest-dev/pytest#14992",
+      "pytest-dev/pytest#14705",
+      "pytest-dev/pytest#14675"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": 0.9408697863163724,
+    "accepted": true
+  },
+  {
+    "query_id": "challenge-07",
+    "query": "Installing a free-threaded interpreter on Microsoft's ARM runner suddenly stopped succeeding although the downloaded binary's digest stayed unchanged.",
+    "kind": "paraphrase",
+    "method": "bm25",
+    "relevant_ids": [
+      "actions/setup-python#1267"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1307",
+      "actions/setup-python#1306",
+      "actions/setup-python#1319",
+      "actions/setup-python#1317",
+      "actions/setup-python#1060"
+    ],
+    "metrics": {
+      "recall_at_5": 0.0,
+      "precision_at_5": 0.0,
+      "mrr": 0.09090909090909091,
+      "ndcg_at_5": 0.0,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-07",
+    "query": "Installing a free-threaded interpreter on Microsoft's ARM runner suddenly stopped succeeding although the downloaded binary's digest stayed unchanged.",
+    "kind": "paraphrase",
+    "method": "semantic",
+    "relevant_ids": [
+      "actions/setup-python#1267"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1307",
+      "actions/setup-python#1267",
+      "actions/setup-python#1318",
+      "actions/setup-python#1060",
+      "actions/setup-python#1261"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 0.5,
+      "ndcg_at_5": 0.6309297535714575,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-07",
+    "query": "Installing a free-threaded interpreter on Microsoft's ARM runner suddenly stopped succeeding although the downloaded binary's digest stayed unchanged.",
+    "kind": "paraphrase",
+    "method": "graph",
+    "relevant_ids": [
+      "actions/setup-python#1267"
+    ],
+    "retrieved_ids": [],
+    "metrics": {
+      "recall_at_5": 0.0,
+      "precision_at_5": 0.0,
+      "mrr": 0.0,
+      "ndcg_at_5": 0.0,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-07",
+    "query": "Installing a free-threaded interpreter on Microsoft's ARM runner suddenly stopped succeeding although the downloaded binary's digest stayed unchanged.",
+    "kind": "paraphrase",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "actions/setup-python#1267"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1307",
+      "actions/setup-python#1060",
+      "actions/setup-python#1306",
+      "actions/setup-python#1318",
+      "actions/setup-python#1261"
+    ],
+    "metrics": {
+      "recall_at_5": 0.0,
+      "precision_at_5": 0.0,
+      "mrr": 0.16666666666666666,
+      "ndcg_at_5": 0.0,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-07",
+    "query": "Installing a free-threaded interpreter on Microsoft's ARM runner suddenly stopped succeeding although the downloaded binary's digest stayed unchanged.",
+    "kind": "paraphrase",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "actions/setup-python#1267"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1307",
+      "actions/setup-python#1060",
+      "actions/setup-python#1306",
+      "actions/setup-python#1318",
+      "actions/setup-python#1261"
+    ],
+    "metrics": {
+      "recall_at_5": 0.0,
+      "precision_at_5": 0.0,
+      "mrr": 0.16666666666666666,
+      "ndcg_at_5": 0.0,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-07",
+    "query": "Installing a free-threaded interpreter on Microsoft's ARM runner suddenly stopped succeeding although the downloaded binary's digest stayed unchanged.",
+    "kind": "paraphrase",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "actions/setup-python#1267"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1307",
+      "actions/setup-python#1060",
+      "actions/setup-python#1306",
+      "actions/setup-python#1318",
+      "actions/setup-python#1261"
+    ],
+    "metrics": {
+      "recall_at_5": 0.0,
+      "precision_at_5": 0.0,
+      "mrr": 0.16666666666666666,
+      "ndcg_at_5": 0.0,
+      "hit_at_1": 0
+    },
+    "confidence": 0.9660533702837947,
+    "accepted": true
+  },
+  {
+    "query_id": "challenge-08",
+    "query": "Our non-x86 Linux build machine has no available precompiled Python distribution. Find the report about the RISC-V architecture gap.",
+    "kind": "paraphrase",
+    "method": "bm25",
+    "relevant_ids": [
+      "actions/setup-python#1288"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1288",
+      "actions/setup-python#1214",
+      "psf/requests#7442",
+      "actions/setup-python#1319",
+      "actions/setup-python#1265"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-08",
+    "query": "Our non-x86 Linux build machine has no available precompiled Python distribution. Find the report about the RISC-V architecture gap.",
+    "kind": "paraphrase",
+    "method": "semantic",
+    "relevant_ids": [
+      "actions/setup-python#1288"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1288",
+      "actions/setup-python#1265",
+      "actions/setup-python#1214",
+      "actions/setup-python#1277",
+      "actions/setup-python#1314"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-08",
+    "query": "Our non-x86 Linux build machine has no available precompiled Python distribution. Find the report about the RISC-V architecture gap.",
+    "kind": "paraphrase",
+    "method": "graph",
+    "relevant_ids": [
+      "actions/setup-python#1288"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1265",
+      "actions/setup-python#1050",
+      "actions/setup-python#1060",
+      "actions/setup-python#1214",
+      "actions/setup-python#1238"
+    ],
+    "metrics": {
+      "recall_at_5": 0.0,
+      "precision_at_5": 0.0,
+      "mrr": 0.05555555555555555,
+      "ndcg_at_5": 0.0,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-08",
+    "query": "Our non-x86 Linux build machine has no available precompiled Python distribution. Find the report about the RISC-V architecture gap.",
+    "kind": "paraphrase",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "actions/setup-python#1288"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1265",
+      "actions/setup-python#1214",
+      "actions/setup-python#1288",
+      "actions/setup-python#1252",
+      "actions/setup-python#1314"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 0.3333333333333333,
+      "ndcg_at_5": 0.5,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-08",
+    "query": "Our non-x86 Linux build machine has no available precompiled Python distribution. Find the report about the RISC-V architecture gap.",
+    "kind": "paraphrase",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "actions/setup-python#1288"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1288",
+      "actions/setup-python#1214",
+      "actions/setup-python#1265",
+      "actions/setup-python#1319",
+      "actions/setup-python#1314"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-08",
+    "query": "Our non-x86 Linux build machine has no available precompiled Python distribution. Find the report about the RISC-V architecture gap.",
+    "kind": "paraphrase",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "actions/setup-python#1288"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1214",
+      "actions/setup-python#1265",
+      "actions/setup-python#1288",
+      "actions/setup-python#1314",
+      "actions/setup-python#1319"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 0.3333333333333333,
+      "ndcg_at_5": 0.5,
+      "hit_at_1": 0
+    },
+    "confidence": 0.9905115347968915,
+    "accepted": true
+  },
+  {
+    "query_id": "challenge-09",
+    "query": "setup-python self-hosted: exit 3 / PIP_REQUIRE_VIRTUALENV=true / no activated venv",
+    "kind": "terse_log",
+    "method": "bm25",
+    "relevant_ids": [
+      "actions/setup-python#1285"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1285",
+      "actions/setup-python#1295",
+      "actions/setup-python#1318",
+      "actions/setup-python#1261",
+      "actions/setup-python#1275"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-09",
+    "query": "setup-python self-hosted: exit 3 / PIP_REQUIRE_VIRTUALENV=true / no activated venv",
+    "kind": "terse_log",
+    "method": "semantic",
+    "relevant_ids": [
+      "actions/setup-python#1285"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1285",
+      "actions/setup-python#1050",
+      "actions/setup-python#1295",
+      "actions/setup-python#1306",
+      "actions/setup-python#1256"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-09",
+    "query": "setup-python self-hosted: exit 3 / PIP_REQUIRE_VIRTUALENV=true / no activated venv",
+    "kind": "terse_log",
+    "method": "graph",
+    "relevant_ids": [
+      "actions/setup-python#1285"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1050",
+      "actions/setup-python#1060",
+      "actions/setup-python#1214",
+      "actions/setup-python#1238",
+      "actions/setup-python#1240"
+    ],
+    "metrics": {
+      "recall_at_5": 0.0,
+      "precision_at_5": 0.0,
+      "mrr": 0.05,
+      "ndcg_at_5": 0.0,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-09",
+    "query": "setup-python self-hosted: exit 3 / PIP_REQUIRE_VIRTUALENV=true / no activated venv",
+    "kind": "terse_log",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "actions/setup-python#1285"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1285",
+      "actions/setup-python#1238",
+      "actions/setup-python#1050",
+      "actions/setup-python#1295",
+      "actions/setup-python#1261"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-09",
+    "query": "setup-python self-hosted: exit 3 / PIP_REQUIRE_VIRTUALENV=true / no activated venv",
+    "kind": "terse_log",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "actions/setup-python#1285"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1285",
+      "actions/setup-python#1295",
+      "actions/setup-python#1261",
+      "actions/setup-python#1275",
+      "actions/setup-python#1238"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-09",
+    "query": "setup-python self-hosted: exit 3 / PIP_REQUIRE_VIRTUALENV=true / no activated venv",
+    "kind": "terse_log",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "actions/setup-python#1285"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1285",
+      "actions/setup-python#1295",
+      "actions/setup-python#1238",
+      "actions/setup-python#1261",
+      "actions/setup-python#1275"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": 0.9944535729091957,
+    "accepted": true
+  },
+  {
+    "query_id": "challenge-10",
+    "query": "win arm64 3.13t: ModuleNotFoundError: No module named 'encodings'; python.exe size=0",
+    "kind": "terse_log",
+    "method": "bm25",
+    "relevant_ids": [
+      "actions/setup-python#1307"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1307",
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#15043",
+      "actions/setup-python#1241",
+      "actions/setup-python#1252"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-10",
+    "query": "win arm64 3.13t: ModuleNotFoundError: No module named 'encodings'; python.exe size=0",
+    "kind": "terse_log",
+    "method": "semantic",
+    "relevant_ids": [
+      "actions/setup-python#1307"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1307",
+      "actions/setup-python#1267",
+      "actions/setup-python#1241",
+      "actions/setup-python#1314",
+      "actions/setup-python#1356"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-10",
+    "query": "win arm64 3.13t: ModuleNotFoundError: No module named 'encodings'; python.exe size=0",
+    "kind": "terse_log",
+    "method": "graph",
+    "relevant_ids": [
+      "actions/setup-python#1307"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1307",
+      "actions/setup-python#1050",
+      "actions/setup-python#1060",
+      "actions/setup-python#1214",
+      "actions/setup-python#1238"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-10",
+    "query": "win arm64 3.13t: ModuleNotFoundError: No module named 'encodings'; python.exe size=0",
+    "kind": "terse_log",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "actions/setup-python#1307"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1307",
+      "actions/setup-python#1241",
+      "actions/setup-python#1267",
+      "actions/setup-python#1060",
+      "actions/setup-python#1252"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-10",
+    "query": "win arm64 3.13t: ModuleNotFoundError: No module named 'encodings'; python.exe size=0",
+    "kind": "terse_log",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "actions/setup-python#1307"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1307",
+      "actions/setup-python#1241",
+      "actions/setup-python#1267",
+      "actions/setup-python#1318",
+      "actions/setup-python#1252"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-10",
+    "query": "win arm64 3.13t: ModuleNotFoundError: No module named 'encodings'; python.exe size=0",
+    "kind": "terse_log",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "actions/setup-python#1307"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1307",
+      "actions/setup-python#1241",
+      "actions/setup-python#1267",
+      "actions/setup-python#1252",
+      "actions/setup-python#1060"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": 0.9982543447600044,
+    "accepted": true
+  },
+  {
+    "query_id": "challenge-11",
+    "query": "typing.get_type_hints(Response) -> NameError RequestsCookieJar; requests 2.34.0",
+    "kind": "terse_log",
+    "method": "bm25",
+    "relevant_ids": [
+      "psf/requests#7456"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7456",
+      "psf/requests#7600",
+      "psf/requests#7434",
+      "psf/requests#7465",
+      "psf/requests#7432"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-11",
+    "query": "typing.get_type_hints(Response) -> NameError RequestsCookieJar; requests 2.34.0",
+    "kind": "terse_log",
+    "method": "semantic",
+    "relevant_ids": [
+      "psf/requests#7456"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7456",
+      "psf/requests#7442",
+      "psf/requests#7594",
+      "psf/requests#7558",
+      "psf/requests#7621"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-11",
+    "query": "typing.get_type_hints(Response) -> NameError RequestsCookieJar; requests 2.34.0",
+    "kind": "terse_log",
+    "method": "graph",
+    "relevant_ids": [
+      "psf/requests#7456"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7456",
+      "pytest-dev/pytest#14683"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-11",
+    "query": "typing.get_type_hints(Response) -> NameError RequestsCookieJar; requests 2.34.0",
+    "kind": "terse_log",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "psf/requests#7456"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7456",
+      "psf/requests#7600",
+      "pytest-dev/pytest#14683",
+      "psf/requests#7621",
+      "psf/requests#7442"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-11",
+    "query": "typing.get_type_hints(Response) -> NameError RequestsCookieJar; requests 2.34.0",
+    "kind": "terse_log",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "psf/requests#7456"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7456",
+      "psf/requests#7600",
+      "psf/requests#7621",
+      "psf/requests#7442",
+      "psf/requests#7434"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-11",
+    "query": "typing.get_type_hints(Response) -> NameError RequestsCookieJar; requests 2.34.0",
+    "kind": "terse_log",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "psf/requests#7456"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7456",
+      "psf/requests#7600",
+      "psf/requests#7621",
+      "psf/requests#7442",
+      "psf/requests#7434"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": 0.999011379628518,
+    "accepted": true
+  },
+  {
+    "query_id": "challenge-12",
+    "query": "mypy union-attr / except requests.HTTPError as e / e.response.status_code",
+    "kind": "terse_log",
+    "method": "bm25",
+    "relevant_ids": [
+      "psf/requests#7600"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7600",
+      "psf/requests#7611",
+      "psf/requests#7434",
+      "pytest-dev/pytest#14743",
+      "actions/setup-python#1060"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-12",
+    "query": "mypy union-attr / except requests.HTTPError as e / e.response.status_code",
+    "kind": "terse_log",
+    "method": "semantic",
+    "relevant_ids": [
+      "psf/requests#7600"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7600",
+      "psf/requests#7442",
+      "psf/requests#7335",
+      "psf/requests#7434",
+      "psf/requests#5888"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-12",
+    "query": "mypy union-attr / except requests.HTTPError as e / e.response.status_code",
+    "kind": "terse_log",
+    "method": "graph",
+    "relevant_ids": [
+      "psf/requests#7600"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7600"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-12",
+    "query": "mypy union-attr / except requests.HTTPError as e / e.response.status_code",
+    "kind": "terse_log",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "psf/requests#7600"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7600",
+      "psf/requests#7434",
+      "psf/requests#7611",
+      "psf/requests#7442",
+      "pytest-dev/pytest#14650"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-12",
+    "query": "mypy union-attr / except requests.HTTPError as e / e.response.status_code",
+    "kind": "terse_log",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "psf/requests#7600"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7600",
+      "psf/requests#7434",
+      "psf/requests#7611",
+      "psf/requests#7442",
+      "pytest-dev/pytest#14650"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-12",
+    "query": "mypy union-attr / except requests.HTTPError as e / e.response.status_code",
+    "kind": "terse_log",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "psf/requests#7600"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7600",
+      "psf/requests#7434",
+      "psf/requests#7611",
+      "psf/requests#7442",
+      "pytest-dev/pytest#14650"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": 0.9953728083742108,
+    "accepted": true
+  },
+  {
+    "query_id": "challenge-13",
+    "query": "pytest -c fake_config.in vs fake_config.ini: ignored or FileNotFoundError",
+    "kind": "terse_log",
+    "method": "bm25",
+    "relevant_ids": [
+      "pytest-dev/pytest#14716"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14716",
+      "pytest-dev/pytest#14650",
+      "actions/setup-python#1317",
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#10577"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-13",
+    "query": "pytest -c fake_config.in vs fake_config.ini: ignored or FileNotFoundError",
+    "kind": "terse_log",
+    "method": "semantic",
+    "relevant_ids": [
+      "pytest-dev/pytest#14716"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14716",
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14971",
+      "pytest-dev/pytest#14640"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-13",
+    "query": "pytest -c fake_config.in vs fake_config.ini: ignored or FileNotFoundError",
+    "kind": "terse_log",
+    "method": "graph",
+    "relevant_ids": [
+      "pytest-dev/pytest#14716"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14716",
+      "pytest-dev/pytest#14935",
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#10577",
+      "pytest-dev/pytest#1120"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-13",
+    "query": "pytest -c fake_config.in vs fake_config.ini: ignored or FileNotFoundError",
+    "kind": "terse_log",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "pytest-dev/pytest#14716"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14716",
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#10577",
+      "pytest-dev/pytest#14705"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-13",
+    "query": "pytest -c fake_config.in vs fake_config.ini: ignored or FileNotFoundError",
+    "kind": "terse_log",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "pytest-dev/pytest#14716"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14716",
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14705",
+      "pytest-dev/pytest#14864"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-13",
+    "query": "pytest -c fake_config.in vs fake_config.ini: ignored or FileNotFoundError",
+    "kind": "terse_log",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "pytest-dev/pytest#14716"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14716",
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14705",
+      "pytest-dev/pytest#10577"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": 0.9992138272243924,
+    "accepted": true
+  },
+  {
+    "query_id": "challenge-14",
+    "query": "pytest tests/a.py test_x.py tests/b.py: guard ran for a; b PASSES unexpectedly",
+    "kind": "terse_log",
+    "method": "bm25",
+    "relevant_ids": [
+      "pytest-dev/pytest#14964"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14992",
+      "pytest-dev/pytest#14971",
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14997"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-14",
+    "query": "pytest tests/a.py test_x.py tests/b.py: guard ran for a; b PASSES unexpectedly",
+    "kind": "terse_log",
+    "method": "semantic",
+    "relevant_ids": [
+      "pytest-dev/pytest#14964"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14882",
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14971",
+      "pytest-dev/pytest#14700"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 0.3333333333333333,
+      "ndcg_at_5": 0.5,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-14",
+    "query": "pytest tests/a.py test_x.py tests/b.py: guard ran for a; b PASSES unexpectedly",
+    "kind": "terse_log",
+    "method": "graph",
+    "relevant_ids": [
+      "pytest-dev/pytest#14964"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14004",
+      "pytest-dev/pytest#10577",
+      "pytest-dev/pytest#1120",
+      "pytest-dev/pytest#11779",
+      "pytest-dev/pytest#13246"
+    ],
+    "metrics": {
+      "recall_at_5": 0.0,
+      "precision_at_5": 0.0,
+      "mrr": 0.03333333333333333,
+      "ndcg_at_5": 0.0,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-14",
+    "query": "pytest tests/a.py test_x.py tests/b.py: guard ran for a; b PASSES unexpectedly",
+    "kind": "terse_log",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "pytest-dev/pytest#14964"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14700",
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14724"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 0.5,
+      "ndcg_at_5": 0.6309297535714575,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-14",
+    "query": "pytest tests/a.py test_x.py tests/b.py: guard ran for a; b PASSES unexpectedly",
+    "kind": "terse_log",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "pytest-dev/pytest#14964"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14971",
+      "pytest-dev/pytest#14992",
+      "pytest-dev/pytest#14997"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-14",
+    "query": "pytest tests/a.py test_x.py tests/b.py: guard ran for a; b PASSES unexpectedly",
+    "kind": "terse_log",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "pytest-dev/pytest#14964"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14700",
+      "pytest-dev/pytest#14724",
+      "pytest-dev/pytest#14864"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 0.5,
+      "ndcg_at_5": 0.6309297535714575,
+      "hit_at_1": 0
+    },
+    "confidence": 0.8175045861806353,
+    "accepted": true
+  },
+  {
+    "query_id": "challenge-15",
+    "query": "Sphinx -W Session inherited docs: Field list ends without a blank line; unexpected unindent.",
+    "kind": "terse_log",
+    "method": "bm25",
+    "relevant_ids": [
+      "psf/requests#7459"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7459",
+      "pytest-dev/pytest#14818",
+      "pytest-dev/pytest#14700",
+      "pytest-dev/pytest#14882",
+      "psf/requests#7465"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-15",
+    "query": "Sphinx -W Session inherited docs: Field list ends without a blank line; unexpected unindent.",
+    "kind": "terse_log",
+    "method": "semantic",
+    "relevant_ids": [
+      "psf/requests#7459"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7459",
+      "pytest-dev/pytest#14683",
+      "pytest-dev/pytest#14818",
+      "psf/requests#7611",
+      "psf/requests#7593"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-15",
+    "query": "Sphinx -W Session inherited docs: Field list ends without a blank line; unexpected unindent.",
+    "kind": "terse_log",
+    "method": "graph",
+    "relevant_ids": [
+      "psf/requests#7459"
+    ],
+    "retrieved_ids": [],
+    "metrics": {
+      "recall_at_5": 0.0,
+      "precision_at_5": 0.0,
+      "mrr": 0.0,
+      "ndcg_at_5": 0.0,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-15",
+    "query": "Sphinx -W Session inherited docs: Field list ends without a blank line; unexpected unindent.",
+    "kind": "terse_log",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "psf/requests#7459"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7459",
+      "pytest-dev/pytest#14818",
+      "pytest-dev/pytest#14700",
+      "psf/requests#7593",
+      "psf/requests#7465"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-15",
+    "query": "Sphinx -W Session inherited docs: Field list ends without a blank line; unexpected unindent.",
+    "kind": "terse_log",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "psf/requests#7459"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7459",
+      "pytest-dev/pytest#14818",
+      "pytest-dev/pytest#14700",
+      "psf/requests#7593",
+      "psf/requests#7465"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-15",
+    "query": "Sphinx -W Session inherited docs: Field list ends without a blank line; unexpected unindent.",
+    "kind": "terse_log",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "psf/requests#7459"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7459",
+      "pytest-dev/pytest#14818",
+      "pytest-dev/pytest#14700",
+      "psf/requests#7593",
+      "psf/requests#7465"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": 0.9987340570713286,
+    "accepted": true
+  },
+  {
+    "query_id": "challenge-16",
+    "query": "Python 3.14 setup-python post-job cleanup: [DEP0040] punycode",
+    "kind": "terse_log",
+    "method": "bm25",
+    "relevant_ids": [
+      "actions/setup-python#1252"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1252",
+      "actions/setup-python#1292",
+      "pytest-dev/pytest#14935",
+      "actions/setup-python#1288",
+      "actions/setup-python#1241"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-16",
+    "query": "Python 3.14 setup-python post-job cleanup: [DEP0040] punycode",
+    "kind": "terse_log",
+    "method": "semantic",
+    "relevant_ids": [
+      "actions/setup-python#1252"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1252",
+      "actions/setup-python#1278",
+      "actions/setup-python#1320",
+      "actions/setup-python#1318",
+      "actions/setup-python#1275"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-16",
+    "query": "Python 3.14 setup-python post-job cleanup: [DEP0040] punycode",
+    "kind": "terse_log",
+    "method": "graph",
+    "relevant_ids": [
+      "actions/setup-python#1252"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1241",
+      "actions/setup-python#1252",
+      "actions/setup-python#1256",
+      "actions/setup-python#1261",
+      "actions/setup-python#1267"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 0.5,
+      "ndcg_at_5": 0.6309297535714575,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-16",
+    "query": "Python 3.14 setup-python post-job cleanup: [DEP0040] punycode",
+    "kind": "terse_log",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "actions/setup-python#1252"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1252",
+      "actions/setup-python#1241",
+      "actions/setup-python#1275",
+      "actions/setup-python#1256",
+      "actions/setup-python#1286"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-16",
+    "query": "Python 3.14 setup-python post-job cleanup: [DEP0040] punycode",
+    "kind": "terse_log",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "actions/setup-python#1252"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1252",
+      "actions/setup-python#1241",
+      "psf/requests#7434",
+      "actions/setup-python#1286",
+      "actions/setup-python#1317"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-16",
+    "query": "Python 3.14 setup-python post-job cleanup: [DEP0040] punycode",
+    "kind": "terse_log",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "actions/setup-python#1252"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1252",
+      "actions/setup-python#1241",
+      "actions/setup-python#1275",
+      "actions/setup-python#1286",
+      "actions/setup-python#1295"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": 0.9903315865333306,
+    "accepted": true
+  },
+  {
+    "query_id": "challenge-17",
+    "query": "Show psf/requests#7601 together with the earlier report it cites about per-call adapters, not just the newest report.",
+    "kind": "linked_evidence",
+    "method": "bm25",
+    "relevant_ids": [
+      "psf/requests#7601",
+      "psf/requests#5842"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1252",
+      "pytest-dev/pytest#14724",
+      "pytest-dev/pytest#14992",
+      "actions/setup-python#1050",
+      "actions/setup-python#1241"
+    ],
+    "metrics": {
+      "recall_at_5": 0.0,
+      "precision_at_5": 0.0,
+      "mrr": 0.011363636363636364,
+      "ndcg_at_5": 0.0,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-17",
+    "query": "Show psf/requests#7601 together with the earlier report it cites about per-call adapters, not just the newest report.",
+    "kind": "linked_evidence",
+    "method": "semantic",
+    "relevant_ids": [
+      "psf/requests#7601",
+      "psf/requests#5842"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7601",
+      "psf/requests#7276",
+      "pytest-dev/pytest#14724",
+      "psf/requests#5842",
+      "psf/requests#7594"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.4,
+      "mrr": 1.0,
+      "ndcg_at_5": 0.8772153153380493,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-17",
+    "query": "Show psf/requests#7601 together with the earlier report it cites about per-call adapters, not just the newest report.",
+    "kind": "linked_evidence",
+    "method": "graph",
+    "relevant_ids": [
+      "psf/requests#7601",
+      "psf/requests#5842"
+    ],
+    "retrieved_ids": [
+      "psf/requests#5842"
+    ],
+    "metrics": {
+      "recall_at_5": 0.5,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 0.6131471927654584,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-17",
+    "query": "Show psf/requests#7601 together with the earlier report it cites about per-call adapters, not just the newest report.",
+    "kind": "linked_evidence",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "psf/requests#7601",
+      "psf/requests#5842"
+    ],
+    "retrieved_ids": [
+      "psf/requests#5842",
+      "pytest-dev/pytest#14724",
+      "pytest-dev/pytest#14852",
+      "psf/requests#7432",
+      "actions/setup-python#1318"
+    ],
+    "metrics": {
+      "recall_at_5": 0.5,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 0.6131471927654584,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-17",
+    "query": "Show psf/requests#7601 together with the earlier report it cites about per-call adapters, not just the newest report.",
+    "kind": "linked_evidence",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "psf/requests#7601",
+      "psf/requests#5842"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14724",
+      "pytest-dev/pytest#14852",
+      "psf/requests#7432",
+      "actions/setup-python#1318",
+      "pytest-dev/pytest#15071"
+    ],
+    "metrics": {
+      "recall_at_5": 0.0,
+      "precision_at_5": 0.0,
+      "mrr": 0.1,
+      "ndcg_at_5": 0.0,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-17",
+    "query": "Show psf/requests#7601 together with the earlier report it cites about per-call adapters, not just the newest report.",
+    "kind": "linked_evidence",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "psf/requests#7601",
+      "psf/requests#5842"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14724",
+      "pytest-dev/pytest#14852",
+      "psf/requests#5842",
+      "actions/setup-python#1318",
+      "psf/requests#7432"
+    ],
+    "metrics": {
+      "recall_at_5": 0.5,
+      "precision_at_5": 0.2,
+      "mrr": 0.3333333333333333,
+      "ndcg_at_5": 0.3065735963827292,
+      "hit_at_1": 0
+    },
+    "confidence": 0.34559664671957074,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-18",
+    "query": "Trace the configuration-location connection from pytest-dev/pytest#14716 to its older fixture/rootdir report. Return both sources.",
+    "kind": "linked_evidence",
+    "method": "bm25",
+    "relevant_ids": [
+      "pytest-dev/pytest#14716",
+      "pytest-dev/pytest#13246"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14724",
+      "pytest-dev/pytest#14953",
+      "pytest-dev/pytest#15071",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14818"
+    ],
+    "metrics": {
+      "recall_at_5": 0.0,
+      "precision_at_5": 0.0,
+      "mrr": 0.1,
+      "ndcg_at_5": 0.0,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-18",
+    "query": "Trace the configuration-location connection from pytest-dev/pytest#14716 to its older fixture/rootdir report. Return both sources.",
+    "kind": "linked_evidence",
+    "method": "semantic",
+    "relevant_ids": [
+      "pytest-dev/pytest#14716",
+      "pytest-dev/pytest#13246"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14716",
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14651",
+      "pytest-dev/pytest#14004"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.4,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-18",
+    "query": "Trace the configuration-location connection from pytest-dev/pytest#14716 to its older fixture/rootdir report. Return both sources.",
+    "kind": "linked_evidence",
+    "method": "graph",
+    "relevant_ids": [
+      "pytest-dev/pytest#14716",
+      "pytest-dev/pytest#13246"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14004",
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14683",
+      "pytest-dev/pytest#14691"
+    ],
+    "metrics": {
+      "recall_at_5": 0.5,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 0.6131471927654584,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-18",
+    "query": "Trace the configuration-location connection from pytest-dev/pytest#14716 to its older fixture/rootdir report. Return both sources.",
+    "kind": "linked_evidence",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "pytest-dev/pytest#14716",
+      "pytest-dev/pytest#13246"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14971",
+      "pytest-dev/pytest#14716",
+      "pytest-dev/pytest#15071",
+      "pytest-dev/pytest#14995"
+    ],
+    "metrics": {
+      "recall_at_5": 0.5,
+      "precision_at_5": 0.2,
+      "mrr": 0.3333333333333333,
+      "ndcg_at_5": 0.3065735963827292,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-18",
+    "query": "Trace the configuration-location connection from pytest-dev/pytest#14716 to its older fixture/rootdir report. Return both sources.",
+    "kind": "linked_evidence",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "pytest-dev/pytest#14716",
+      "pytest-dev/pytest#13246"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14716",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14971",
+      "pytest-dev/pytest#15071",
+      "pytest-dev/pytest#14935"
+    ],
+    "metrics": {
+      "recall_at_5": 0.5,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 0.6131471927654584,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-18",
+    "query": "Trace the configuration-location connection from pytest-dev/pytest#14716 to its older fixture/rootdir report. Return both sources.",
+    "kind": "linked_evidence",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "pytest-dev/pytest#14716",
+      "pytest-dev/pytest#13246"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14971",
+      "pytest-dev/pytest#14716",
+      "pytest-dev/pytest#15071",
+      "pytest-dev/pytest#14995"
+    ],
+    "metrics": {
+      "recall_at_5": 0.5,
+      "precision_at_5": 0.2,
+      "mrr": 0.3333333333333333,
+      "ndcg_at_5": 0.3065735963827292,
+      "hit_at_1": 0
+    },
+    "confidence": 0.9482120298628388,
+    "accepted": true
+  },
+  {
+    "query_id": "challenge-19",
+    "query": "The missing autouse guard in pytest-dev/pytest#14964 is attributed to an earlier fixture-scope change. Retrieve the referenced issue and the new report.",
+    "kind": "linked_evidence",
+    "method": "bm25",
+    "relevant_ids": [
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14004"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14992",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14808",
+      "actions/setup-python#1314",
+      "pytest-dev/pytest#14660"
+    ],
+    "metrics": {
+      "recall_at_5": 0.5,
+      "precision_at_5": 0.2,
+      "mrr": 0.5,
+      "ndcg_at_5": 0.38685280723454163,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-19",
+    "query": "The missing autouse guard in pytest-dev/pytest#14964 is attributed to an earlier fixture-scope change. Retrieve the referenced issue and the new report.",
+    "kind": "linked_evidence",
+    "method": "semantic",
+    "relevant_ids": [
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14004"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14992",
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14691",
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14651"
+    ],
+    "metrics": {
+      "recall_at_5": 0.0,
+      "precision_at_5": 0.0,
+      "mrr": 0.125,
+      "ndcg_at_5": 0.0,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-19",
+    "query": "The missing autouse guard in pytest-dev/pytest#14964 is attributed to an earlier fixture-scope change. Retrieve the referenced issue and the new report.",
+    "kind": "linked_evidence",
+    "method": "graph",
+    "relevant_ids": [
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14004"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14004",
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14683",
+      "pytest-dev/pytest#14691"
+    ],
+    "metrics": {
+      "recall_at_5": 0.5,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 0.6131471927654584,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-19",
+    "query": "The missing autouse guard in pytest-dev/pytest#14964 is attributed to an earlier fixture-scope change. Retrieve the referenced issue and the new report.",
+    "kind": "linked_evidence",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14004"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14992",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14660",
+      "pytest-dev/pytest#14004",
+      "pytest-dev/pytest#14683"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.4,
+      "mrr": 0.5,
+      "ndcg_at_5": 0.6509209298071326,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-19",
+    "query": "The missing autouse guard in pytest-dev/pytest#14964 is attributed to an earlier fixture-scope change. Retrieve the referenced issue and the new report.",
+    "kind": "linked_evidence",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14004"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14992",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14660",
+      "pytest-dev/pytest#14995",
+      "pytest-dev/pytest#14004"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.4,
+      "mrr": 0.5,
+      "ndcg_at_5": 0.6240505200038379,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-19",
+    "query": "The missing autouse guard in pytest-dev/pytest#14964 is attributed to an earlier fixture-scope change. Retrieve the referenced issue and the new report.",
+    "kind": "linked_evidence",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14004"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14992",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14660",
+      "pytest-dev/pytest#14004",
+      "pytest-dev/pytest#14683"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.4,
+      "mrr": 0.5,
+      "ndcg_at_5": 0.6509209298071326,
+      "hit_at_1": 0
+    },
+    "confidence": 0.984447442423208,
+    "accepted": true
+  },
+  {
+    "query_id": "challenge-20",
+    "query": "Find the newer Requests proposal that explicitly cites psf/requests#5842 and the earlier proposal itself for separate retry policies.",
+    "kind": "linked_evidence",
+    "method": "bm25",
+    "relevant_ids": [
+      "psf/requests#7601",
+      "psf/requests#5842"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1318",
+      "psf/requests#7601",
+      "psf/requests#5842",
+      "pytest-dev/pytest#14992",
+      "pytest-dev/pytest#14935"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.4,
+      "mrr": 0.5,
+      "ndcg_at_5": 0.6934264036172708,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-20",
+    "query": "Find the newer Requests proposal that explicitly cites psf/requests#5842 and the earlier proposal itself for separate retry policies.",
+    "kind": "linked_evidence",
+    "method": "semantic",
+    "relevant_ids": [
+      "psf/requests#7601",
+      "psf/requests#5842"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7601",
+      "psf/requests#5842",
+      "psf/requests#7600",
+      "psf/requests#7276",
+      "psf/requests#7611"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.4,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-20",
+    "query": "Find the newer Requests proposal that explicitly cites psf/requests#5842 and the earlier proposal itself for separate retry policies.",
+    "kind": "linked_evidence",
+    "method": "graph",
+    "relevant_ids": [
+      "psf/requests#7601",
+      "psf/requests#5842"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7601",
+      "psf/requests#5842"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.4,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-20",
+    "query": "Find the newer Requests proposal that explicitly cites psf/requests#5842 and the earlier proposal itself for separate retry policies.",
+    "kind": "linked_evidence",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "psf/requests#7601",
+      "psf/requests#5842"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7601",
+      "psf/requests#5842",
+      "actions/setup-python#1318",
+      "psf/requests#7615",
+      "pytest-dev/pytest#14935"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.4,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-20",
+    "query": "Find the newer Requests proposal that explicitly cites psf/requests#5842 and the earlier proposal itself for separate retry policies.",
+    "kind": "linked_evidence",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "psf/requests#7601",
+      "psf/requests#5842"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7601",
+      "psf/requests#5842",
+      "actions/setup-python#1318",
+      "psf/requests#7615",
+      "pytest-dev/pytest#14935"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.4,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-20",
+    "query": "Find the newer Requests proposal that explicitly cites psf/requests#5842 and the earlier proposal itself for separate retry policies.",
+    "kind": "linked_evidence",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "psf/requests#7601",
+      "psf/requests#5842"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7601",
+      "psf/requests#5842",
+      "actions/setup-python#1318",
+      "psf/requests#7615",
+      "pytest-dev/pytest#14935"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.4,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": 0.9662752541315838,
+    "accepted": true
+  },
+  {
+    "query_id": "challenge-21",
+    "query": "Which exact source commit caused my private pytest CI run at 09:42 to fail?",
+    "kind": "missing_context",
+    "method": "bm25",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#15071",
+      "pytest-dev/pytest#15005",
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14762"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-21",
+    "query": "Which exact source commit caused my private pytest CI run at 09:42 to fail?",
+    "kind": "missing_context",
+    "method": "semantic",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14762",
+      "pytest-dev/pytest#14660",
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14716",
+      "pytest-dev/pytest#14651"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-21",
+    "query": "Which exact source commit caused my private pytest CI run at 09:42 to fail?",
+    "kind": "missing_context",
+    "method": "graph",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14660",
+      "pytest-dev/pytest#14691",
+      "pytest-dev/pytest#14762",
+      "pytest-dev/pytest#14935"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-21",
+    "query": "Which exact source commit caused my private pytest CI run at 09:42 to fail?",
+    "kind": "missing_context",
+    "method": "fixed_hybrid",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14762",
+      "pytest-dev/pytest#14691",
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14935"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-21",
+    "query": "Which exact source commit caused my private pytest CI run at 09:42 to fail?",
+    "kind": "missing_context",
+    "method": "bm25_semantic",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14762",
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#15005",
+      "pytest-dev/pytest#14691"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-21",
+    "query": "Which exact source commit caused my private pytest CI run at 09:42 to fail?",
+    "kind": "missing_context",
+    "method": "routed_hybrid",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14762",
+      "pytest-dev/pytest#14691",
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14935"
+    ],
+    "metrics": {},
+    "confidence": 0.7948168981061541,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-22",
+    "query": "Read our company's private Jenkins logs and tell me which Requests dependency broke production.",
+    "kind": "missing_context",
+    "method": "bm25",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "psf/requests#7284",
+      "actions/setup-python#1272",
+      "actions/setup-python#1251",
+      "psf/requests#7432",
+      "actions/setup-python#1240"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-22",
+    "query": "Read our company's private Jenkins logs and tell me which Requests dependency broke production.",
+    "kind": "missing_context",
+    "method": "semantic",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14762",
+      "pytest-dev/pytest#14660",
+      "actions/setup-python#1278",
+      "actions/setup-python#1286",
+      "actions/setup-python#1318"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-22",
+    "query": "Read our company's private Jenkins logs and tell me which Requests dependency broke production.",
+    "kind": "missing_context",
+    "method": "graph",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#1050",
+      "actions/setup-python#1240",
+      "actions/setup-python#1251",
+      "psf/requests#7284",
+      "pytest-dev/pytest#14004"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-22",
+    "query": "Read our company's private Jenkins logs and tell me which Requests dependency broke production.",
+    "kind": "missing_context",
+    "method": "fixed_hybrid",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "psf/requests#7284",
+      "actions/setup-python#1251",
+      "actions/setup-python#1240",
+      "pytest-dev/pytest#14992",
+      "pytest-dev/pytest#14762"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-22",
+    "query": "Read our company's private Jenkins logs and tell me which Requests dependency broke production.",
+    "kind": "missing_context",
+    "method": "bm25_semantic",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "psf/requests#7284",
+      "pytest-dev/pytest#14762",
+      "actions/setup-python#1251",
+      "actions/setup-python#1275",
+      "pytest-dev/pytest#14992"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-22",
+    "query": "Read our company's private Jenkins logs and tell me which Requests dependency broke production.",
+    "kind": "missing_context",
+    "method": "routed_hybrid",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "psf/requests#7284",
+      "actions/setup-python#1251",
+      "actions/setup-python#1240",
+      "pytest-dev/pytest#14992",
+      "pytest-dev/pytest#14762"
+    ],
+    "metrics": {},
+    "confidence": 0.5523795452909682,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-23",
+    "query": "What is the live status of my internal Python build server right now?",
+    "kind": "missing_context",
+    "method": "bm25",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "psf/requests#7622",
+      "actions/setup-python#1321",
+      "psf/requests#7456",
+      "psf/requests#7465",
+      "actions/setup-python#1252"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-23",
+    "query": "What is the live status of my internal Python build server right now?",
+    "kind": "missing_context",
+    "method": "semantic",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#1314",
+      "actions/setup-python#1278",
+      "actions/setup-python#1265",
+      "actions/setup-python#1318",
+      "actions/setup-python#1286"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-23",
+    "query": "What is the live status of my internal Python build server right now?",
+    "kind": "missing_context",
+    "method": "graph",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "psf/requests#5461",
+      "actions/setup-python#1050",
+      "actions/setup-python#1060",
+      "actions/setup-python#1214",
+      "actions/setup-python#1238"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-23",
+    "query": "What is the live status of my internal Python build server right now?",
+    "kind": "missing_context",
+    "method": "fixed_hybrid",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#1252",
+      "actions/setup-python#1278",
+      "actions/setup-python#1214",
+      "actions/setup-python#1240",
+      "actions/setup-python#1265"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-23",
+    "query": "What is the live status of my internal Python build server right now?",
+    "kind": "missing_context",
+    "method": "bm25_semantic",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#1278",
+      "actions/setup-python#1252",
+      "actions/setup-python#1321",
+      "actions/setup-python#1317",
+      "actions/setup-python#1318"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-23",
+    "query": "What is the live status of my internal Python build server right now?",
+    "kind": "missing_context",
+    "method": "routed_hybrid",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#1278",
+      "actions/setup-python#1252",
+      "actions/setup-python#1321",
+      "actions/setup-python#1317",
+      "actions/setup-python#1318"
+    ],
+    "metrics": {},
+    "confidence": 0.4170537347123216,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-24",
+    "query": "What exact API token value is configured in our private GitHub Actions workflow?",
+    "kind": "missing_context",
+    "method": "bm25",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "psf/requests#7622",
+      "actions/setup-python#1278",
+      "actions/setup-python#1306",
+      "actions/setup-python#1238",
+      "actions/setup-python#858"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-24",
+    "query": "What exact API token value is configured in our private GitHub Actions workflow?",
+    "kind": "missing_context",
+    "method": "semantic",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14660",
+      "actions/setup-python#1318",
+      "actions/setup-python#1317",
+      "actions/setup-python#1278",
+      "actions/setup-python#1272"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-24",
+    "query": "What exact API token value is configured in our private GitHub Actions workflow?",
+    "kind": "missing_context",
+    "method": "graph",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "psf/requests#5461",
+      "actions/setup-python#1214",
+      "actions/setup-python#1238",
+      "actions/setup-python#1244",
+      "actions/setup-python#1256"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-24",
+    "query": "What exact API token value is configured in our private GitHub Actions workflow?",
+    "kind": "missing_context",
+    "method": "fixed_hybrid",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#1278",
+      "actions/setup-python#1238",
+      "actions/setup-python#1244",
+      "actions/setup-python#1317",
+      "actions/setup-python#1277"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-24",
+    "query": "What exact API token value is configured in our private GitHub Actions workflow?",
+    "kind": "missing_context",
+    "method": "bm25_semantic",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#1278",
+      "psf/requests#7622",
+      "actions/setup-python#1317",
+      "actions/setup-python#1318",
+      "actions/setup-python#1238"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-24",
+    "query": "What exact API token value is configured in our private GitHub Actions workflow?",
+    "kind": "missing_context",
+    "method": "routed_hybrid",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#1278",
+      "actions/setup-python#1238",
+      "actions/setup-python#1317",
+      "actions/setup-python#1244",
+      "actions/setup-python#1277"
+    ],
+    "metrics": {},
+    "confidence": 0.44095009440515487,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-25",
+    "query": "Which line in the log file I have not uploaded proves the cause of my fixture failure?",
+    "kind": "missing_context",
+    "method": "bm25",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14995",
+      "pytest-dev/pytest#14997",
+      "pytest-dev/pytest#14700",
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14691"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-25",
+    "query": "Which line in the log file I have not uploaded proves the cause of my fixture failure?",
+    "kind": "missing_context",
+    "method": "semantic",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#15052",
+      "pytest-dev/pytest#14700",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14004"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-25",
+    "query": "Which line in the log file I have not uploaded proves the cause of my fixture failure?",
+    "kind": "missing_context",
+    "method": "graph",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14004",
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14683",
+      "pytest-dev/pytest#14691"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-25",
+    "query": "Which line in the log file I have not uploaded proves the cause of my fixture failure?",
+    "kind": "missing_context",
+    "method": "fixed_hybrid",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14691",
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14997",
+      "pytest-dev/pytest#14992"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-25",
+    "query": "Which line in the log file I have not uploaded proves the cause of my fixture failure?",
+    "kind": "missing_context",
+    "method": "bm25_semantic",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14700",
+      "pytest-dev/pytest#14997",
+      "pytest-dev/pytest#14992",
+      "pytest-dev/pytest#14995"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-25",
+    "query": "Which line in the log file I have not uploaded proves the cause of my fixture failure?",
+    "kind": "missing_context",
+    "method": "routed_hybrid",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14997",
+      "pytest-dev/pytest#14992",
+      "pytest-dev/pytest#14691",
+      "pytest-dev/pytest#14964"
+    ],
+    "metrics": {},
+    "confidence": 0.6063234010832619,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-26",
+    "query": "Look inside our unpublished monorepo and identify the exact failing conftest implementation.",
+    "kind": "missing_context",
+    "method": "bm25",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14762",
+      "pytest-dev/pytest#14964",
+      "actions/setup-python#1272",
+      "actions/setup-python#1321",
+      "actions/setup-python#1319"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-26",
+    "query": "Look inside our unpublished monorepo and identify the exact failing conftest implementation.",
+    "kind": "missing_context",
+    "method": "semantic",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#15071",
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14971",
+      "pytest-dev/pytest#14992"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-26",
+    "query": "Look inside our unpublished monorepo and identify the exact failing conftest implementation.",
+    "kind": "missing_context",
+    "method": "graph",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14004"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-26",
+    "query": "Look inside our unpublished monorepo and identify the exact failing conftest implementation.",
+    "kind": "missing_context",
+    "method": "fixed_hybrid",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14004",
+      "pytest-dev/pytest#15071",
+      "pytest-dev/pytest#14762",
+      "pytest-dev/pytest#15005"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-26",
+    "query": "Look inside our unpublished monorepo and identify the exact failing conftest implementation.",
+    "kind": "missing_context",
+    "method": "bm25_semantic",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#15071",
+      "pytest-dev/pytest#14762",
+      "pytest-dev/pytest#15005",
+      "pytest-dev/pytest#14997"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-26",
+    "query": "Look inside our unpublished monorepo and identify the exact failing conftest implementation.",
+    "kind": "missing_context",
+    "method": "routed_hybrid",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#15071",
+      "pytest-dev/pytest#14762",
+      "pytest-dev/pytest#15005",
+      "pytest-dev/pytest#14997"
+    ],
+    "metrics": {},
+    "confidence": 0.25099600283194606,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-27",
+    "query": "Find the incident report for pytest error QUASAR_FIXTURE_9Q72Z.",
+    "kind": "absent_identifier",
+    "method": "bm25",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#1241",
+      "actions/setup-python#1307",
+      "actions/setup-python#1285",
+      "pytest-dev/pytest#14852",
+      "pytest-dev/pytest#13246"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-27",
+    "query": "Find the incident report for pytest error QUASAR_FIXTURE_9Q72Z.",
+    "kind": "absent_identifier",
+    "method": "semantic",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14691",
+      "pytest-dev/pytest#14700",
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14651",
+      "pytest-dev/pytest#14762"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-27",
+    "query": "Find the incident report for pytest error QUASAR_FIXTURE_9Q72Z.",
+    "kind": "absent_identifier",
+    "method": "graph",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#10577",
+      "pytest-dev/pytest#1120",
+      "pytest-dev/pytest#11779",
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14004"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-27",
+    "query": "Find the incident report for pytest error QUASAR_FIXTURE_9Q72Z.",
+    "kind": "absent_identifier",
+    "method": "fixed_hybrid",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14691",
+      "pytest-dev/pytest#10577",
+      "pytest-dev/pytest#11779",
+      "pytest-dev/pytest#14640"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-27",
+    "query": "Find the incident report for pytest error QUASAR_FIXTURE_9Q72Z.",
+    "kind": "absent_identifier",
+    "method": "bm25_semantic",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14691",
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14724",
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#11779"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-27",
+    "query": "Find the incident report for pytest error QUASAR_FIXTURE_9Q72Z.",
+    "kind": "absent_identifier",
+    "method": "routed_hybrid",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14691",
+      "pytest-dev/pytest#14724",
+      "pytest-dev/pytest#10577",
+      "pytest-dev/pytest#14640"
+    ],
+    "metrics": {},
+    "confidence": 0.43625117089335413,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-28",
+    "query": "Which Python installer issue documents ORBIT_INSTALL_8X41V on Windows?",
+    "kind": "absent_identifier",
+    "method": "bm25",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#1292",
+      "actions/setup-python#1050",
+      "actions/setup-python#1356",
+      "pytest-dev/pytest#14864",
+      "psf/requests#7459"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-28",
+    "query": "Which Python installer issue documents ORBIT_INSTALL_8X41V on Windows?",
+    "kind": "absent_identifier",
+    "method": "semantic",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#1356",
+      "actions/setup-python#1313",
+      "actions/setup-python#1256",
+      "actions/setup-python#1307",
+      "actions/setup-python#1060"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-28",
+    "query": "Which Python installer issue documents ORBIT_INSTALL_8X41V on Windows?",
+    "kind": "absent_identifier",
+    "method": "graph",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#1244",
+      "actions/setup-python#858",
+      "actions/setup-python#1050",
+      "actions/setup-python#1060",
+      "actions/setup-python#1214"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-28",
+    "query": "Which Python installer issue documents ORBIT_INSTALL_8X41V on Windows?",
+    "kind": "absent_identifier",
+    "method": "fixed_hybrid",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#1050",
+      "actions/setup-python#1060",
+      "actions/setup-python#1292",
+      "actions/setup-python#1256",
+      "actions/setup-python#1241"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-28",
+    "query": "Which Python installer issue documents ORBIT_INSTALL_8X41V on Windows?",
+    "kind": "absent_identifier",
+    "method": "bm25_semantic",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#1356",
+      "actions/setup-python#1292",
+      "actions/setup-python#1050",
+      "actions/setup-python#1256",
+      "actions/setup-python#1060"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-28",
+    "query": "Which Python installer issue documents ORBIT_INSTALL_8X41V on Windows?",
+    "kind": "absent_identifier",
+    "method": "routed_hybrid",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#1050",
+      "actions/setup-python#1292",
+      "actions/setup-python#1060",
+      "actions/setup-python#1256",
+      "actions/setup-python#1286"
+    ],
+    "metrics": {},
+    "confidence": 0.571924166023156,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-29",
+    "query": "Find a Requests proxy exception report containing NEBULA_PROXY_7J63K.",
+    "kind": "absent_identifier",
+    "method": "bm25",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "psf/requests#7621",
+      "pytest-dev/pytest#14700",
+      "pytest-dev/pytest#14828",
+      "psf/requests#5888",
+      "psf/requests#7615"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-29",
+    "query": "Find a Requests proxy exception report containing NEBULA_PROXY_7J63K.",
+    "kind": "absent_identifier",
+    "method": "semantic",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "psf/requests#5888",
+      "actions/setup-python#1318",
+      "psf/requests#7274",
+      "psf/requests#7432",
+      "actions/setup-python#1317"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-29",
+    "query": "Find a Requests proxy exception report containing NEBULA_PROXY_7J63K.",
+    "kind": "absent_identifier",
+    "method": "graph",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#858",
+      "psf/requests#5888",
+      "psf/requests#7615",
+      "psf/requests#7621"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-29",
+    "query": "Find a Requests proxy exception report containing NEBULA_PROXY_7J63K.",
+    "kind": "absent_identifier",
+    "method": "fixed_hybrid",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "psf/requests#5888",
+      "psf/requests#7621",
+      "psf/requests#7615",
+      "pytest-dev/pytest#14700",
+      "actions/setup-python#1318"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-29",
+    "query": "Find a Requests proxy exception report containing NEBULA_PROXY_7J63K.",
+    "kind": "absent_identifier",
+    "method": "bm25_semantic",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "psf/requests#5888",
+      "pytest-dev/pytest#14700",
+      "actions/setup-python#1318",
+      "psf/requests#7621",
+      "pytest-dev/pytest#14828"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-29",
+    "query": "Find a Requests proxy exception report containing NEBULA_PROXY_7J63K.",
+    "kind": "absent_identifier",
+    "method": "routed_hybrid",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "psf/requests#5888",
+      "psf/requests#7621",
+      "psf/requests#7615",
+      "pytest-dev/pytest#14700",
+      "actions/setup-python#1318"
+    ],
+    "metrics": {},
+    "confidence": 0.3002138570507884,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-30",
+    "query": "Locate the fixture caching incident with error PULSAR_CACHE_2W85M.",
+    "kind": "absent_identifier",
+    "method": "bm25",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#1244",
+      "pytest-dev/pytest#13246",
+      "actions/setup-python#858",
+      "pytest-dev/pytest#14691",
+      "pytest-dev/pytest#14971"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-30",
+    "query": "Locate the fixture caching incident with error PULSAR_CACHE_2W85M.",
+    "kind": "absent_identifier",
+    "method": "semantic",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#15052",
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14004",
+      "pytest-dev/pytest#14992",
+      "pytest-dev/pytest#14691"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-30",
+    "query": "Locate the fixture caching incident with error PULSAR_CACHE_2W85M.",
+    "kind": "absent_identifier",
+    "method": "graph",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#1050",
+      "actions/setup-python#858",
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14691",
+      "pytest-dev/pytest#14964"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-30",
+    "query": "Locate the fixture caching incident with error PULSAR_CACHE_2W85M.",
+    "kind": "absent_identifier",
+    "method": "fixed_hybrid",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14691",
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14971",
+      "pytest-dev/pytest#14640",
+      "actions/setup-python#858"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-30",
+    "query": "Locate the fixture caching incident with error PULSAR_CACHE_2W85M.",
+    "kind": "absent_identifier",
+    "method": "bm25_semantic",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14691",
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14992",
+      "pytest-dev/pytest#14971",
+      "pytest-dev/pytest#13246"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-30",
+    "query": "Locate the fixture caching incident with error PULSAR_CACHE_2W85M.",
+    "kind": "absent_identifier",
+    "method": "routed_hybrid",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14691",
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14971",
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14992"
+    ],
+    "metrics": {},
+    "confidence": 0.40211508406607493,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-31",
+    "query": "Show the HTTP encoding bug report reproducing COMET_ENCODING_6H24R.",
+    "kind": "absent_identifier",
+    "method": "bm25",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#1252",
+      "psf/requests#7605",
+      "psf/requests#7558",
+      "psf/requests#5461",
+      "psf/requests#7622"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-31",
+    "query": "Show the HTTP encoding bug report reproducing COMET_ENCODING_6H24R.",
+    "kind": "absent_identifier",
+    "method": "semantic",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "psf/requests#7592",
+      "psf/requests#7284",
+      "psf/requests#7335",
+      "psf/requests#7611",
+      "psf/requests#7600"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-31",
+    "query": "Show the HTTP encoding bug report reproducing COMET_ENCODING_6H24R.",
+    "kind": "absent_identifier",
+    "method": "graph",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "psf/requests#7592",
+      "psf/requests#7622",
+      "psf/requests#5461",
+      "actions/setup-python#1050",
+      "actions/setup-python#1060"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-31",
+    "query": "Show the HTTP encoding bug report reproducing COMET_ENCODING_6H24R.",
+    "kind": "absent_identifier",
+    "method": "fixed_hybrid",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "psf/requests#5461",
+      "psf/requests#7622",
+      "actions/setup-python#1252",
+      "actions/setup-python#1317",
+      "psf/requests#7592"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-31",
+    "query": "Show the HTTP encoding bug report reproducing COMET_ENCODING_6H24R.",
+    "kind": "absent_identifier",
+    "method": "bm25_semantic",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "psf/requests#5461",
+      "psf/requests#7622",
+      "psf/requests#7558",
+      "actions/setup-python#1252",
+      "psf/requests#5888"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-31",
+    "query": "Show the HTTP encoding bug report reproducing COMET_ENCODING_6H24R.",
+    "kind": "absent_identifier",
+    "method": "routed_hybrid",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "psf/requests#5461",
+      "psf/requests#7622",
+      "actions/setup-python#1252",
+      "actions/setup-python#1317",
+      "psf/requests#7558"
+    ],
+    "metrics": {},
+    "confidence": 0.8830546557366723,
+    "accepted": true
+  },
+  {
+    "query_id": "challenge-32",
+    "query": "Find a setup-python CI timeout report that contains NOVA_TIMEOUT_4B19T.",
+    "kind": "absent_identifier",
+    "method": "bm25",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#1307",
+      "pytest-dev/pytest#14743",
+      "actions/setup-python#1318",
+      "actions/setup-python#1285",
+      "psf/requests#7432"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-32",
+    "query": "Find a setup-python CI timeout report that contains NOVA_TIMEOUT_4B19T.",
+    "kind": "absent_identifier",
+    "method": "semantic",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#1318",
+      "psf/requests#7432",
+      "pytest-dev/pytest#14762",
+      "pytest-dev/pytest#14852",
+      "pytest-dev/pytest#14935"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-32",
+    "query": "Find a setup-python CI timeout report that contains NOVA_TIMEOUT_4B19T.",
+    "kind": "absent_identifier",
+    "method": "graph",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14935",
+      "psf/requests#7432",
+      "pytest-dev/pytest#14683",
+      "actions/setup-python#1214",
+      "actions/setup-python#1238"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-32",
+    "query": "Find a setup-python CI timeout report that contains NOVA_TIMEOUT_4B19T.",
+    "kind": "absent_identifier",
+    "method": "fixed_hybrid",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "psf/requests#7432",
+      "pytest-dev/pytest#14935",
+      "actions/setup-python#1318",
+      "actions/setup-python#1275",
+      "actions/setup-python#1261"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-32",
+    "query": "Find a setup-python CI timeout report that contains NOVA_TIMEOUT_4B19T.",
+    "kind": "absent_identifier",
+    "method": "bm25_semantic",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#1318",
+      "psf/requests#7432",
+      "actions/setup-python#1275",
+      "pytest-dev/pytest#14935",
+      "actions/setup-python#1252"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-32",
+    "query": "Find a setup-python CI timeout report that contains NOVA_TIMEOUT_4B19T.",
+    "kind": "absent_identifier",
+    "method": "routed_hybrid",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "psf/requests#7432",
+      "actions/setup-python#1318",
+      "pytest-dev/pytest#14935",
+      "actions/setup-python#1275",
+      "actions/setup-python#1261"
+    ],
+    "metrics": {},
+    "confidence": 0.6651452932197778,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-33",
+    "query": "Patch my production Requests proxy configuration now and prove that the incident is resolved.",
+    "kind": "unsupported_action",
+    "method": "bm25",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "psf/requests#7615",
+      "psf/requests#7622",
+      "psf/requests#7621",
+      "psf/requests#7375",
+      "actions/setup-python#1275"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-33",
+    "query": "Patch my production Requests proxy configuration now and prove that the incident is resolved.",
+    "kind": "unsupported_action",
+    "method": "semantic",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "psf/requests#7615",
+      "psf/requests#5842",
+      "psf/requests#7432",
+      "psf/requests#7600",
+      "psf/requests#7594"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-33",
+    "query": "Patch my production Requests proxy configuration now and prove that the incident is resolved.",
+    "kind": "unsupported_action",
+    "method": "graph",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "psf/requests#5888",
+      "actions/setup-python#858",
+      "psf/requests#7615",
+      "psf/requests#7621",
+      "psf/requests#5461"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-33",
+    "query": "Patch my production Requests proxy configuration now and prove that the incident is resolved.",
+    "kind": "unsupported_action",
+    "method": "fixed_hybrid",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "psf/requests#7615",
+      "psf/requests#5888",
+      "psf/requests#7621",
+      "actions/setup-python#1318",
+      "psf/requests#7594"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-33",
+    "query": "Patch my production Requests proxy configuration now and prove that the incident is resolved.",
+    "kind": "unsupported_action",
+    "method": "bm25_semantic",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "psf/requests#7615",
+      "psf/requests#5888",
+      "psf/requests#7621",
+      "actions/setup-python#1318",
+      "psf/requests#7594"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-33",
+    "query": "Patch my production Requests proxy configuration now and prove that the incident is resolved.",
+    "kind": "unsupported_action",
+    "method": "routed_hybrid",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "psf/requests#7615",
+      "psf/requests#5888",
+      "psf/requests#7621",
+      "actions/setup-python#1318",
+      "psf/requests#7594"
+    ],
+    "metrics": {},
+    "confidence": 0.9148588931896341,
+    "accepted": true
+  },
+  {
+    "query_id": "challenge-34",
+    "query": "Run pytest inside my private container and give me the actual passing test count.",
+    "kind": "unsupported_action",
+    "method": "bm25",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#1309",
+      "pytest-dev/pytest#14882",
+      "pytest-dev/pytest#1120",
+      "pytest-dev/pytest#14995",
+      "pytest-dev/pytest#14724"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-34",
+    "query": "Run pytest inside my private container and give me the actual passing test count.",
+    "kind": "unsupported_action",
+    "method": "semantic",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#15080",
+      "pytest-dev/pytest#14724",
+      "pytest-dev/pytest#14882",
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14700"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-34",
+    "query": "Run pytest inside my private container and give me the actual passing test count.",
+    "kind": "unsupported_action",
+    "method": "graph",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14935",
+      "pytest-dev/pytest#10577",
+      "pytest-dev/pytest#1120",
+      "pytest-dev/pytest#11779",
+      "pytest-dev/pytest#13246"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-34",
+    "query": "Run pytest inside my private container and give me the actual passing test count.",
+    "kind": "unsupported_action",
+    "method": "fixed_hybrid",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14724",
+      "pytest-dev/pytest#1120",
+      "pytest-dev/pytest#14882",
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14691"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-34",
+    "query": "Run pytest inside my private container and give me the actual passing test count.",
+    "kind": "unsupported_action",
+    "method": "bm25_semantic",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14882",
+      "pytest-dev/pytest#15080",
+      "pytest-dev/pytest#14724",
+      "pytest-dev/pytest#15081",
+      "pytest-dev/pytest#14964"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-34",
+    "query": "Run pytest inside my private container and give me the actual passing test count.",
+    "kind": "unsupported_action",
+    "method": "routed_hybrid",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14724",
+      "pytest-dev/pytest#14882",
+      "pytest-dev/pytest#1120",
+      "pytest-dev/pytest#14691",
+      "pytest-dev/pytest#14640"
+    ],
+    "metrics": {},
+    "confidence": 0.6664392061644385,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-35",
+    "query": "Find a source-backed explanation of how to prune an apple tree in winter.",
+    "kind": "out_of_domain",
+    "method": "bm25",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "psf/requests#7284",
+      "pytest-dev/pytest#14818",
+      "actions/setup-python#1240",
+      "actions/setup-python#1241",
+      "pytest-dev/pytest#14640"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-35",
+    "query": "Find a source-backed explanation of how to prune an apple tree in winter.",
+    "kind": "out_of_domain",
+    "method": "semantic",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14935",
+      "psf/requests#7615",
+      "pytest-dev/pytest#14864",
+      "pytest-dev/pytest#14660",
+      "actions/setup-python#1265"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-35",
+    "query": "Find a source-backed explanation of how to prune an apple tree in winter.",
+    "kind": "out_of_domain",
+    "method": "graph",
+    "relevant_ids": [],
+    "retrieved_ids": [],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-35",
+    "query": "Find a source-backed explanation of how to prune an apple tree in winter.",
+    "kind": "out_of_domain",
+    "method": "fixed_hybrid",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14935",
+      "actions/setup-python#1265",
+      "pytest-dev/pytest#14864",
+      "actions/setup-python#1319",
+      "pytest-dev/pytest#14953"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-35",
+    "query": "Find a source-backed explanation of how to prune an apple tree in winter.",
+    "kind": "out_of_domain",
+    "method": "bm25_semantic",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14935",
+      "actions/setup-python#1265",
+      "pytest-dev/pytest#14864",
+      "actions/setup-python#1319",
+      "pytest-dev/pytest#14953"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-35",
+    "query": "Find a source-backed explanation of how to prune an apple tree in winter.",
+    "kind": "out_of_domain",
+    "method": "routed_hybrid",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14935",
+      "actions/setup-python#1265",
+      "pytest-dev/pytest#14864",
+      "actions/setup-python#1319",
+      "pytest-dev/pytest#14953"
+    ],
+    "metrics": {},
+    "confidence": 0.3379328119410832,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-36",
+    "query": "What chord progression is used in a traditional twelve-bar blues song?",
+    "kind": "out_of_domain",
+    "method": "bm25",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#1331",
+      "psf/requests#7600",
+      "actions/setup-python#1240",
+      "psf/requests#7456",
+      "actions/setup-python#1255"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-36",
+    "query": "What chord progression is used in a traditional twelve-bar blues song?",
+    "kind": "out_of_domain",
+    "method": "semantic",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14743",
+      "pytest-dev/pytest#15052",
+      "psf/requests#7593",
+      "actions/setup-python#1244",
+      "psf/requests#7274"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-36",
+    "query": "What chord progression is used in a traditional twelve-bar blues song?",
+    "kind": "out_of_domain",
+    "method": "graph",
+    "relevant_ids": [],
+    "retrieved_ids": [],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-36",
+    "query": "What chord progression is used in a traditional twelve-bar blues song?",
+    "kind": "out_of_domain",
+    "method": "fixed_hybrid",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#15052",
+      "actions/setup-python#1240",
+      "pytest-dev/pytest#14743",
+      "psf/requests#7284",
+      "actions/setup-python#1317"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-36",
+    "query": "What chord progression is used in a traditional twelve-bar blues song?",
+    "kind": "out_of_domain",
+    "method": "bm25_semantic",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#15052",
+      "actions/setup-python#1240",
+      "pytest-dev/pytest#14743",
+      "psf/requests#7284",
+      "actions/setup-python#1317"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "challenge-36",
+    "query": "What chord progression is used in a traditional twelve-bar blues song?",
+    "kind": "out_of_domain",
+    "method": "routed_hybrid",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#15052",
+      "actions/setup-python#1240",
+      "pytest-dev/pytest#14743",
+      "psf/requests#7284",
+      "actions/setup-python#1317"
+    ],
+    "metrics": {},
+    "confidence": 0.15948582991194665,
+    "accepted": false
+  }
+]

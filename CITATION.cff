@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the repository; it is not a peer-reviewed paper."
+type: software
+title: "ExpertGraph: Evidence-Grounded Multi-Expert Incident Retrieval"
+authors:
+  - family-names: Patil
+    given-names: Vinay
+version: 0.1.0
+date-released: 2026-10-03
+license: MIT
+abstract: >-
+  An independent, AI-assisted research prototype comparing lexical, semantic,
+  graph and routed retrieval over public software incident reports. Includes
+  source provenance and preliminary evaluation; independent annotation pending.

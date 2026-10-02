@@ -1,0 +1,19 @@
+{
+  "unchanged": true,
+  "protected_sha256": {
+    "artifacts/results/corpus_manifest.json": "d0fa931932a90256ee97909892f105e47ae35b4e3caaaabb616548ef2e38ce71",
+    "artifacts/results/REPORT.md": "ecd4ccf94670329fed272a35b926ae841171d87b4511e32607640f8e5418020e",
+    "artifacts/results/results.json": "d9c7610c22f9434d17826ab3fe181c52698b1d4309a5324f66a213dd1082cbb3",
+    "artifacts/results/metrics.csv": "9a84fced1748cd4a0831915d088d581c401c0b4994b3e7a258d738878aff3976",
+    "artifacts/results/demo.jpg": "b3da89ef8eb46899eb8074c6a76bb8c157f4301817b7c00fdc6f52488e3c3380",
+    "artifacts/results/retrieval_comparison.png": "357451d4256b4478643ee66c526ea889527c47ed1475cc0f1f6506b0067f6bb3",
+    "artifacts/results/per_query.json": "9e752df41b6556a9ccd0280d7562151add2c3e9e746461f2a19df2b5668e5025",
+    "artifacts/results/graph.json": "39dc5a57edf5f5334a08e6b051e310334cda539312f4b78a19325d251f3b262d",
+    "artifacts/models/routing.joblib": "87f4b7fe5bb938f070c6152315a5457f9a939a8f72824cce69ed29c648fe30e1",
+    "data/corpus.jsonl": "3c6ae0ff3d6aad159d9c2c3af406e8689b215b60984cdc922b33d70917e106a5",
+    "data/manifest.json": "d0fa931932a90256ee97909892f105e47ae35b4e3caaaabb616548ef2e38ce71",
+    "data/splits.json": "efc7eb1a0ae38b5482a9565328f06e42831d26868700e0b2ea0e5cdea3ac3b8c",
+    "data/benchmark.draft.json": "1db3cb931f84e16479ad8107c2248b6709c8b220a8e4242d47e940be35dbbeb2",
+    "data/annotation_review.csv": "56864cdbbcd80d8d123754505dffdeb13614bedca4f23b1f970c50418fe1e7b5"
+  }
+}

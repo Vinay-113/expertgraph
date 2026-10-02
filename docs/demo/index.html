@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ExpertGraph: source-grounded software incident retrieval. Explore recorded outputs from six retrieval configurations and preliminary research results.">
+  <title>ExpertGraph · Research demo</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="demo.js" defer></script>
+</head>
+<body>
+  <header class="wrap top"><a class="brand" href="./">ExpertGraph<span> / research prototype</span></a><a href="https://github.com/Vinay-113/expertgraph">View source ↗</a></header>
+  <main class="wrap">
+    <section class="intro">
+      <p class="eyebrow">EVIDENCE-GROUNDED INCIDENT RETRIEVAL</p>
+      <h1>Find the report.<br>Inspect the connection.</h1>
+      <p class="lead">Compare lexical search, semantic embeddings and an issue-reference graph—with sources you can check, and limits you can see.</p>
+      <div class="facts"><span><b>109</b> public reports</span><span><b>6</b> retrieval configurations</span><span><b>12</b> explicit reference edges</span></div>
+    </section>
+    <aside class="notice"><strong>Recorded demo—not live AI.</strong> These outputs were recorded from the working Python application. Choose an example and method to inspect its actual saved response. Arbitrary queries require the local app. No private logs or execution access.</aside>
+    <section class="explorer" aria-labelledby="explore-title">
+      <div class="section-head"><div><p class="eyebrow">01 / EXPLORE THE SYSTEM</p><h2 id="explore-title">One query. Different retrieval signals.</h2></div><span class="tag">Recorded replay</span></div>
+      <div id="examples" class="examples" aria-label="Recorded examples"></div>
+      <div class="query-box"><label for="query">Recorded query</label><textarea id="query" rows="3" readonly></textarea><div class="method-row"><label for="method">Compare method</label><select id="method"><option value="routed_hybrid">Learned routed hybrid</option><option value="bm25">Lexical · BM25</option><option value="semantic">Semantic · MiniLM</option><option value="graph">Graph · lexical seeds</option><option value="fixed_hybrid">Fixed three-expert hybrid</option><option value="bm25_semantic">BM25 + semantic · no graph</option></select></div></div>
+      <p id="error" role="alert" hidden></p>
+      <div id="output" aria-live="polite" aria-atomic="false"></div>
+    </section>
+    <section class="research" aria-labelledby="research-title">
+      <p class="eyebrow">02 / WHAT THE EXPERIMENTS SHOW</p><h2 id="research-title">More experts do not automatically mean better retrieval.</h2>
+      <p>BM25 leads the original pilot. Semantic retrieval leads the later stress suite. The learned router does not beat the strongest individual expert on either. These are preliminary results—not a claimed breakthrough.</p>
+      <div class="table-scroll"><table><caption>Mean reciprocal rank (0–1; higher is better). Positive queries only.</caption><thead><tr><th scope="col">Method</th><th scope="col">Original pilot · 27 queries</th><th scope="col">Stress suite · 20 queries</th></tr></thead><tbody id="metrics"></tbody></table></div>
+      <p class="small">Draft, assistant-authored/source-checked labels; independent human review pending. The stress suite reuses the same held-out incident components, not new unseen incidents. BM25 + semantic is a post-pilot exploratory ablation. Incomplete relevance labels can misclassify related reports.</p>
+      <a href="https://github.com/Vinay-113/expertgraph/blob/main/artifacts/validation-v1/REPORT.md">Read the protocol, failure analysis and limitations ↗</a>
+    </section>
+    <section class="closing"><div><p class="eyebrow">03 / RUN IT YOURSELF</p><h2>A research system, not a chatbot.</h2><p>The local application supports arbitrary queries, original source excerpts, inspectable graph paths and six methods. It runs on CPU without a paid LLM API. The public replay omits issue-body excerpts; open the linked original reports for evidence.</p><a class="button" href="https://github.com/Vinay-113/expertgraph#run-the-full-local-app">Setup & reproducibility ↗</a></div><div class="limits"><h3>Know the boundaries</h3><ul><li>Issue references indicate association, not causality.</li><li>High model estimates can still be wrong.</li><li>Scope guards are transparent heuristics, not independently validated safety guarantees.</li><li>No automatic diagnosis, deployment or production patching.</li></ul></div></section>
+  </main>
+  <footer class="wrap"><span>Vinay Patil · Independent, AI-assisted project · 2026</span><span id="recorded">Loading recording metadata…</span></footer>
+</body>
+</html>

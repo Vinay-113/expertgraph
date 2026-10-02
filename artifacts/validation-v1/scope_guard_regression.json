@@ -1,0 +1,404 @@
+[
+  {
+    "query_id": "challenge-01",
+    "kind": "paraphrase",
+    "relevant_ids": [
+      "actions/setup-python#1238"
+    ],
+    "raw_model_accepted": false,
+    "scope_checks": [],
+    "accepted_with_scope_guard": false
+  },
+  {
+    "query_id": "challenge-02",
+    "kind": "paraphrase",
+    "relevant_ids": [
+      "psf/requests#7335"
+    ],
+    "raw_model_accepted": true,
+    "scope_checks": [],
+    "accepted_with_scope_guard": true
+  },
+  {
+    "query_id": "challenge-03",
+    "kind": "paraphrase",
+    "relevant_ids": [
+      "psf/requests#7456"
+    ],
+    "raw_model_accepted": true,
+    "scope_checks": [],
+    "accepted_with_scope_guard": true
+  },
+  {
+    "query_id": "challenge-04",
+    "kind": "paraphrase",
+    "relevant_ids": [
+      "psf/requests#7600"
+    ],
+    "raw_model_accepted": false,
+    "scope_checks": [],
+    "accepted_with_scope_guard": false
+  },
+  {
+    "query_id": "challenge-05",
+    "kind": "paraphrase",
+    "relevant_ids": [
+      "pytest-dev/pytest#14004"
+    ],
+    "raw_model_accepted": false,
+    "scope_checks": [],
+    "accepted_with_scope_guard": false
+  },
+  {
+    "query_id": "challenge-06",
+    "kind": "paraphrase",
+    "relevant_ids": [
+      "pytest-dev/pytest#14808"
+    ],
+    "raw_model_accepted": true,
+    "scope_checks": [],
+    "accepted_with_scope_guard": true
+  },
+  {
+    "query_id": "challenge-07",
+    "kind": "paraphrase",
+    "relevant_ids": [
+      "actions/setup-python#1267"
+    ],
+    "raw_model_accepted": true,
+    "scope_checks": [],
+    "accepted_with_scope_guard": true
+  },
+  {
+    "query_id": "challenge-08",
+    "kind": "paraphrase",
+    "relevant_ids": [
+      "actions/setup-python#1288"
+    ],
+    "raw_model_accepted": true,
+    "scope_checks": [],
+    "accepted_with_scope_guard": true
+  },
+  {
+    "query_id": "challenge-09",
+    "kind": "terse_log",
+    "relevant_ids": [
+      "actions/setup-python#1285"
+    ],
+    "raw_model_accepted": true,
+    "scope_checks": [],
+    "accepted_with_scope_guard": true
+  },
+  {
+    "query_id": "challenge-10",
+    "kind": "terse_log",
+    "relevant_ids": [
+      "actions/setup-python#1307"
+    ],
+    "raw_model_accepted": true,
+    "scope_checks": [],
+    "accepted_with_scope_guard": true
+  },
+  {
+    "query_id": "challenge-11",
+    "kind": "terse_log",
+    "relevant_ids": [
+      "psf/requests#7456"
+    ],
+    "raw_model_accepted": true,
+    "scope_checks": [],
+    "accepted_with_scope_guard": true
+  },
+  {
+    "query_id": "challenge-12",
+    "kind": "terse_log",
+    "relevant_ids": [
+      "psf/requests#7600"
+    ],
+    "raw_model_accepted": true,
+    "scope_checks": [],
+    "accepted_with_scope_guard": true
+  },
+  {
+    "query_id": "challenge-13",
+    "kind": "terse_log",
+    "relevant_ids": [
+      "pytest-dev/pytest#14716"
+    ],
+    "raw_model_accepted": true,
+    "scope_checks": [],
+    "accepted_with_scope_guard": true
+  },
+  {
+    "query_id": "challenge-14",
+    "kind": "terse_log",
+    "relevant_ids": [
+      "pytest-dev/pytest#14964"
+    ],
+    "raw_model_accepted": true,
+    "scope_checks": [],
+    "accepted_with_scope_guard": true
+  },
+  {
+    "query_id": "challenge-15",
+    "kind": "terse_log",
+    "relevant_ids": [
+      "psf/requests#7459"
+    ],
+    "raw_model_accepted": true,
+    "scope_checks": [],
+    "accepted_with_scope_guard": true
+  },
+  {
+    "query_id": "challenge-16",
+    "kind": "terse_log",
+    "relevant_ids": [
+      "actions/setup-python#1252"
+    ],
+    "raw_model_accepted": true,
+    "scope_checks": [],
+    "accepted_with_scope_guard": true
+  },
+  {
+    "query_id": "challenge-17",
+    "kind": "linked_evidence",
+    "relevant_ids": [
+      "psf/requests#7601",
+      "psf/requests#5842"
+    ],
+    "raw_model_accepted": false,
+    "scope_checks": [],
+    "accepted_with_scope_guard": false
+  },
+  {
+    "query_id": "challenge-18",
+    "kind": "linked_evidence",
+    "relevant_ids": [
+      "pytest-dev/pytest#14716",
+      "pytest-dev/pytest#13246"
+    ],
+    "raw_model_accepted": true,
+    "scope_checks": [],
+    "accepted_with_scope_guard": true
+  },
+  {
+    "query_id": "challenge-19",
+    "kind": "linked_evidence",
+    "relevant_ids": [
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14004"
+    ],
+    "raw_model_accepted": true,
+    "scope_checks": [],
+    "accepted_with_scope_guard": true
+  },
+  {
+    "query_id": "challenge-20",
+    "kind": "linked_evidence",
+    "relevant_ids": [
+      "psf/requests#7601",
+      "psf/requests#5842"
+    ],
+    "raw_model_accepted": true,
+    "scope_checks": [],
+    "accepted_with_scope_guard": true
+  },
+  {
+    "query_id": "challenge-21",
+    "kind": "missing_context",
+    "relevant_ids": [],
+    "raw_model_accepted": false,
+    "scope_checks": [
+      {
+        "kind": "unavailable_context",
+        "detail": "This static public corpus has no access to private logs, unpublished code, secrets or live telemetry. Similar reports cannot establish the requested facts."
+      }
+    ],
+    "accepted_with_scope_guard": false
+  },
+  {
+    "query_id": "challenge-22",
+    "kind": "missing_context",
+    "relevant_ids": [],
+    "raw_model_accepted": false,
+    "scope_checks": [
+      {
+        "kind": "unavailable_context",
+        "detail": "This static public corpus has no access to private logs, unpublished code, secrets or live telemetry. Similar reports cannot establish the requested facts."
+      }
+    ],
+    "accepted_with_scope_guard": false
+  },
+  {
+    "query_id": "challenge-23",
+    "kind": "missing_context",
+    "relevant_ids": [],
+    "raw_model_accepted": false,
+    "scope_checks": [
+      {
+        "kind": "unavailable_context",
+        "detail": "This static public corpus has no access to private logs, unpublished code, secrets or live telemetry. Similar reports cannot establish the requested facts."
+      }
+    ],
+    "accepted_with_scope_guard": false
+  },
+  {
+    "query_id": "challenge-24",
+    "kind": "missing_context",
+    "relevant_ids": [],
+    "raw_model_accepted": false,
+    "scope_checks": [
+      {
+        "kind": "unavailable_context",
+        "detail": "This static public corpus has no access to private logs, unpublished code, secrets or live telemetry. Similar reports cannot establish the requested facts."
+      }
+    ],
+    "accepted_with_scope_guard": false
+  },
+  {
+    "query_id": "challenge-25",
+    "kind": "missing_context",
+    "relevant_ids": [],
+    "raw_model_accepted": false,
+    "scope_checks": [
+      {
+        "kind": "unavailable_context",
+        "detail": "This static public corpus has no access to private logs, unpublished code, secrets or live telemetry. Similar reports cannot establish the requested facts."
+      }
+    ],
+    "accepted_with_scope_guard": false
+  },
+  {
+    "query_id": "challenge-26",
+    "kind": "missing_context",
+    "relevant_ids": [],
+    "raw_model_accepted": false,
+    "scope_checks": [
+      {
+        "kind": "unavailable_context",
+        "detail": "This static public corpus has no access to private logs, unpublished code, secrets or live telemetry. Similar reports cannot establish the requested facts."
+      }
+    ],
+    "accepted_with_scope_guard": false
+  },
+  {
+    "query_id": "challenge-27",
+    "kind": "absent_identifier",
+    "relevant_ids": [],
+    "raw_model_accepted": false,
+    "scope_checks": [
+      {
+        "kind": "absent_exact_identifier",
+        "detail": "No indexed report contains these exact code identifiers: QUASAR_FIXTURE_9Q72Z. Related-looking reports do not verify them."
+      }
+    ],
+    "accepted_with_scope_guard": false
+  },
+  {
+    "query_id": "challenge-28",
+    "kind": "absent_identifier",
+    "relevant_ids": [],
+    "raw_model_accepted": false,
+    "scope_checks": [
+      {
+        "kind": "absent_exact_identifier",
+        "detail": "No indexed report contains these exact code identifiers: ORBIT_INSTALL_8X41V. Related-looking reports do not verify them."
+      }
+    ],
+    "accepted_with_scope_guard": false
+  },
+  {
+    "query_id": "challenge-29",
+    "kind": "absent_identifier",
+    "relevant_ids": [],
+    "raw_model_accepted": false,
+    "scope_checks": [
+      {
+        "kind": "absent_exact_identifier",
+        "detail": "No indexed report contains these exact code identifiers: NEBULA_PROXY_7J63K. Related-looking reports do not verify them."
+      }
+    ],
+    "accepted_with_scope_guard": false
+  },
+  {
+    "query_id": "challenge-30",
+    "kind": "absent_identifier",
+    "relevant_ids": [],
+    "raw_model_accepted": false,
+    "scope_checks": [
+      {
+        "kind": "absent_exact_identifier",
+        "detail": "No indexed report contains these exact code identifiers: PULSAR_CACHE_2W85M. Related-looking reports do not verify them."
+      }
+    ],
+    "accepted_with_scope_guard": false
+  },
+  {
+    "query_id": "challenge-31",
+    "kind": "absent_identifier",
+    "relevant_ids": [],
+    "raw_model_accepted": true,
+    "scope_checks": [
+      {
+        "kind": "absent_exact_identifier",
+        "detail": "No indexed report contains these exact code identifiers: COMET_ENCODING_6H24R. Related-looking reports do not verify them."
+      }
+    ],
+    "accepted_with_scope_guard": false
+  },
+  {
+    "query_id": "challenge-32",
+    "kind": "absent_identifier",
+    "relevant_ids": [],
+    "raw_model_accepted": false,
+    "scope_checks": [
+      {
+        "kind": "absent_exact_identifier",
+        "detail": "No indexed report contains these exact code identifiers: NOVA_TIMEOUT_4B19T. Related-looking reports do not verify them."
+      }
+    ],
+    "accepted_with_scope_guard": false
+  },
+  {
+    "query_id": "challenge-33",
+    "kind": "unsupported_action",
+    "relevant_ids": [],
+    "raw_model_accepted": true,
+    "scope_checks": [
+      {
+        "kind": "unsupported_action",
+        "detail": "This explorer retrieves evidence only; it cannot execute tests, patch production or verify that a live incident is resolved."
+      }
+    ],
+    "accepted_with_scope_guard": false
+  },
+  {
+    "query_id": "challenge-34",
+    "kind": "unsupported_action",
+    "relevant_ids": [],
+    "raw_model_accepted": false,
+    "scope_checks": [
+      {
+        "kind": "unsupported_action",
+        "detail": "This explorer retrieves evidence only; it cannot execute tests, patch production or verify that a live incident is resolved."
+      }
+    ],
+    "accepted_with_scope_guard": false
+  },
+  {
+    "query_id": "challenge-35",
+    "kind": "out_of_domain",
+    "relevant_ids": [],
+    "raw_model_accepted": false,
+    "scope_checks": [],
+    "accepted_with_scope_guard": false
+  },
+  {
+    "query_id": "challenge-36",
+    "kind": "out_of_domain",
+    "relevant_ids": [],
+    "raw_model_accepted": false,
+    "scope_checks": [],
+    "accepted_with_scope_guard": false
+  }
+]

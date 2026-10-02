@@ -1,0 +1,4637 @@
+[
+  {
+    "query_id": "pilot-01",
+    "query": "Python installation on our own Apple runner asks for an interactive administrator password. Which report documents this?",
+    "kind": "paraphrase",
+    "method": "bm25",
+    "relevant_ids": [
+      "actions/setup-python#1238"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1238",
+      "actions/setup-python#1256",
+      "actions/setup-python#1306",
+      "actions/setup-python#1060",
+      "pytest-dev/pytest#14724"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-01",
+    "query": "Python installation on our own Apple runner asks for an interactive administrator password. Which report documents this?",
+    "kind": "paraphrase",
+    "method": "semantic",
+    "relevant_ids": [
+      "actions/setup-python#1238"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1238",
+      "actions/setup-python#1306",
+      "actions/setup-python#1295",
+      "actions/setup-python#1265",
+      "actions/setup-python#1256"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-01",
+    "query": "Python installation on our own Apple runner asks for an interactive administrator password. Which report documents this?",
+    "kind": "paraphrase",
+    "method": "graph",
+    "relevant_ids": [
+      "actions/setup-python#1238"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1060",
+      "actions/setup-python#1050",
+      "actions/setup-python#1214",
+      "actions/setup-python#1238",
+      "actions/setup-python#1240"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 0.25,
+      "ndcg_at_5": 0.43067655807339306,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-01",
+    "query": "Python installation on our own Apple runner asks for an interactive administrator password. Which report documents this?",
+    "kind": "paraphrase",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "actions/setup-python#1238"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1238",
+      "actions/setup-python#1256",
+      "actions/setup-python#1060",
+      "actions/setup-python#1306",
+      "actions/setup-python#1050"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-01",
+    "query": "Python installation on our own Apple runner asks for an interactive administrator password. Which report documents this?",
+    "kind": "paraphrase",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "actions/setup-python#1238"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1238",
+      "actions/setup-python#1306",
+      "actions/setup-python#1256",
+      "actions/setup-python#1292",
+      "actions/setup-python#1257"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-01",
+    "query": "Python installation on our own Apple runner asks for an interactive administrator password. Which report documents this?",
+    "kind": "paraphrase",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "actions/setup-python#1238"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1238",
+      "actions/setup-python#1256",
+      "actions/setup-python#1306",
+      "actions/setup-python#1060",
+      "actions/setup-python#1257"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": 0.9657717719084337,
+    "accepted": true
+  },
+  {
+    "query_id": "pilot-02",
+    "query": "Our Python 3.14 workflow completes, but cleanup emits Node DEP0040 for punycode. Is this a reported action problem?",
+    "kind": "exact_error",
+    "method": "bm25",
+    "relevant_ids": [
+      "actions/setup-python#1252"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1252",
+      "actions/setup-python#1317",
+      "actions/setup-python#858",
+      "pytest-dev/pytest#14935",
+      "pytest-dev/pytest#14640"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-02",
+    "query": "Our Python 3.14 workflow completes, but cleanup emits Node DEP0040 for punycode. Is this a reported action problem?",
+    "kind": "exact_error",
+    "method": "semantic",
+    "relevant_ids": [
+      "actions/setup-python#1252"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1252",
+      "actions/setup-python#1278",
+      "actions/setup-python#1318",
+      "actions/setup-python#1314",
+      "actions/setup-python#1317"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-02",
+    "query": "Our Python 3.14 workflow completes, but cleanup emits Node DEP0040 for punycode. Is this a reported action problem?",
+    "kind": "exact_error",
+    "method": "graph",
+    "relevant_ids": [
+      "actions/setup-python#1252"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1256",
+      "actions/setup-python#1261",
+      "actions/setup-python#1275",
+      "pytest-dev/pytest#14640",
+      "actions/setup-python#1244"
+    ],
+    "metrics": {
+      "recall_at_5": 0.0,
+      "precision_at_5": 0.0,
+      "mrr": 0.14285714285714285,
+      "ndcg_at_5": 0.0,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-02",
+    "query": "Our Python 3.14 workflow completes, but cleanup emits Node DEP0040 for punycode. Is this a reported action problem?",
+    "kind": "exact_error",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "actions/setup-python#1252"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1252",
+      "actions/setup-python#1261",
+      "actions/setup-python#1317",
+      "actions/setup-python#1318",
+      "actions/setup-python#1278"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-02",
+    "query": "Our Python 3.14 workflow completes, but cleanup emits Node DEP0040 for punycode. Is this a reported action problem?",
+    "kind": "exact_error",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "actions/setup-python#1252"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1252",
+      "actions/setup-python#1317",
+      "pytest-dev/pytest#14935",
+      "actions/setup-python#1318",
+      "actions/setup-python#1278"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-02",
+    "query": "Our Python 3.14 workflow completes, but cleanup emits Node DEP0040 for punycode. Is this a reported action problem?",
+    "kind": "exact_error",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "actions/setup-python#1252"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1252",
+      "actions/setup-python#1317",
+      "actions/setup-python#1261",
+      "actions/setup-python#1318",
+      "actions/setup-python#1278"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": 0.9957325372665212,
+    "accepted": true
+  },
+  {
+    "query_id": "pilot-03",
+    "query": "A free threaded interpreter on Windows ARM stopped working on January 12 even though the downloaded image checksum stayed identical.",
+    "kind": "paraphrase",
+    "method": "bm25",
+    "relevant_ids": [
+      "actions/setup-python#1267"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1267",
+      "actions/setup-python#1306",
+      "pytest-dev/pytest#14716",
+      "actions/setup-python#1317",
+      "actions/setup-python#1309"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-03",
+    "query": "A free threaded interpreter on Windows ARM stopped working on January 12 even though the downloaded image checksum stayed identical.",
+    "kind": "paraphrase",
+    "method": "semantic",
+    "relevant_ids": [
+      "actions/setup-python#1267"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1267",
+      "actions/setup-python#1307",
+      "actions/setup-python#1060",
+      "actions/setup-python#1314",
+      "actions/setup-python#1241"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-03",
+    "query": "A free threaded interpreter on Windows ARM stopped working on January 12 even though the downloaded image checksum stayed identical.",
+    "kind": "paraphrase",
+    "method": "graph",
+    "relevant_ids": [
+      "actions/setup-python#1267"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#13246",
+      "actions/setup-python#1050",
+      "actions/setup-python#1060",
+      "actions/setup-python#1214",
+      "actions/setup-python#1238"
+    ],
+    "metrics": {
+      "recall_at_5": 0.0,
+      "precision_at_5": 0.0,
+      "mrr": 0.07692307692307693,
+      "ndcg_at_5": 0.0,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-03",
+    "query": "A free threaded interpreter on Windows ARM stopped working on January 12 even though the downloaded image checksum stayed identical.",
+    "kind": "paraphrase",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "actions/setup-python#1267"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1267",
+      "actions/setup-python#1241",
+      "actions/setup-python#1060",
+      "actions/setup-python#1255",
+      "actions/setup-python#1307"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-03",
+    "query": "A free threaded interpreter on Windows ARM stopped working on January 12 even though the downloaded image checksum stayed identical.",
+    "kind": "paraphrase",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "actions/setup-python#1267"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1267",
+      "actions/setup-python#1307",
+      "actions/setup-python#1241",
+      "actions/setup-python#1314",
+      "actions/setup-python#1255"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-03",
+    "query": "A free threaded interpreter on Windows ARM stopped working on January 12 even though the downloaded image checksum stayed identical.",
+    "kind": "paraphrase",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "actions/setup-python#1267"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1267",
+      "actions/setup-python#1241",
+      "actions/setup-python#1307",
+      "actions/setup-python#1060",
+      "actions/setup-python#1255"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": 0.9868075075110944,
+    "accepted": true
+  },
+  {
+    "query_id": "pilot-04",
+    "query": "A self hosted workflow exits with code 3 saying no activated virtualenv can be found. The runner sets PIP_REQUIRE_VIRTUALENV=true.",
+    "kind": "exact_error",
+    "method": "bm25",
+    "relevant_ids": [
+      "actions/setup-python#1285"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1285",
+      "actions/setup-python#1318",
+      "actions/setup-python#1244",
+      "actions/setup-python#1319",
+      "actions/setup-python#1261"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-04",
+    "query": "A self hosted workflow exits with code 3 saying no activated virtualenv can be found. The runner sets PIP_REQUIRE_VIRTUALENV=true.",
+    "kind": "exact_error",
+    "method": "semantic",
+    "relevant_ids": [
+      "actions/setup-python#1285"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1285",
+      "actions/setup-python#1050",
+      "actions/setup-python#1256",
+      "actions/setup-python#1295",
+      "actions/setup-python#1306"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-04",
+    "query": "A self hosted workflow exits with code 3 saying no activated virtualenv can be found. The runner sets PIP_REQUIRE_VIRTUALENV=true.",
+    "kind": "exact_error",
+    "method": "graph",
+    "relevant_ids": [
+      "actions/setup-python#1285"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#858",
+      "actions/setup-python#1214",
+      "actions/setup-python#1238",
+      "actions/setup-python#1244",
+      "actions/setup-python#1256"
+    ],
+    "metrics": {
+      "recall_at_5": 0.0,
+      "precision_at_5": 0.0,
+      "mrr": 0.1,
+      "ndcg_at_5": 0.0,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-04",
+    "query": "A self hosted workflow exits with code 3 saying no activated virtualenv can be found. The runner sets PIP_REQUIRE_VIRTUALENV=true.",
+    "kind": "exact_error",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "actions/setup-python#1285"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1285",
+      "actions/setup-python#1244",
+      "actions/setup-python#1261",
+      "actions/setup-python#858",
+      "actions/setup-python#1306"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-04",
+    "query": "A self hosted workflow exits with code 3 saying no activated virtualenv can be found. The runner sets PIP_REQUIRE_VIRTUALENV=true.",
+    "kind": "exact_error",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "actions/setup-python#1285"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1285",
+      "actions/setup-python#1244",
+      "actions/setup-python#1261",
+      "actions/setup-python#1306",
+      "actions/setup-python#1050"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-04",
+    "query": "A self hosted workflow exits with code 3 saying no activated virtualenv can be found. The runner sets PIP_REQUIRE_VIRTUALENV=true.",
+    "kind": "exact_error",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "actions/setup-python#1285"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1285",
+      "actions/setup-python#1244",
+      "actions/setup-python#1261",
+      "actions/setup-python#858",
+      "actions/setup-python#1306"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": 0.994496001108476,
+    "accepted": true
+  },
+  {
+    "query_id": "pilot-05",
+    "query": "Rerunning the same Ubuntu job unpredictably selects either Python 3.10.19 or 3.10.20. Find the report about unstable patch selection.",
+    "kind": "exact_version",
+    "method": "bm25",
+    "relevant_ids": [
+      "actions/setup-python#1286"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1286",
+      "actions/setup-python#1314",
+      "actions/setup-python#1252",
+      "actions/setup-python#1318",
+      "pytest-dev/pytest#14640"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-05",
+    "query": "Rerunning the same Ubuntu job unpredictably selects either Python 3.10.19 or 3.10.20. Find the report about unstable patch selection.",
+    "kind": "exact_version",
+    "method": "semantic",
+    "relevant_ids": [
+      "actions/setup-python#1286"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1286",
+      "actions/setup-python#1314",
+      "actions/setup-python#1278",
+      "actions/setup-python#1277",
+      "pytest-dev/pytest#14762"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-05",
+    "query": "Rerunning the same Ubuntu job unpredictably selects either Python 3.10.19 or 3.10.20. Find the report about unstable patch selection.",
+    "kind": "exact_version",
+    "method": "graph",
+    "relevant_ids": [
+      "actions/setup-python#1286"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1060",
+      "actions/setup-python#1256",
+      "actions/setup-python#1286",
+      "actions/setup-python#1314",
+      "actions/setup-python#1317"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 0.3333333333333333,
+      "ndcg_at_5": 0.5,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-05",
+    "query": "Rerunning the same Ubuntu job unpredictably selects either Python 3.10.19 or 3.10.20. Find the report about unstable patch selection.",
+    "kind": "exact_version",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "actions/setup-python#1286"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1286",
+      "actions/setup-python#1314",
+      "actions/setup-python#1261",
+      "actions/setup-python#1278",
+      "actions/setup-python#1252"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-05",
+    "query": "Rerunning the same Ubuntu job unpredictably selects either Python 3.10.19 or 3.10.20. Find the report about unstable patch selection.",
+    "kind": "exact_version",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "actions/setup-python#1286"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1286",
+      "actions/setup-python#1314",
+      "actions/setup-python#1278",
+      "actions/setup-python#1318",
+      "actions/setup-python#1261"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-05",
+    "query": "Rerunning the same Ubuntu job unpredictably selects either Python 3.10.19 or 3.10.20. Find the report about unstable patch selection.",
+    "kind": "exact_version",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "actions/setup-python#1286"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1286",
+      "actions/setup-python#1314",
+      "actions/setup-python#1278",
+      "actions/setup-python#1261",
+      "actions/setup-python#1318"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": 0.9932035731760792,
+    "accepted": true
+  },
+  {
+    "query_id": "pilot-06",
+    "query": "Our RISC-V CI runner cannot find prebuilt interpreter binaries for its architecture. What issue describes this platform gap?",
+    "kind": "paraphrase",
+    "method": "bm25",
+    "relevant_ids": [
+      "actions/setup-python#1288"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1288",
+      "actions/setup-python#1307",
+      "actions/setup-python#858",
+      "actions/setup-python#1319",
+      "actions/setup-python#1292"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-06",
+    "query": "Our RISC-V CI runner cannot find prebuilt interpreter binaries for its architecture. What issue describes this platform gap?",
+    "kind": "paraphrase",
+    "method": "semantic",
+    "relevant_ids": [
+      "actions/setup-python#1288"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1288",
+      "actions/setup-python#1319",
+      "actions/setup-python#1309",
+      "actions/setup-python#1244",
+      "actions/setup-python#1265"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-06",
+    "query": "Our RISC-V CI runner cannot find prebuilt interpreter binaries for its architecture. What issue describes this platform gap?",
+    "kind": "paraphrase",
+    "method": "graph",
+    "relevant_ids": [
+      "actions/setup-python#1288"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1244",
+      "actions/setup-python#1214",
+      "actions/setup-python#1238",
+      "actions/setup-python#1256",
+      "actions/setup-python#1261"
+    ],
+    "metrics": {
+      "recall_at_5": 0.0,
+      "precision_at_5": 0.0,
+      "mrr": 0.1,
+      "ndcg_at_5": 0.0,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-06",
+    "query": "Our RISC-V CI runner cannot find prebuilt interpreter binaries for its architecture. What issue describes this platform gap?",
+    "kind": "paraphrase",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "actions/setup-python#1288"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1288",
+      "actions/setup-python#1319",
+      "actions/setup-python#1214",
+      "actions/setup-python#1307",
+      "actions/setup-python#1261"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-06",
+    "query": "Our RISC-V CI runner cannot find prebuilt interpreter binaries for its architecture. What issue describes this platform gap?",
+    "kind": "paraphrase",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "actions/setup-python#1288"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1288",
+      "actions/setup-python#1319",
+      "actions/setup-python#1309",
+      "actions/setup-python#1267",
+      "actions/setup-python#1214"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-06",
+    "query": "Our RISC-V CI runner cannot find prebuilt interpreter binaries for its architecture. What issue describes this platform gap?",
+    "kind": "paraphrase",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "actions/setup-python#1288"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1288",
+      "actions/setup-python#1319",
+      "actions/setup-python#1214",
+      "actions/setup-python#1307",
+      "actions/setup-python#1261"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": 0.993098159733113,
+    "accepted": true
+  },
+  {
+    "query_id": "pilot-07",
+    "query": "Python 3.13t on Windows ARM64 cannot import encodings after installation. The executable in the cache is a zero byte reparse point.",
+    "kind": "exact_error",
+    "method": "bm25",
+    "relevant_ids": [
+      "actions/setup-python#1307"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1307",
+      "actions/setup-python#1240",
+      "actions/setup-python#858",
+      "actions/setup-python#1244",
+      "actions/setup-python#1241"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-07",
+    "query": "Python 3.13t on Windows ARM64 cannot import encodings after installation. The executable in the cache is a zero byte reparse point.",
+    "kind": "exact_error",
+    "method": "semantic",
+    "relevant_ids": [
+      "actions/setup-python#1307"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1307",
+      "actions/setup-python#1267",
+      "actions/setup-python#1241",
+      "actions/setup-python#1314",
+      "actions/setup-python#1256"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-07",
+    "query": "Python 3.13t on Windows ARM64 cannot import encodings after installation. The executable in the cache is a zero byte reparse point.",
+    "kind": "exact_error",
+    "method": "graph",
+    "relevant_ids": [
+      "actions/setup-python#1307"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1244",
+      "actions/setup-python#1050",
+      "actions/setup-python#1060",
+      "actions/setup-python#1255",
+      "actions/setup-python#1261"
+    ],
+    "metrics": {
+      "recall_at_5": 0.0,
+      "precision_at_5": 0.0,
+      "mrr": 0.1111111111111111,
+      "ndcg_at_5": 0.0,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-07",
+    "query": "Python 3.13t on Windows ARM64 cannot import encodings after installation. The executable in the cache is a zero byte reparse point.",
+    "kind": "exact_error",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "actions/setup-python#1307"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1307",
+      "actions/setup-python#1060",
+      "actions/setup-python#1240",
+      "actions/setup-python#1241",
+      "actions/setup-python#858"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-07",
+    "query": "Python 3.13t on Windows ARM64 cannot import encodings after installation. The executable in the cache is a zero byte reparse point.",
+    "kind": "exact_error",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "actions/setup-python#1307"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1307",
+      "actions/setup-python#1241",
+      "actions/setup-python#1240",
+      "actions/setup-python#1256",
+      "actions/setup-python#858"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-07",
+    "query": "Python 3.13t on Windows ARM64 cannot import encodings after installation. The executable in the cache is a zero byte reparse point.",
+    "kind": "exact_error",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "actions/setup-python#1307"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1307",
+      "actions/setup-python#1241",
+      "actions/setup-python#1240",
+      "actions/setup-python#1060",
+      "actions/setup-python#858"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": 0.9979459221262994,
+    "accepted": true
+  },
+  {
+    "query_id": "pilot-08",
+    "query": "Python works inside Ubuntu 24.04 but version lookup fails inside a 26.04 container on our own runner. Which report compares those environments?",
+    "kind": "paraphrase",
+    "method": "bm25",
+    "relevant_ids": [
+      "actions/setup-python#1309"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1309",
+      "actions/setup-python#1256",
+      "actions/setup-python#1321",
+      "pytest-dev/pytest#14724",
+      "actions/setup-python#1261"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-08",
+    "query": "Python works inside Ubuntu 24.04 but version lookup fails inside a 26.04 container on our own runner. Which report compares those environments?",
+    "kind": "paraphrase",
+    "method": "semantic",
+    "relevant_ids": [
+      "actions/setup-python#1309"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1309",
+      "actions/setup-python#1286",
+      "actions/setup-python#1314",
+      "actions/setup-python#1261",
+      "actions/setup-python#1240"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-08",
+    "query": "Python works inside Ubuntu 24.04 but version lookup fails inside a 26.04 container on our own runner. Which report compares those environments?",
+    "kind": "paraphrase",
+    "method": "graph",
+    "relevant_ids": [
+      "actions/setup-python#1309"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1060",
+      "actions/setup-python#1050",
+      "actions/setup-python#1214",
+      "actions/setup-python#1238",
+      "actions/setup-python#1240"
+    ],
+    "metrics": {
+      "recall_at_5": 0.0,
+      "precision_at_5": 0.0,
+      "mrr": 0.043478260869565216,
+      "ndcg_at_5": 0.0,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-08",
+    "query": "Python works inside Ubuntu 24.04 but version lookup fails inside a 26.04 container on our own runner. Which report compares those environments?",
+    "kind": "paraphrase",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "actions/setup-python#1309"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1261",
+      "actions/setup-python#1214",
+      "actions/setup-python#1309",
+      "actions/setup-python#1256",
+      "actions/setup-python#1240"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 0.3333333333333333,
+      "ndcg_at_5": 0.5,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-08",
+    "query": "Python works inside Ubuntu 24.04 but version lookup fails inside a 26.04 container on our own runner. Which report compares those environments?",
+    "kind": "paraphrase",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "actions/setup-python#1309"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1309",
+      "actions/setup-python#1261",
+      "actions/setup-python#1319",
+      "actions/setup-python#1256",
+      "actions/setup-python#1214"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-08",
+    "query": "Python works inside Ubuntu 24.04 but version lookup fails inside a 26.04 container on our own runner. Which report compares those environments?",
+    "kind": "paraphrase",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "actions/setup-python#1309"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1309",
+      "actions/setup-python#1261",
+      "actions/setup-python#1214",
+      "actions/setup-python#1256",
+      "actions/setup-python#1240"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": 0.994755698520361,
+    "accepted": true
+  },
+  {
+    "query_id": "pilot-09",
+    "query": "The action cannot install Python 3.14.5 because the release is absent from versions-manifest.json. Find the supporting report.",
+    "kind": "exact_version",
+    "method": "bm25",
+    "relevant_ids": [
+      "actions/setup-python#1313"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1313",
+      "actions/setup-python#1318",
+      "actions/setup-python#1241",
+      "actions/setup-python#1352",
+      "actions/setup-python#1238"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-09",
+    "query": "The action cannot install Python 3.14.5 because the release is absent from versions-manifest.json. Find the supporting report.",
+    "kind": "exact_version",
+    "method": "semantic",
+    "relevant_ids": [
+      "actions/setup-python#1313"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1313",
+      "actions/setup-python#1277",
+      "actions/setup-python#1278",
+      "actions/setup-python#1319",
+      "actions/setup-python#1356"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-09",
+    "query": "The action cannot install Python 3.14.5 because the release is absent from versions-manifest.json. Find the supporting report.",
+    "kind": "exact_version",
+    "method": "graph",
+    "relevant_ids": [
+      "actions/setup-python#1313"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1241",
+      "actions/setup-python#1252",
+      "actions/setup-python#1256",
+      "actions/setup-python#1261",
+      "actions/setup-python#1267"
+    ],
+    "metrics": {
+      "recall_at_5": 0.0,
+      "precision_at_5": 0.0,
+      "mrr": 0.03125,
+      "ndcg_at_5": 0.0,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-09",
+    "query": "The action cannot install Python 3.14.5 because the release is absent from versions-manifest.json. Find the supporting report.",
+    "kind": "exact_version",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "actions/setup-python#1313"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1241",
+      "actions/setup-python#1256",
+      "actions/setup-python#1275",
+      "actions/setup-python#1277",
+      "actions/setup-python#1278"
+    ],
+    "metrics": {
+      "recall_at_5": 0.0,
+      "precision_at_5": 0.0,
+      "mrr": 0.07692307692307693,
+      "ndcg_at_5": 0.0,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-09",
+    "query": "The action cannot install Python 3.14.5 because the release is absent from versions-manifest.json. Find the supporting report.",
+    "kind": "exact_version",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "actions/setup-python#1313"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1313",
+      "actions/setup-python#1277",
+      "actions/setup-python#1241",
+      "actions/setup-python#1278",
+      "actions/setup-python#1256"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-09",
+    "query": "The action cannot install Python 3.14.5 because the release is absent from versions-manifest.json. Find the supporting report.",
+    "kind": "exact_version",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "actions/setup-python#1313"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1241",
+      "actions/setup-python#1256",
+      "actions/setup-python#1277",
+      "actions/setup-python#1275",
+      "actions/setup-python#1278"
+    ],
+    "metrics": {
+      "recall_at_5": 0.0,
+      "precision_at_5": 0.0,
+      "mrr": 0.09090909090909091,
+      "ndcg_at_5": 0.0,
+      "hit_at_1": 0
+    },
+    "confidence": 0.9886864213199654,
+    "accepted": true
+  },
+  {
+    "query_id": "pilot-10",
+    "query": "After another package installs chardet 7.2, importing requests emits a confusing compatibility warning. Where is optional encoding detector behavior explained?",
+    "kind": "paraphrase",
+    "method": "bm25",
+    "relevant_ids": [
+      "psf/requests#7284"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7284",
+      "psf/requests#7459",
+      "pytest-dev/pytest#14953",
+      "psf/requests#7442",
+      "psf/requests#7274"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-10",
+    "query": "After another package installs chardet 7.2, importing requests emits a confusing compatibility warning. Where is optional encoding detector behavior explained?",
+    "kind": "paraphrase",
+    "method": "semantic",
+    "relevant_ids": [
+      "psf/requests#7284"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7284",
+      "psf/requests#7274",
+      "psf/requests#7592",
+      "psf/requests#7375",
+      "pytest-dev/pytest#14953"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-10",
+    "query": "After another package installs chardet 7.2, importing requests emits a confusing compatibility warning. Where is optional encoding detector behavior explained?",
+    "kind": "paraphrase",
+    "method": "graph",
+    "relevant_ids": [
+      "psf/requests#7284"
+    ],
+    "retrieved_ids": [
+      "psf/requests#5461",
+      "psf/requests#7592",
+      "psf/requests#7622"
+    ],
+    "metrics": {
+      "recall_at_5": 0.0,
+      "precision_at_5": 0.0,
+      "mrr": 0.0,
+      "ndcg_at_5": 0.0,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-10",
+    "query": "After another package installs chardet 7.2, importing requests emits a confusing compatibility warning. Where is optional encoding detector behavior explained?",
+    "kind": "paraphrase",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "psf/requests#7284"
+    ],
+    "retrieved_ids": [
+      "psf/requests#5461",
+      "psf/requests#7284",
+      "psf/requests#7592",
+      "psf/requests#7274",
+      "pytest-dev/pytest#14953"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 0.5,
+      "ndcg_at_5": 0.6309297535714575,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-10",
+    "query": "After another package installs chardet 7.2, importing requests emits a confusing compatibility warning. Where is optional encoding detector behavior explained?",
+    "kind": "paraphrase",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "psf/requests#7284"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7284",
+      "psf/requests#7274",
+      "pytest-dev/pytest#14953",
+      "psf/requests#7442",
+      "actions/setup-python#1251"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-10",
+    "query": "After another package installs chardet 7.2, importing requests emits a confusing compatibility warning. Where is optional encoding detector behavior explained?",
+    "kind": "paraphrase",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "psf/requests#7284"
+    ],
+    "retrieved_ids": [
+      "psf/requests#5461",
+      "psf/requests#7284",
+      "psf/requests#7274",
+      "pytest-dev/pytest#14953",
+      "psf/requests#7442"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 0.5,
+      "ndcg_at_5": 0.6309297535714575,
+      "hit_at_1": 0
+    },
+    "confidence": 0.9945362653396147,
+    "accepted": true
+  },
+  {
+    "query_id": "pilot-11",
+    "query": "HTTP header validation rejects carriage returns but accepts null bytes and other control characters. Which bug report demonstrates this difference?",
+    "kind": "paraphrase",
+    "method": "bm25",
+    "relevant_ids": [
+      "psf/requests#7335"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7335",
+      "psf/requests#7605",
+      "psf/requests#5888",
+      "pytest-dev/pytest#15005",
+      "pytest-dev/pytest#14724"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-11",
+    "query": "HTTP header validation rejects carriage returns but accepts null bytes and other control characters. Which bug report demonstrates this difference?",
+    "kind": "paraphrase",
+    "method": "semantic",
+    "relevant_ids": [
+      "psf/requests#7335"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7335",
+      "psf/requests#7592",
+      "psf/requests#7432",
+      "psf/requests#7594",
+      "psf/requests#7284"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-11",
+    "query": "HTTP header validation rejects carriage returns but accepts null bytes and other control characters. Which bug report demonstrates this difference?",
+    "kind": "paraphrase",
+    "method": "graph",
+    "relevant_ids": [
+      "psf/requests#7335"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7615",
+      "actions/setup-python#1050",
+      "actions/setup-python#1060",
+      "actions/setup-python#1214",
+      "actions/setup-python#1238"
+    ],
+    "metrics": {
+      "recall_at_5": 0.0,
+      "precision_at_5": 0.0,
+      "mrr": 0.0,
+      "ndcg_at_5": 0.0,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-11",
+    "query": "HTTP header validation rejects carriage returns but accepts null bytes and other control characters. Which bug report demonstrates this difference?",
+    "kind": "paraphrase",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "psf/requests#7335"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7615",
+      "actions/setup-python#1318",
+      "actions/setup-python#1317",
+      "psf/requests#7335",
+      "psf/requests#5888"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 0.25,
+      "ndcg_at_5": 0.43067655807339306,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-11",
+    "query": "HTTP header validation rejects carriage returns but accepts null bytes and other control characters. Which bug report demonstrates this difference?",
+    "kind": "paraphrase",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "psf/requests#7335"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7335",
+      "psf/requests#5888",
+      "psf/requests#7605",
+      "psf/requests#7594",
+      "psf/requests#7592"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-11",
+    "query": "HTTP header validation rejects carriage returns but accepts null bytes and other control characters. Which bug report demonstrates this difference?",
+    "kind": "paraphrase",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "psf/requests#7335"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7615",
+      "actions/setup-python#1318",
+      "psf/requests#7335",
+      "psf/requests#5888",
+      "psf/requests#7605"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 0.3333333333333333,
+      "ndcg_at_5": 0.5,
+      "hit_at_1": 0
+    },
+    "confidence": 0.9952654028727463,
+    "accepted": true
+  },
+  {
+    "query_id": "pilot-12",
+    "query": "Evaluating type hints on requests.Response throws NameError for RequestsCookieJar after version 2.34.0. Find the runtime annotation report.",
+    "kind": "exact_error",
+    "method": "bm25",
+    "relevant_ids": [
+      "psf/requests#7456"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7456",
+      "actions/setup-python#1318",
+      "psf/requests#7434",
+      "psf/requests#7442",
+      "actions/setup-python#1317"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-12",
+    "query": "Evaluating type hints on requests.Response throws NameError for RequestsCookieJar after version 2.34.0. Find the runtime annotation report.",
+    "kind": "exact_error",
+    "method": "semantic",
+    "relevant_ids": [
+      "psf/requests#7456"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7456",
+      "psf/requests#7442",
+      "psf/requests#7558",
+      "psf/requests#7600",
+      "psf/requests#7434"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-12",
+    "query": "Evaluating type hints on requests.Response throws NameError for RequestsCookieJar after version 2.34.0. Find the runtime annotation report.",
+    "kind": "exact_error",
+    "method": "graph",
+    "relevant_ids": [
+      "psf/requests#7456"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7456",
+      "pytest-dev/pytest#14683"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-12",
+    "query": "Evaluating type hints on requests.Response throws NameError for RequestsCookieJar after version 2.34.0. Find the runtime annotation report.",
+    "kind": "exact_error",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "psf/requests#7456"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7456",
+      "psf/requests#7442",
+      "psf/requests#7434",
+      "actions/setup-python#1318",
+      "psf/requests#7432"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-12",
+    "query": "Evaluating type hints on requests.Response throws NameError for RequestsCookieJar after version 2.34.0. Find the runtime annotation report.",
+    "kind": "exact_error",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "psf/requests#7456"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7456",
+      "psf/requests#7442",
+      "psf/requests#7434",
+      "actions/setup-python#1318",
+      "psf/requests#7432"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-12",
+    "query": "Evaluating type hints on requests.Response throws NameError for RequestsCookieJar after version 2.34.0. Find the runtime annotation report.",
+    "kind": "exact_error",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "psf/requests#7456"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7456",
+      "psf/requests#7442",
+      "psf/requests#7434",
+      "actions/setup-python#1318",
+      "psf/requests#7432"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": 0.999728557197108,
+    "accepted": true
+  },
+  {
+    "query_id": "pilot-13",
+    "query": "An inherited requests.Session docstring makes Sphinx fail with an unexpected unindent when warnings are errors. Find the source report.",
+    "kind": "exact_error",
+    "method": "bm25",
+    "relevant_ids": [
+      "psf/requests#7459"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7459",
+      "pytest-dev/pytest#14953",
+      "pytest-dev/pytest#14818",
+      "actions/setup-python#1261",
+      "actions/setup-python#1318"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-13",
+    "query": "An inherited requests.Session docstring makes Sphinx fail with an unexpected unindent when warnings are errors. Find the source report.",
+    "kind": "exact_error",
+    "method": "semantic",
+    "relevant_ids": [
+      "psf/requests#7459"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7459",
+      "pytest-dev/pytest#14683",
+      "pytest-dev/pytest#14818",
+      "psf/requests#7442",
+      "psf/requests#7600"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-13",
+    "query": "An inherited requests.Session docstring makes Sphinx fail with an unexpected unindent when warnings are errors. Find the source report.",
+    "kind": "exact_error",
+    "method": "graph",
+    "relevant_ids": [
+      "psf/requests#7459"
+    ],
+    "retrieved_ids": [],
+    "metrics": {
+      "recall_at_5": 0.0,
+      "precision_at_5": 0.0,
+      "mrr": 0.0,
+      "ndcg_at_5": 0.0,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-13",
+    "query": "An inherited requests.Session docstring makes Sphinx fail with an unexpected unindent when warnings are errors. Find the source report.",
+    "kind": "exact_error",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "psf/requests#7459"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7459",
+      "pytest-dev/pytest#14818",
+      "psf/requests#7621",
+      "actions/setup-python#1318",
+      "pytest-dev/pytest#14953"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-13",
+    "query": "An inherited requests.Session docstring makes Sphinx fail with an unexpected unindent when warnings are errors. Find the source report.",
+    "kind": "exact_error",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "psf/requests#7459"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7459",
+      "pytest-dev/pytest#14818",
+      "psf/requests#7621",
+      "actions/setup-python#1318",
+      "pytest-dev/pytest#14953"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-13",
+    "query": "An inherited requests.Session docstring makes Sphinx fail with an unexpected unindent when warnings are errors. Find the source report.",
+    "kind": "exact_error",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "psf/requests#7459"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7459",
+      "pytest-dev/pytest#14818",
+      "psf/requests#7621",
+      "actions/setup-python#1318",
+      "pytest-dev/pytest#14953"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": 0.998443827436643,
+    "accepted": true
+  },
+  {
+    "query_id": "pilot-14",
+    "query": "A user questions whether latin1 basic authentication supports the characters required by RFC 7617. Which report raises that discrepancy?",
+    "kind": "paraphrase",
+    "method": "bm25",
+    "relevant_ids": [
+      "psf/requests#7592"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7592",
+      "psf/requests#7611",
+      "psf/requests#7605",
+      "psf/requests#7335",
+      "actions/setup-python#1261"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-14",
+    "query": "A user questions whether latin1 basic authentication supports the characters required by RFC 7617. Which report raises that discrepancy?",
+    "kind": "paraphrase",
+    "method": "semantic",
+    "relevant_ids": [
+      "psf/requests#7592"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7592",
+      "pytest-dev/pytest#14953",
+      "psf/requests#7611",
+      "psf/requests#7335",
+      "psf/requests#7605"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-14",
+    "query": "A user questions whether latin1 basic authentication supports the characters required by RFC 7617. Which report raises that discrepancy?",
+    "kind": "paraphrase",
+    "method": "graph",
+    "relevant_ids": [
+      "psf/requests#7592"
+    ],
+    "retrieved_ids": [
+      "actions/setup-python#1318",
+      "psf/requests#5888",
+      "psf/requests#7465",
+      "psf/requests#7592",
+      "psf/requests#7605"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 0.25,
+      "ndcg_at_5": 0.43067655807339306,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-14",
+    "query": "A user questions whether latin1 basic authentication supports the characters required by RFC 7617. Which report raises that discrepancy?",
+    "kind": "paraphrase",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "psf/requests#7592"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7592",
+      "psf/requests#7605",
+      "psf/requests#7465",
+      "psf/requests#7611",
+      "psf/requests#7335"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-14",
+    "query": "A user questions whether latin1 basic authentication supports the characters required by RFC 7617. Which report raises that discrepancy?",
+    "kind": "paraphrase",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "psf/requests#7592"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7592",
+      "psf/requests#7611",
+      "psf/requests#7605",
+      "psf/requests#7335",
+      "psf/requests#7284"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-14",
+    "query": "A user questions whether latin1 basic authentication supports the characters required by RFC 7617. Which report raises that discrepancy?",
+    "kind": "paraphrase",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "psf/requests#7592"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7592",
+      "psf/requests#7605",
+      "psf/requests#7465",
+      "psf/requests#7611",
+      "psf/requests#7335"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": 0.99520368457984,
+    "accepted": true
+  },
+  {
+    "query_id": "pilot-15",
+    "query": "mypy flags e.response.status_code with union-attr when handling HTTPError, although raise_for_status attaches a response. Find the typing issue.",
+    "kind": "exact_error",
+    "method": "bm25",
+    "relevant_ids": [
+      "psf/requests#7600"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7600",
+      "psf/requests#7456",
+      "psf/requests#7434",
+      "psf/requests#7465",
+      "actions/setup-python#1318"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-15",
+    "query": "mypy flags e.response.status_code with union-attr when handling HTTPError, although raise_for_status attaches a response. Find the typing issue.",
+    "kind": "exact_error",
+    "method": "semantic",
+    "relevant_ids": [
+      "psf/requests#7600"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7600",
+      "psf/requests#7442",
+      "psf/requests#7434",
+      "psf/requests#7335",
+      "psf/requests#7594"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-15",
+    "query": "mypy flags e.response.status_code with union-attr when handling HTTPError, although raise_for_status attaches a response. Find the typing issue.",
+    "kind": "exact_error",
+    "method": "graph",
+    "relevant_ids": [
+      "psf/requests#7600"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7600"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-15",
+    "query": "mypy flags e.response.status_code with union-attr when handling HTTPError, although raise_for_status attaches a response. Find the typing issue.",
+    "kind": "exact_error",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "psf/requests#7600"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7600",
+      "psf/requests#7434",
+      "psf/requests#7442",
+      "psf/requests#7456",
+      "psf/requests#7465"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-15",
+    "query": "mypy flags e.response.status_code with union-attr when handling HTTPError, although raise_for_status attaches a response. Find the typing issue.",
+    "kind": "exact_error",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "psf/requests#7600"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7600",
+      "psf/requests#7434",
+      "psf/requests#7442",
+      "psf/requests#7456",
+      "psf/requests#7465"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-15",
+    "query": "mypy flags e.response.status_code with union-attr when handling HTTPError, although raise_for_status attaches a response. Find the typing issue.",
+    "kind": "exact_error",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "psf/requests#7600"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7600",
+      "psf/requests#7434",
+      "psf/requests#7456",
+      "psf/requests#7442",
+      "psf/requests#7465"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": 0.9981282193312865,
+    "accepted": true
+  },
+  {
+    "query_id": "pilot-16",
+    "query": "Which report alleges that following redirects without checking the destination can expose private networks and metadata endpoints?",
+    "kind": "paraphrase",
+    "method": "bm25",
+    "relevant_ids": [
+      "psf/requests#7607"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7607",
+      "psf/requests#7432",
+      "actions/setup-python#858",
+      "pytest-dev/pytest#15081",
+      "pytest-dev/pytest#14765"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-16",
+    "query": "Which report alleges that following redirects without checking the destination can expose private networks and metadata endpoints?",
+    "kind": "paraphrase",
+    "method": "semantic",
+    "relevant_ids": [
+      "psf/requests#7607"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7607",
+      "psf/requests#7600",
+      "pytest-dev/pytest#14724",
+      "psf/requests#7432",
+      "psf/requests#7615"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-16",
+    "query": "Which report alleges that following redirects without checking the destination can expose private networks and metadata endpoints?",
+    "kind": "paraphrase",
+    "method": "graph",
+    "relevant_ids": [
+      "psf/requests#7607"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7432",
+      "psf/requests#7607",
+      "psf/requests#7615",
+      "pytest-dev/pytest#14995",
+      "actions/setup-python#1244"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 0.5,
+      "ndcg_at_5": 0.6309297535714575,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-16",
+    "query": "Which report alleges that following redirects without checking the destination can expose private networks and metadata endpoints?",
+    "kind": "paraphrase",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "psf/requests#7607"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7607",
+      "psf/requests#7432",
+      "pytest-dev/pytest#14995",
+      "psf/requests#7615",
+      "pytest-dev/pytest#14724"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-16",
+    "query": "Which report alleges that following redirects without checking the destination can expose private networks and metadata endpoints?",
+    "kind": "paraphrase",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "psf/requests#7607"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7607",
+      "psf/requests#7432",
+      "pytest-dev/pytest#14724",
+      "pytest-dev/pytest#14852",
+      "pytest-dev/pytest#15071"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-16",
+    "query": "Which report alleges that following redirects without checking the destination can expose private networks and metadata endpoints?",
+    "kind": "paraphrase",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "psf/requests#7607"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7607",
+      "psf/requests#7432",
+      "pytest-dev/pytest#14995",
+      "pytest-dev/pytest#14724",
+      "pytest-dev/pytest#14852"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": 0.9953378384271421,
+    "accepted": true
+  },
+  {
+    "query_id": "pilot-17",
+    "query": "Specifying a pytest config under config/ causes one directory's fixture value to be reused in another. Which report shows that setting rootdir explicitly helps?",
+    "kind": "paraphrase",
+    "method": "bm25",
+    "relevant_ids": [
+      "pytest-dev/pytest#13246"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#15071",
+      "pytest-dev/pytest#14997",
+      "pytest-dev/pytest#14953",
+      "pytest-dev/pytest#14964"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-17",
+    "query": "Specifying a pytest config under config/ causes one directory's fixture value to be reused in another. Which report shows that setting rootdir explicitly helps?",
+    "kind": "paraphrase",
+    "method": "semantic",
+    "relevant_ids": [
+      "pytest-dev/pytest#13246"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14971",
+      "pytest-dev/pytest#14004",
+      "pytest-dev/pytest#14640"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-17",
+    "query": "Specifying a pytest config under config/ causes one directory's fixture value to be reused in another. Which report shows that setting rootdir explicitly helps?",
+    "kind": "paraphrase",
+    "method": "graph",
+    "relevant_ids": [
+      "pytest-dev/pytest#13246"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14716",
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14004",
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14683"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 0.5,
+      "ndcg_at_5": 0.6309297535714575,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-17",
+    "query": "Specifying a pytest config under config/ causes one directory's fixture value to be reused in another. Which report shows that setting rootdir explicitly helps?",
+    "kind": "paraphrase",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "pytest-dev/pytest#13246"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14004",
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14971"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-17",
+    "query": "Specifying a pytest config under config/ causes one directory's fixture value to be reused in another. Which report shows that setting rootdir explicitly helps?",
+    "kind": "paraphrase",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "pytest-dev/pytest#13246"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14997",
+      "pytest-dev/pytest#15071",
+      "pytest-dev/pytest#14971"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-17",
+    "query": "Specifying a pytest config under config/ causes one directory's fixture value to be reused in another. Which report shows that setting rootdir explicitly helps?",
+    "kind": "paraphrase",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "pytest-dev/pytest#13246"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14004",
+      "pytest-dev/pytest#14997"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": 0.9967431721124109,
+    "accepted": true
+  },
+  {
+    "query_id": "pilot-18",
+    "query": "Pytest fixtures from inner directories affect sibling tests only when testpaths reaches outside the root directory. Find the scope regression.",
+    "kind": "paraphrase",
+    "method": "bm25",
+    "relevant_ids": [
+      "pytest-dev/pytest#14004"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14004",
+      "pytest-dev/pytest#14997",
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14971"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-18",
+    "query": "Pytest fixtures from inner directories affect sibling tests only when testpaths reaches outside the root directory. Find the scope regression.",
+    "kind": "paraphrase",
+    "method": "semantic",
+    "relevant_ids": [
+      "pytest-dev/pytest#14004"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14971",
+      "pytest-dev/pytest#14004",
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14964"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 0.3333333333333333,
+      "ndcg_at_5": 0.5,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-18",
+    "query": "Pytest fixtures from inner directories affect sibling tests only when testpaths reaches outside the root directory. Find the scope regression.",
+    "kind": "paraphrase",
+    "method": "graph",
+    "relevant_ids": [
+      "pytest-dev/pytest#14004"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14004",
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14683"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 0.3333333333333333,
+      "ndcg_at_5": 0.5,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-18",
+    "query": "Pytest fixtures from inner directories affect sibling tests only when testpaths reaches outside the root directory. Find the scope regression.",
+    "kind": "paraphrase",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "pytest-dev/pytest#14004"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14004",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14971"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 0.5,
+      "ndcg_at_5": 0.6309297535714575,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-18",
+    "query": "Pytest fixtures from inner directories affect sibling tests only when testpaths reaches outside the root directory. Find the scope regression.",
+    "kind": "paraphrase",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "pytest-dev/pytest#14004"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14004",
+      "pytest-dev/pytest#14971",
+      "pytest-dev/pytest#14997",
+      "pytest-dev/pytest#14964"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 0.5,
+      "ndcg_at_5": 0.6309297535714575,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-18",
+    "query": "Pytest fixtures from inner directories affect sibling tests only when testpaths reaches outside the root directory. Find the scope regression.",
+    "kind": "paraphrase",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "pytest-dev/pytest#14004"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14004",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14971"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 0.5,
+      "ndcg_at_5": 0.6309297535714575,
+      "hit_at_1": 0
+    },
+    "confidence": 0.9141241760812231,
+    "accepted": true
+  },
+  {
+    "query_id": "pilot-19",
+    "query": "A merge gate invokes edited test files in unsorted order and loses a shared conftest fixture. Which report has a working versus failing ordering example?",
+    "kind": "paraphrase",
+    "method": "bm25",
+    "relevant_ids": [
+      "pytest-dev/pytest#14640"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#15071",
+      "pytest-dev/pytest#14852",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14997"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-19",
+    "query": "A merge gate invokes edited test files in unsorted order and loses a shared conftest fixture. Which report has a working versus failing ordering example?",
+    "kind": "paraphrase",
+    "method": "semantic",
+    "relevant_ids": [
+      "pytest-dev/pytest#14640"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14992",
+      "pytest-dev/pytest#14997",
+      "pytest-dev/pytest#14971"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-19",
+    "query": "A merge gate invokes edited test files in unsorted order and loses a shared conftest fixture. Which report has a working versus failing ordering example?",
+    "kind": "paraphrase",
+    "method": "graph",
+    "relevant_ids": [
+      "pytest-dev/pytest#14640"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14004",
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14683",
+      "pytest-dev/pytest#14691"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 0.3333333333333333,
+      "ndcg_at_5": 0.5,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-19",
+    "query": "A merge gate invokes edited test files in unsorted order and loses a shared conftest fixture. Which report has a working versus failing ordering example?",
+    "kind": "paraphrase",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "pytest-dev/pytest#14640"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14004",
+      "pytest-dev/pytest#14852"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-19",
+    "query": "A merge gate invokes edited test files in unsorted order and loses a shared conftest fixture. Which report has a working versus failing ordering example?",
+    "kind": "paraphrase",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "pytest-dev/pytest#14640"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#15071",
+      "pytest-dev/pytest#14997",
+      "pytest-dev/pytest#14992"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-19",
+    "query": "A merge gate invokes edited test files in unsorted order and loses a shared conftest fixture. Which report has a working versus failing ordering example?",
+    "kind": "paraphrase",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "pytest-dev/pytest#14640"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#15071",
+      "pytest-dev/pytest#14997",
+      "pytest-dev/pytest#14992"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": 0.990306285951135,
+    "accepted": true
+  },
+  {
+    "query_id": "pilot-20",
+    "query": "Giving pytest a nonexistent config path either does nothing or raises FileNotFoundError depending on the extension. Which report covers both cases?",
+    "kind": "exact_error",
+    "method": "bm25",
+    "relevant_ids": [
+      "pytest-dev/pytest#14716"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14716",
+      "pytest-dev/pytest#14724",
+      "pytest-dev/pytest#15043",
+      "pytest-dev/pytest#14864",
+      "pytest-dev/pytest#14964"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-20",
+    "query": "Giving pytest a nonexistent config path either does nothing or raises FileNotFoundError depending on the extension. Which report covers both cases?",
+    "kind": "exact_error",
+    "method": "semantic",
+    "relevant_ids": [
+      "pytest-dev/pytest#14716"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14716",
+      "pytest-dev/pytest#14700",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14724"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-20",
+    "query": "Giving pytest a nonexistent config path either does nothing or raises FileNotFoundError depending on the extension. Which report covers both cases?",
+    "kind": "exact_error",
+    "method": "graph",
+    "relevant_ids": [
+      "pytest-dev/pytest#14716"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14716",
+      "pytest-dev/pytest#14935",
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#10577",
+      "pytest-dev/pytest#1120"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-20",
+    "query": "Giving pytest a nonexistent config path either does nothing or raises FileNotFoundError depending on the extension. Which report covers both cases?",
+    "kind": "exact_error",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "pytest-dev/pytest#14716"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14716",
+      "pytest-dev/pytest#14724",
+      "pytest-dev/pytest#14935",
+      "pytest-dev/pytest#14864",
+      "pytest-dev/pytest#14651"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-20",
+    "query": "Giving pytest a nonexistent config path either does nothing or raises FileNotFoundError depending on the extension. Which report covers both cases?",
+    "kind": "exact_error",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "pytest-dev/pytest#14716"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14716",
+      "pytest-dev/pytest#14724",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14864",
+      "pytest-dev/pytest#15043"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-20",
+    "query": "Giving pytest a nonexistent config path either does nothing or raises FileNotFoundError depending on the extension. Which report covers both cases?",
+    "kind": "exact_error",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "pytest-dev/pytest#14716"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14716",
+      "pytest-dev/pytest#14724",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14864",
+      "pytest-dev/pytest#14651"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": 0.9998311614946285,
+    "accepted": true
+  },
+  {
+    "query_id": "pilot-21",
+    "query": "A TOML array passes through a string-valued INI option without TypeError, unlike native TOML validation. Find the inconsistent configuration check.",
+    "kind": "paraphrase",
+    "method": "bm25",
+    "relevant_ids": [
+      "pytest-dev/pytest#14808"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14953",
+      "pytest-dev/pytest#14808",
+      "pytest-dev/pytest#14675",
+      "pytest-dev/pytest#14926",
+      "pytest-dev/pytest#14705"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 0.5,
+      "ndcg_at_5": 0.6309297535714575,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-21",
+    "query": "A TOML array passes through a string-valued INI option without TypeError, unlike native TOML validation. Find the inconsistent configuration check.",
+    "kind": "paraphrase",
+    "method": "semantic",
+    "relevant_ids": [
+      "pytest-dev/pytest#14808"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14953",
+      "pytest-dev/pytest#14808",
+      "pytest-dev/pytest#14675",
+      "pytest-dev/pytest#14705",
+      "actions/setup-python#1317"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 0.5,
+      "ndcg_at_5": 0.6309297535714575,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-21",
+    "query": "A TOML array passes through a string-valued INI option without TypeError, unlike native TOML validation. Find the inconsistent configuration check.",
+    "kind": "paraphrase",
+    "method": "graph",
+    "relevant_ids": [
+      "pytest-dev/pytest#14808"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14675",
+      "pytest-dev/pytest#14808",
+      "pytest-dev/pytest#14909",
+      "pytest-dev/pytest#14953"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 0.5,
+      "ndcg_at_5": 0.6309297535714575,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-21",
+    "query": "A TOML array passes through a string-valued INI option without TypeError, unlike native TOML validation. Find the inconsistent configuration check.",
+    "kind": "paraphrase",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "pytest-dev/pytest#14808"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14953",
+      "pytest-dev/pytest#14808",
+      "pytest-dev/pytest#14675",
+      "pytest-dev/pytest#14705",
+      "pytest-dev/pytest#14716"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 0.5,
+      "ndcg_at_5": 0.6309297535714575,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-21",
+    "query": "A TOML array passes through a string-valued INI option without TypeError, unlike native TOML validation. Find the inconsistent configuration check.",
+    "kind": "paraphrase",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "pytest-dev/pytest#14808"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14953",
+      "pytest-dev/pytest#14808",
+      "pytest-dev/pytest#14675",
+      "pytest-dev/pytest#14705",
+      "pytest-dev/pytest#14716"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 0.5,
+      "ndcg_at_5": 0.6309297535714575,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-21",
+    "query": "A TOML array passes through a string-valued INI option without TypeError, unlike native TOML validation. Find the inconsistent configuration check.",
+    "kind": "paraphrase",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "pytest-dev/pytest#14808"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14953",
+      "pytest-dev/pytest#14808",
+      "pytest-dev/pytest#14675",
+      "pytest-dev/pytest#14705",
+      "pytest-dev/pytest#14716"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 0.5,
+      "ndcg_at_5": 0.6309297535714575,
+      "hit_at_1": 0
+    },
+    "confidence": 0.9888579798322762,
+    "accepted": true
+  },
+  {
+    "query_id": "pilot-22",
+    "query": "In pytest 9.1.1 an autouse guard disappears from the second package test when an ancestor file is placed between arguments. Find the reported regression.",
+    "kind": "paraphrase",
+    "method": "bm25",
+    "relevant_ids": [
+      "pytest-dev/pytest#14964"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14971",
+      "pytest-dev/pytest#14992",
+      "pytest-dev/pytest#15071",
+      "pytest-dev/pytest#14997"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-22",
+    "query": "In pytest 9.1.1 an autouse guard disappears from the second package test when an ancestor file is placed between arguments. Find the reported regression.",
+    "kind": "paraphrase",
+    "method": "semantic",
+    "relevant_ids": [
+      "pytest-dev/pytest#14964"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#15071",
+      "pytest-dev/pytest#14992",
+      "pytest-dev/pytest#14997",
+      "pytest-dev/pytest#14640"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-22",
+    "query": "In pytest 9.1.1 an autouse guard disappears from the second package test when an ancestor file is placed between arguments. Find the reported regression.",
+    "kind": "paraphrase",
+    "method": "graph",
+    "relevant_ids": [
+      "pytest-dev/pytest#14964"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14004",
+      "pytest-dev/pytest#10577",
+      "pytest-dev/pytest#1120",
+      "pytest-dev/pytest#11779",
+      "pytest-dev/pytest#13246"
+    ],
+    "metrics": {
+      "recall_at_5": 0.0,
+      "precision_at_5": 0.0,
+      "mrr": 0.03333333333333333,
+      "ndcg_at_5": 0.0,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-22",
+    "query": "In pytest 9.1.1 an autouse guard disappears from the second package test when an ancestor file is placed between arguments. Find the reported regression.",
+    "kind": "paraphrase",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "pytest-dev/pytest#14964"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14004",
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14700"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-22",
+    "query": "In pytest 9.1.1 an autouse guard disappears from the second package test when an ancestor file is placed between arguments. Find the reported regression.",
+    "kind": "paraphrase",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "pytest-dev/pytest#14964"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#15071",
+      "pytest-dev/pytest#14992",
+      "pytest-dev/pytest#14971",
+      "pytest-dev/pytest#14997"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-22",
+    "query": "In pytest 9.1.1 an autouse guard disappears from the second package test when an ancestor file is placed between arguments. Find the reported regression.",
+    "kind": "paraphrase",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "pytest-dev/pytest#14964"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14004",
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14700"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": 0.9888010690090401,
+    "accepted": true
+  },
+  {
+    "query_id": "pilot-23",
+    "query": "A terminal file argument recollects a parent package and loses subpackage fixtures on both macOS and Ubuntu. Find the documented reproduction.",
+    "kind": "paraphrase",
+    "method": "bm25",
+    "relevant_ids": [
+      "pytest-dev/pytest#15071"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#15071",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14997",
+      "pytest-dev/pytest#14971",
+      "pytest-dev/pytest#13246"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-23",
+    "query": "A terminal file argument recollects a parent package and loses subpackage fixtures on both macOS and Ubuntu. Find the documented reproduction.",
+    "kind": "paraphrase",
+    "method": "semantic",
+    "relevant_ids": [
+      "pytest-dev/pytest#15071"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#15071",
+      "pytest-dev/pytest#14997",
+      "pytest-dev/pytest#14964",
+      "actions/setup-python#1318",
+      "actions/setup-python#1286"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-23",
+    "query": "A terminal file argument recollects a parent package and loses subpackage fixtures on both macOS and Ubuntu. Find the documented reproduction.",
+    "kind": "paraphrase",
+    "method": "graph",
+    "relevant_ids": [
+      "pytest-dev/pytest#15071"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14004",
+      "pytest-dev/pytest#14691",
+      "pytest-dev/pytest#15071",
+      "pytest-dev/pytest#14971",
+      "pytest-dev/pytest#14995"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 0.3333333333333333,
+      "ndcg_at_5": 0.5,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-23",
+    "query": "A terminal file argument recollects a parent package and loses subpackage fixtures on both macOS and Ubuntu. Find the documented reproduction.",
+    "kind": "paraphrase",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "pytest-dev/pytest#15071"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#15071",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14971",
+      "pytest-dev/pytest#14004",
+      "actions/setup-python#1244"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-23",
+    "query": "A terminal file argument recollects a parent package and loses subpackage fixtures on both macOS and Ubuntu. Find the documented reproduction.",
+    "kind": "paraphrase",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "pytest-dev/pytest#15071"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#15071",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14997",
+      "actions/setup-python#1317",
+      "pytest-dev/pytest#14971"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-23",
+    "query": "A terminal file argument recollects a parent package and loses subpackage fixtures on both macOS and Ubuntu. Find the documented reproduction.",
+    "kind": "paraphrase",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "pytest-dev/pytest#15071"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#15071",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14971",
+      "pytest-dev/pytest#14004",
+      "actions/setup-python#1244"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": 0.9929302104998605,
+    "accepted": true
+  },
+  {
+    "query_id": "pilot-24",
+    "query": "An abstract test class without the required implementation is silently skipped rather than producing a collection error. Find the report.",
+    "kind": "paraphrase",
+    "method": "bm25",
+    "relevant_ids": [
+      "pytest-dev/pytest#15081"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#15081",
+      "pytest-dev/pytest#15080",
+      "pytest-dev/pytest#14995",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14971"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-24",
+    "query": "An abstract test class without the required implementation is silently skipped rather than producing a collection error. Find the report.",
+    "kind": "paraphrase",
+    "method": "semantic",
+    "relevant_ids": [
+      "pytest-dev/pytest#15081"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#15081",
+      "pytest-dev/pytest#15080",
+      "pytest-dev/pytest#14691",
+      "pytest-dev/pytest#14700",
+      "pytest-dev/pytest#14724"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-24",
+    "query": "An abstract test class without the required implementation is silently skipped rather than producing a collection error. Find the report.",
+    "kind": "paraphrase",
+    "method": "graph",
+    "relevant_ids": [
+      "pytest-dev/pytest#15081"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7274",
+      "pytest-dev/pytest#11779",
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14650"
+    ],
+    "metrics": {
+      "recall_at_5": 0.0,
+      "precision_at_5": 0.0,
+      "mrr": 0.07142857142857142,
+      "ndcg_at_5": 0.0,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-24",
+    "query": "An abstract test class without the required implementation is silently skipped rather than producing a collection error. Find the report.",
+    "kind": "paraphrase",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "pytest-dev/pytest#15081"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#15081",
+      "pytest-dev/pytest#15080",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14971",
+      "pytest-dev/pytest#14640"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-24",
+    "query": "An abstract test class without the required implementation is silently skipped rather than producing a collection error. Find the report.",
+    "kind": "paraphrase",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "pytest-dev/pytest#15081"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#15081",
+      "pytest-dev/pytest#15080",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14995",
+      "pytest-dev/pytest#14691"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-24",
+    "query": "An abstract test class without the required implementation is silently skipped rather than producing a collection error. Find the report.",
+    "kind": "paraphrase",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "pytest-dev/pytest#15081"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#15081",
+      "pytest-dev/pytest#15080",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14971",
+      "pytest-dev/pytest#14640"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": 0.9949334489991297,
+    "accepted": true
+  },
+  {
+    "query_id": "pilot-25",
+    "query": "Find the request-specific adapter proposal and the earlier discussion explicitly referenced by psf/requests#7601 about retrying idempotent POST calls.",
+    "kind": "linked_evidence",
+    "method": "bm25",
+    "relevant_ids": [
+      "psf/requests#7601",
+      "psf/requests#5842"
+    ],
+    "retrieved_ids": [
+      "psf/requests#5842",
+      "psf/requests#7601",
+      "pytest-dev/pytest#14935",
+      "actions/setup-python#1318",
+      "psf/requests#7442"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.4,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-25",
+    "query": "Find the request-specific adapter proposal and the earlier discussion explicitly referenced by psf/requests#7601 about retrying idempotent POST calls.",
+    "kind": "linked_evidence",
+    "method": "semantic",
+    "relevant_ids": [
+      "psf/requests#7601",
+      "psf/requests#5842"
+    ],
+    "retrieved_ids": [
+      "psf/requests#7601",
+      "psf/requests#5842",
+      "psf/requests#7276",
+      "psf/requests#7432",
+      "pytest-dev/pytest#15071"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.4,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-25",
+    "query": "Find the request-specific adapter proposal and the earlier discussion explicitly referenced by psf/requests#7601 about retrying idempotent POST calls.",
+    "kind": "linked_evidence",
+    "method": "graph",
+    "relevant_ids": [
+      "psf/requests#7601",
+      "psf/requests#5842"
+    ],
+    "retrieved_ids": [
+      "psf/requests#5842",
+      "psf/requests#7601",
+      "pytest-dev/pytest#10577",
+      "pytest-dev/pytest#1120"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.4,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-25",
+    "query": "Find the request-specific adapter proposal and the earlier discussion explicitly referenced by psf/requests#7601 about retrying idempotent POST calls.",
+    "kind": "linked_evidence",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "psf/requests#7601",
+      "psf/requests#5842"
+    ],
+    "retrieved_ids": [
+      "psf/requests#5842",
+      "psf/requests#7601",
+      "actions/setup-python#1318",
+      "pytest-dev/pytest#14909",
+      "psf/requests#7456"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.4,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-25",
+    "query": "Find the request-specific adapter proposal and the earlier discussion explicitly referenced by psf/requests#7601 about retrying idempotent POST calls.",
+    "kind": "linked_evidence",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "psf/requests#7601",
+      "psf/requests#5842"
+    ],
+    "retrieved_ids": [
+      "psf/requests#5842",
+      "psf/requests#7601",
+      "actions/setup-python#1318",
+      "pytest-dev/pytest#14909",
+      "psf/requests#7456"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.4,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-25",
+    "query": "Find the request-specific adapter proposal and the earlier discussion explicitly referenced by psf/requests#7601 about retrying idempotent POST calls.",
+    "kind": "linked_evidence",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "psf/requests#7601",
+      "psf/requests#5842"
+    ],
+    "retrieved_ids": [
+      "psf/requests#5842",
+      "psf/requests#7601",
+      "actions/setup-python#1318",
+      "pytest-dev/pytest#14909",
+      "psf/requests#7456"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.4,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": 0.9829020017430308,
+    "accepted": true
+  },
+  {
+    "query_id": "pilot-26",
+    "query": "Which earlier fixture scoping report does pytest-dev/pytest#14964 cite as the regression source? Retrieve both reports for comparison.",
+    "kind": "linked_evidence",
+    "method": "bm25",
+    "relevant_ids": [
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14004"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#15005",
+      "pytest-dev/pytest#14992",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14852",
+      "pytest-dev/pytest#14724"
+    ],
+    "metrics": {
+      "recall_at_5": 0.5,
+      "precision_at_5": 0.2,
+      "mrr": 0.3333333333333333,
+      "ndcg_at_5": 0.3065735963827292,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-26",
+    "query": "Which earlier fixture scoping report does pytest-dev/pytest#14964 cite as the regression source? Retrieve both reports for comparison.",
+    "kind": "linked_evidence",
+    "method": "semantic",
+    "relevant_ids": [
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14004"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14852",
+      "pytest-dev/pytest#14691",
+      "pytest-dev/pytest#14700",
+      "pytest-dev/pytest#14724",
+      "pytest-dev/pytest#14964"
+    ],
+    "metrics": {
+      "recall_at_5": 0.5,
+      "precision_at_5": 0.2,
+      "mrr": 0.2,
+      "ndcg_at_5": 0.23719771276929622,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-26",
+    "query": "Which earlier fixture scoping report does pytest-dev/pytest#14964 cite as the regression source? Retrieve both reports for comparison.",
+    "kind": "linked_evidence",
+    "method": "graph",
+    "relevant_ids": [
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14004"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14004",
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14683",
+      "pytest-dev/pytest#14691"
+    ],
+    "metrics": {
+      "recall_at_5": 0.5,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 0.6131471927654584,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-26",
+    "query": "Which earlier fixture scoping report does pytest-dev/pytest#14964 cite as the regression source? Retrieve both reports for comparison.",
+    "kind": "linked_evidence",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14004"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14852",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14992",
+      "pytest-dev/pytest#13246"
+    ],
+    "metrics": {
+      "recall_at_5": 0.5,
+      "precision_at_5": 0.2,
+      "mrr": 0.5,
+      "ndcg_at_5": 0.38685280723454163,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-26",
+    "query": "Which earlier fixture scoping report does pytest-dev/pytest#14964 cite as the regression source? Retrieve both reports for comparison.",
+    "kind": "linked_evidence",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14004"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14852",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14724",
+      "pytest-dev/pytest#14992",
+      "pytest-dev/pytest#15005"
+    ],
+    "metrics": {
+      "recall_at_5": 0.5,
+      "precision_at_5": 0.2,
+      "mrr": 0.5,
+      "ndcg_at_5": 0.38685280723454163,
+      "hit_at_1": 0
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-26",
+    "query": "Which earlier fixture scoping report does pytest-dev/pytest#14964 cite as the regression source? Retrieve both reports for comparison.",
+    "kind": "linked_evidence",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14004"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14852",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14992",
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#13246"
+    ],
+    "metrics": {
+      "recall_at_5": 0.5,
+      "precision_at_5": 0.2,
+      "mrr": 0.5,
+      "ndcg_at_5": 0.38685280723454163,
+      "hit_at_1": 0
+    },
+    "confidence": 0.5871399571334112,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-27",
+    "query": "Retrieve the configuration path validation report pytest-dev/pytest#14716 and its explicitly linked older report about fixtures and rootdir.",
+    "kind": "linked_evidence",
+    "method": "bm25",
+    "relevant_ids": [
+      "pytest-dev/pytest#14716",
+      "pytest-dev/pytest#13246"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#13246",
+      "actions/setup-python#1290",
+      "pytest-dev/pytest#14004",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14716"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.4,
+      "mrr": 1.0,
+      "ndcg_at_5": 0.8503449055347546,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-27",
+    "query": "Retrieve the configuration path validation report pytest-dev/pytest#14716 and its explicitly linked older report about fixtures and rootdir.",
+    "kind": "linked_evidence",
+    "method": "semantic",
+    "relevant_ids": [
+      "pytest-dev/pytest#14716",
+      "pytest-dev/pytest#13246"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14640",
+      "pytest-dev/pytest#14971",
+      "pytest-dev/pytest#14004",
+      "pytest-dev/pytest#14964"
+    ],
+    "metrics": {
+      "recall_at_5": 0.5,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_5": 0.6131471927654584,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-27",
+    "query": "Retrieve the configuration path validation report pytest-dev/pytest#14716 and its explicitly linked older report about fixtures and rootdir.",
+    "kind": "linked_evidence",
+    "method": "graph",
+    "relevant_ids": [
+      "pytest-dev/pytest#14716",
+      "pytest-dev/pytest#13246"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14716",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14004",
+      "pytest-dev/pytest#14640"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.4,
+      "mrr": 1.0,
+      "ndcg_at_5": 1.0,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-27",
+    "query": "Retrieve the configuration path validation report pytest-dev/pytest#14716 and its explicitly linked older report about fixtures and rootdir.",
+    "kind": "linked_evidence",
+    "method": "fixed_hybrid",
+    "relevant_ids": [
+      "pytest-dev/pytest#14716",
+      "pytest-dev/pytest#13246"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14004",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14716",
+      "pytest-dev/pytest#14971"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.4,
+      "mrr": 1.0,
+      "ndcg_at_5": 0.8772153153380493,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-27",
+    "query": "Retrieve the configuration path validation report pytest-dev/pytest#14716 and its explicitly linked older report about fixtures and rootdir.",
+    "kind": "linked_evidence",
+    "method": "bm25_semantic",
+    "relevant_ids": [
+      "pytest-dev/pytest#14716",
+      "pytest-dev/pytest#13246"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14004",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14716",
+      "pytest-dev/pytest#14971"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.4,
+      "mrr": 1.0,
+      "ndcg_at_5": 0.8772153153380493,
+      "hit_at_1": 1
+    },
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-27",
+    "query": "Retrieve the configuration path validation report pytest-dev/pytest#14716 and its explicitly linked older report about fixtures and rootdir.",
+    "kind": "linked_evidence",
+    "method": "routed_hybrid",
+    "relevant_ids": [
+      "pytest-dev/pytest#14716",
+      "pytest-dev/pytest#13246"
+    ],
+    "retrieved_ids": [
+      "pytest-dev/pytest#13246",
+      "pytest-dev/pytest#14004",
+      "pytest-dev/pytest#14964",
+      "pytest-dev/pytest#14716",
+      "pytest-dev/pytest#14971"
+    ],
+    "metrics": {
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.4,
+      "mrr": 1.0,
+      "ndcg_at_5": 0.8772153153380493,
+      "hit_at_1": 1
+    },
+    "confidence": 0.9975494119561271,
+    "accepted": true
+  },
+  {
+    "query_id": "pilot-ood-0",
+    "query": "What ingredients are used in a chocolate cake?",
+    "kind": "out_of_domain",
+    "method": "bm25",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#1331",
+      "psf/requests#7456",
+      "psf/requests#7600",
+      "actions/setup-python#1288",
+      "actions/setup-python#1240"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-ood-0",
+    "query": "What ingredients are used in a chocolate cake?",
+    "kind": "out_of_domain",
+    "method": "semantic",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "psf/requests#7622",
+      "psf/requests#7594",
+      "psf/requests#7605",
+      "actions/setup-python#858",
+      "psf/requests#7456"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-ood-0",
+    "query": "What ingredients are used in a chocolate cake?",
+    "kind": "out_of_domain",
+    "method": "graph",
+    "relevant_ids": [],
+    "retrieved_ids": [],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-ood-0",
+    "query": "What ingredients are used in a chocolate cake?",
+    "kind": "out_of_domain",
+    "method": "fixed_hybrid",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "psf/requests#7456",
+      "psf/requests#7600",
+      "psf/requests#7622",
+      "actions/setup-python#1240",
+      "pytest-dev/pytest#14743"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-ood-0",
+    "query": "What ingredients are used in a chocolate cake?",
+    "kind": "out_of_domain",
+    "method": "bm25_semantic",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "psf/requests#7456",
+      "psf/requests#7600",
+      "psf/requests#7622",
+      "actions/setup-python#1240",
+      "pytest-dev/pytest#14743"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-ood-0",
+    "query": "What ingredients are used in a chocolate cake?",
+    "kind": "out_of_domain",
+    "method": "routed_hybrid",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "psf/requests#7456",
+      "psf/requests#7600",
+      "psf/requests#7622",
+      "actions/setup-python#1240",
+      "pytest-dev/pytest#14743"
+    ],
+    "metrics": {},
+    "confidence": 0.09063313440306144,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-ood-1",
+    "query": "How do whales migrate across oceans?",
+    "kind": "out_of_domain",
+    "method": "bm25",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#1265",
+      "psf/requests#7335",
+      "actions/setup-python#1261",
+      "pytest-dev/pytest#11779",
+      "pytest-dev/pytest#14935"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-ood-1",
+    "query": "How do whales migrate across oceans?",
+    "kind": "out_of_domain",
+    "method": "semantic",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#1238",
+      "actions/setup-python#1244",
+      "actions/setup-python#1331",
+      "pytest-dev/pytest#14004",
+      "actions/setup-python#1277"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-ood-1",
+    "query": "How do whales migrate across oceans?",
+    "kind": "out_of_domain",
+    "method": "graph",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#1214"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-ood-1",
+    "query": "How do whales migrate across oceans?",
+    "kind": "out_of_domain",
+    "method": "fixed_hybrid",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#1331",
+      "pytest-dev/pytest#14935",
+      "pytest-dev/pytest#14864",
+      "actions/setup-python#1214",
+      "actions/setup-python#1319"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-ood-1",
+    "query": "How do whales migrate across oceans?",
+    "kind": "out_of_domain",
+    "method": "bm25_semantic",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#1331",
+      "pytest-dev/pytest#14935",
+      "pytest-dev/pytest#14864",
+      "actions/setup-python#1319",
+      "actions/setup-python#1265"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-ood-1",
+    "query": "How do whales migrate across oceans?",
+    "kind": "out_of_domain",
+    "method": "routed_hybrid",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#1331",
+      "pytest-dev/pytest#14935",
+      "pytest-dev/pytest#14864",
+      "actions/setup-python#1319",
+      "actions/setup-python#1265"
+    ],
+    "metrics": {},
+    "confidence": 0.030630518992071643,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-ood-2",
+    "query": "What is the capital city of Peru?",
+    "kind": "out_of_domain",
+    "method": "bm25",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#1278",
+      "actions/setup-python#1320",
+      "actions/setup-python#1313",
+      "pytest-dev/pytest#14724",
+      "psf/requests#7622"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-ood-2",
+    "query": "What is the capital city of Peru?",
+    "kind": "out_of_domain",
+    "method": "semantic",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#1277",
+      "psf/requests#7465",
+      "psf/requests#7335",
+      "pytest-dev/pytest#14650",
+      "pytest-dev/pytest#14724"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-ood-2",
+    "query": "What is the capital city of Peru?",
+    "kind": "out_of_domain",
+    "method": "graph",
+    "relevant_ids": [],
+    "retrieved_ids": [],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-ood-2",
+    "query": "What is the capital city of Peru?",
+    "kind": "out_of_domain",
+    "method": "fixed_hybrid",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14724",
+      "actions/setup-python#1278",
+      "actions/setup-python#1255",
+      "psf/requests#7600",
+      "pytest-dev/pytest#14935"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-ood-2",
+    "query": "What is the capital city of Peru?",
+    "kind": "out_of_domain",
+    "method": "bm25_semantic",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14724",
+      "actions/setup-python#1278",
+      "actions/setup-python#1255",
+      "psf/requests#7600",
+      "pytest-dev/pytest#14935"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-ood-2",
+    "query": "What is the capital city of Peru?",
+    "kind": "out_of_domain",
+    "method": "routed_hybrid",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14724",
+      "actions/setup-python#1278",
+      "actions/setup-python#1255",
+      "psf/requests#7600",
+      "pytest-dev/pytest#14935"
+    ],
+    "metrics": {},
+    "confidence": 0.06861304563577962,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-ood-3",
+    "query": "Suggest exercises for training a marathon",
+    "kind": "out_of_domain",
+    "method": "bm25",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "psf/requests#7284",
+      "pytest-dev/pytest#15071",
+      "psf/requests#7558",
+      "actions/setup-python#1320",
+      "actions/setup-python#1257"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-ood-3",
+    "query": "Suggest exercises for training a marathon",
+    "kind": "out_of_domain",
+    "method": "semantic",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#1214",
+      "actions/setup-python#858",
+      "actions/setup-python#1244",
+      "actions/setup-python#1060",
+      "psf/requests#5842"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-ood-3",
+    "query": "Suggest exercises for training a marathon",
+    "kind": "out_of_domain",
+    "method": "graph",
+    "relevant_ids": [],
+    "retrieved_ids": [],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-ood-3",
+    "query": "Suggest exercises for training a marathon",
+    "kind": "out_of_domain",
+    "method": "fixed_hybrid",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "psf/requests#7558",
+      "actions/setup-python#1265",
+      "actions/setup-python#858",
+      "actions/setup-python#1288",
+      "actions/setup-python#1214"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-ood-3",
+    "query": "Suggest exercises for training a marathon",
+    "kind": "out_of_domain",
+    "method": "bm25_semantic",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "psf/requests#7558",
+      "actions/setup-python#1265",
+      "actions/setup-python#858",
+      "actions/setup-python#1288",
+      "actions/setup-python#1214"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-ood-3",
+    "query": "Suggest exercises for training a marathon",
+    "kind": "out_of_domain",
+    "method": "routed_hybrid",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "psf/requests#7558",
+      "actions/setup-python#1265",
+      "actions/setup-python#858",
+      "actions/setup-python#1288",
+      "actions/setup-python#1214"
+    ],
+    "metrics": {},
+    "confidence": 0.07629661689383958,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-ood-4",
+    "query": "How many moons does Jupiter have?",
+    "kind": "out_of_domain",
+    "method": "bm25",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#1265",
+      "psf/requests#7335",
+      "pytest-dev/pytest#10577",
+      "psf/requests#7459",
+      "psf/requests#7594"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-ood-4",
+    "query": "How many moons does Jupiter have?",
+    "kind": "out_of_domain",
+    "method": "semantic",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#1265",
+      "psf/requests#7611",
+      "pytest-dev/pytest#14650",
+      "actions/setup-python#1214",
+      "actions/setup-python#1309"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-ood-4",
+    "query": "How many moons does Jupiter have?",
+    "kind": "out_of_domain",
+    "method": "graph",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#1214",
+      "pytest-dev/pytest#14935",
+      "pytest-dev/pytest#1120"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-ood-4",
+    "query": "How many moons does Jupiter have?",
+    "kind": "out_of_domain",
+    "method": "fixed_hybrid",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#1265",
+      "actions/setup-python#1214",
+      "psf/requests#7335",
+      "pytest-dev/pytest#1120",
+      "pytest-dev/pytest#11779"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-ood-4",
+    "query": "How many moons does Jupiter have?",
+    "kind": "out_of_domain",
+    "method": "bm25_semantic",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#1265",
+      "psf/requests#7335",
+      "pytest-dev/pytest#11779",
+      "actions/setup-python#1319",
+      "pytest-dev/pytest#14650"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-ood-4",
+    "query": "How many moons does Jupiter have?",
+    "kind": "out_of_domain",
+    "method": "routed_hybrid",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#1265",
+      "psf/requests#7335",
+      "pytest-dev/pytest#11779",
+      "actions/setup-python#1319",
+      "pytest-dev/pytest#14650"
+    ],
+    "metrics": {},
+    "confidence": 0.3482961892236782,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-ood-5",
+    "query": "Which trees grow in a tropical rainforest?",
+    "kind": "out_of_domain",
+    "method": "bm25",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#1240",
+      "pytest-dev/pytest#14724",
+      "actions/setup-python#1265",
+      "actions/setup-python#1356",
+      "pytest-dev/pytest#14743"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-ood-5",
+    "query": "Which trees grow in a tropical rainforest?",
+    "kind": "out_of_domain",
+    "method": "semantic",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#1352",
+      "pytest-dev/pytest#14864",
+      "actions/setup-python#1257",
+      "psf/requests#7459",
+      "actions/setup-python#1255"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-ood-5",
+    "query": "Which trees grow in a tropical rainforest?",
+    "kind": "out_of_domain",
+    "method": "graph",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#1214"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-ood-5",
+    "query": "Which trees grow in a tropical rainforest?",
+    "kind": "out_of_domain",
+    "method": "fixed_hybrid",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#1214",
+      "pytest-dev/pytest#14864",
+      "actions/setup-python#1265",
+      "actions/setup-python#1240",
+      "pytest-dev/pytest#15071"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-ood-5",
+    "query": "Which trees grow in a tropical rainforest?",
+    "kind": "out_of_domain",
+    "method": "bm25_semantic",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "pytest-dev/pytest#14864",
+      "actions/setup-python#1265",
+      "actions/setup-python#1240",
+      "pytest-dev/pytest#15071",
+      "psf/requests#7600"
+    ],
+    "metrics": {},
+    "confidence": null,
+    "accepted": false
+  },
+  {
+    "query_id": "pilot-ood-5",
+    "query": "Which trees grow in a tropical rainforest?",
+    "kind": "out_of_domain",
+    "method": "routed_hybrid",
+    "relevant_ids": [],
+    "retrieved_ids": [
+      "actions/setup-python#1214",
+      "pytest-dev/pytest#14864",
+      "actions/setup-python#1265",
+      "actions/setup-python#1240",
+      "pytest-dev/pytest#15071"
+    ],
+    "metrics": {},
+    "confidence": 0.06722409264321409,
+    "accepted": false
+  }
+]
