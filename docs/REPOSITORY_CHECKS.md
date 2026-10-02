@@ -4,6 +4,8 @@ The repository is isolated in `expertgraph/`; no unrelated Playground projects
 are included. This document records local checks, not a remote CI success.
 
 - Existing author installation: 29 tests passed.
+- Clean local source-only clone: 28 tests passed, one local-corpus test skipped;
+  recorded-demo integrity and JavaScript syntax checks passed in that clone.
 - Full local explorer: 24 API smoke checks passed.
 - Recorded-demo contract: 36 saved responses, source identities and embedded
   result hashes verified against the unchanged measured artifacts.
